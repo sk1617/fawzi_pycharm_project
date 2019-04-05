@@ -1,0 +1,203 @@
+Last login: Wed Jun 27 12:16:59 on ttys000
+-bash: /Users/sohamkale/.bash_profile: line 11: unexpected EOF while looking for matching `''
+-bash: /Users/sohamkale/.bash_profile: line 13: syntax error: unexpected end of file
+sohams-air:Fawzi_pycharm_project sohamkale$ kernprof -l tpe_MMAl.py
+og index list [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list [9, 10, 11, 12, 4, 5, 1, 2, 8, 3, 13, 6, 7, 0]
+Done
+Wrote profile results to tpe_MMAl.py.lprof
+sohams-air:Fawzi_pycharm_project sohamkale$ python -m line_profiler tpe_MMAl.py.lprof
+Timer unit: 1e-06 s
+
+Total time: 40.0099 s
+File: /Users/sohamkale/OneDrive - Brown University/Dropbox/Fawzi_pycharm_project/tpe_EnergyFunctions.py
+Function: NOESY_H_dist at line 150
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   150                                           @profile
+   151                                           def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List):
+   152                                           
+   153    217174     259072.0      1.2      0.6      peak = peak_list[pai]
+   154    217174     215004.0      1.0      0.5      residue = residue_list[i]
+   155                                           
+   156    217174     399846.0      1.8      1.0      closeby_residue_list = residue.get_data('closebyAminoAcids')
+   157    217174     330546.0      1.5      0.8      closeby_residue_list_dist = residue.get_data('closebyAminoAcidsDist')
+   158                                           
+   159    217174     254694.0      1.2      0.6      if len(closeby_residue_list) == 0:
+   160                                                   return False
+   161                                           
+   162    217174     347536.0      1.6      0.9      nearby_H_shift_list = peak.get_data('NearbyHShift')
+   163    217174     326834.0      1.5      0.8      nearby_H_shift_list_signal_noise = peak.get_data('NOESYSignalNoise')
+   164                                           
+   165    217174     238006.0      1.1      0.6      if len(nearby_H_shift_list) == 0:
+   166                                                   return False
+   167                                           
+   168    217174     260784.0      1.2      0.7      weight = float()
+   169    217174     233717.0      1.1      0.6      noesy_trosy_diff_list = []
+   170    217174     222393.0      1.0      0.6      subweight_list =[]
+   171                                           
+   172   1234966    1639712.0      1.3      4.1      for j, closeby in enumerate(closeby_residue_list):
+   173   1017792    1011211.0      1.0      2.5          closeby_dist = closeby_residue_list_dist[j]
+   174   1017792    1044366.0      1.0      2.6          closeby_pai = index_list[closeby - 1]
+   175   1017792    1081549.0      1.1      2.7          closeby_assignment_peak = peak_list[index_list[closeby - 1]]
+   176                                           
+   177   1017792    1737247.0      1.7      4.3          closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')
+   178                                           
+   179   1017792     979886.0      1.0      2.4          if closeby_peak_H_shift is None:
+   180                                                       continue
+   181                                           
+   182                                                   '''
+   183                                                   variables so far: residue, peak, closeby_residue_list(&dist) iter: , nearbyHShiftList (& SN) 
+   184                                                   closebyAAnumber (&index & dist), closebyPeak (&TROSY Hshift)
+   185                                                   '''
+   186                                           
+   187   1017792     953638.0      0.9      2.4          NOESY_TROSY_H_diff = 5
+   188   1017792    1187756.0      1.2      3.0          index = int()
+   189   5596996    6320568.0      1.1     15.8          for k, nearby_H_shift in enumerate(nearby_H_shift_list):
+   190   4579204    5388764.0      1.2     13.5              if abs(nearby_H_shift - closeby_peak_H_shift) < NOESY_TROSY_H_diff:
+   191   1572353    1732612.0      1.1      4.3                  NOESY_TROSY_H_diff = abs(nearby_H_shift - closeby_peak_H_shift)
+   192   1572353    1483177.0      0.9      3.7                  index = k
+   193                                           
+   194   1017792    1065310.0      1.0      2.7          nearby_H_shift_signal_noise = nearby_H_shift_list_signal_noise[index]
+   195                                           
+   196   1017792    2603445.0      2.6      6.5          dist_factor = dist_factor_forumla(closeby_dist)
+   197   1017792    1822773.0      1.8      4.6          SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
+   198   1017792    1058443.0      1.0      2.6          if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
+   199    271253     298861.0      1.1      0.7              subWeight = npmt_penatly * dist_factor * SN_factor
+   200    746539     775996.0      1.0      1.9          elif NOESY_TROSY_H_diff < noesy_semi_perfect_match_threshold:
+   201     30169      33645.0      1.1      0.1              subWeight = nspmt_penalty * dist_factor * SN_factor
+   202                                                   else:
+   203    716370     799668.0      1.1      2.0              subWeight = n_no_match_penalty * dist_factor * SN_factor
+   204                                           
+   205   1017792    1194825.0      1.2      3.0          noesy_trosy_diff_list.append(NOESY_TROSY_H_diff)
+   206   1017792    1114823.0      1.1      2.8          subweight_list.append(subWeight)
+   207   1017792    1089729.0      1.1      2.7          weight += subWeight
+   208                                           
+   209    217174     307969.0      1.4      0.8      Delta_List.append(('NOESY', weight, subweight_list, noesy_trosy_diff_list))
+   210    217174     195513.0      0.9      0.5      return weight
+
+Total time: 78.8173 s
+File: tpe_MMAl.py
+Function: swap_evaluator at line 48
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    48                                           @profile
+    49                                           def swap_evaluator(a, b, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
+    50                                           
+    51     10000   78750160.0   7875.0     99.9      delta = main_energy_function(a, b, index_list, new_index_list, peak_list, residue_list, energy_if_false, Delta_List)
+    52     10000      12602.0      1.3      0.0      Delta_List.append([delta, a, b, index_list, new_index_list])
+    53                                           
+    54     10000       7932.0      0.8      0.0      if delta <= 0:
+    55      1045        626.0      0.6      0.0          return True
+    56      8955       6074.0      0.7      0.0      elif delta > 0:
+    57      8955      19755.0      2.2      0.0          p = math.exp(-delta/temp)
+    58      8955      14433.0      1.6      0.0          if random.random() <= p:
+    59       317        183.0      0.6      0.0              return True
+    60                                                   else:
+    61      8638       5551.0      0.6      0.0              return False
+
+sohams-air:Fawzi_pycharm_project sohamkale$ python -m -v line_profiler tpe_MMAl.py.lprof
+/Users/sohamkale/anaconda/bin/python: No module named -v
+sohams-air:Fawzi_pycharm_project sohamkale$ kernprof -l -v tpe_MMAl.py
+og index list [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list [6, 7, 8, 0, 3, 4, 5, 1, 2, 9, 10, 11, 12, 13]
+Done
+Wrote profile results to tpe_MMAl.py.lprof
+Timer unit: 1e-06 s
+
+Total time: 2.24897 s
+File: /Users/sohamkale/OneDrive - Brown University/Dropbox/Fawzi_pycharm_project/tpe_DataImporting.py
+Function: dist_factor_forumla at line 30
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    30                                           @profile
+    31                                           def dist_factor_forumla(dist):
+    32   1017118     713237.0      0.7     31.7      if dist < 3:
+    33    107740      59403.0      0.6      2.6          return 2.8
+    34    909378     655987.0      0.7     29.2      elif dist >= 3 and dist < 7:
+    35    748874     631789.0      0.8     28.1          return 25/(dist ** 2)
+    36    160504     100193.0      0.6      4.5      elif dist >= 7:
+    37    160504      88360.0      0.6      3.9          return .5
+
+Total time: 0.768034 s
+File: /Users/sohamkale/OneDrive - Brown University/Dropbox/Fawzi_pycharm_project/tpe_DataImporting.py
+Function: sn_factor_formula at line 38
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    38                                           @profile
+    39                                           def sn_factor_formula(sn):
+    40   1017118     768034.0      0.8    100.0      return .22 * (sn ** .5)
+
+Total time: 49.3415 s
+File: /Users/sohamkale/OneDrive - Brown University/Dropbox/Fawzi_pycharm_project/tpe_EnergyFunctions.py
+Function: NOESY_H_dist at line 150
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   150                                           @profile
+   151                                           def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List):
+   152                                           
+   153    217256     227077.0      1.0      0.5      peak = peak_list[pai]
+   154    217256     216737.0      1.0      0.4      residue = residue_list[i]
+   155                                           
+   156    217256     393094.0      1.8      0.8      closeby_residue_list = residue.get_data('closebyAminoAcids')
+   157    217256     329246.0      1.5      0.7      closeby_residue_list_dist = residue.get_data('closebyAminoAcidsDist')
+   158                                           
+   159    217256     276010.0      1.3      0.6      if len(closeby_residue_list) == 0:
+   160                                                   return False
+   161                                           
+   162    217256     352080.0      1.6      0.7      nearby_H_shift_list = peak.get_data('NearbyHShift')
+   163    217256     327304.0      1.5      0.7      nearby_H_shift_list_signal_noise = peak.get_data('NOESYSignalNoise')
+   164                                           
+   165    217256     242321.0      1.1      0.5      if len(nearby_H_shift_list) == 0:
+   166                                                   return False
+   167                                           
+   168    217256     267298.0      1.2      0.5      weight = float()
+   169    217256     238633.0      1.1      0.5      noesy_trosy_diff_list = []
+   170    217256     227853.0      1.0      0.5      subweight_list =[]
+   171                                           
+   172   1234374    1832536.0      1.5      3.7      for j, closeby in enumerate(closeby_residue_list):
+   173   1017118    1036059.0      1.0      2.1          closeby_dist = closeby_residue_list_dist[j]
+   174   1017118    1057735.0      1.0      2.1          closeby_pai = index_list[closeby - 1]
+   175   1017118    1091898.0      1.1      2.2          closeby_assignment_peak = peak_list[index_list[closeby - 1]]
+   176                                           
+   177   1017118    1765091.0      1.7      3.6          closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')
+   178                                           
+   179   1017118     981896.0      1.0      2.0          if closeby_peak_H_shift is None:
+   180                                                       continue
+   181                                           
+   182                                                   '''
+   183                                                   variables so far: residue, peak, closeby_residue_list(&dist) iter: , nearbyHShiftList (& SN) 
+   184                                                   closebyAAnumber (&index & dist), closebyPeak (&TROSY Hshift)
+   185                                                   '''
+   186                                           
+   187   1017118     971428.0      1.0      2.0          NOESY_TROSY_H_diff = 5
+   188   1017118    1252616.0      1.2      2.5          index = int()
+   189   6144928    6824571.0      1.1     13.8          for k, nearby_H_shift in enumerate(nearby_H_shift_list):
+   190   5127810    6019580.0      1.2     12.2              if abs(nearby_H_shift - closeby_peak_H_shift) < NOESY_TROSY_H_diff:
+   191   1601395    1725347.0      1.1      3.5                  NOESY_TROSY_H_diff = abs(nearby_H_shift - closeby_peak_H_shift)
+   192   1601395    1537650.0      1.0      3.1                  index = k
+   193                                           
+   194   1017118    1066747.0      1.0      2.2          nearby_H_shift_signal_noise = nearby_H_shift_list_signal_noise[index]
+   195                                           
+   196   1017118    7621793.0      7.5     15.4          dist_factor = dist_factor_forumla(closeby_dist)
+   197   1017118    4698616.0      4.6      9.5          SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
+   198   1017118    1076061.0      1.1      2.2          if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
+   199    324510     371976.0      1.1      0.8              subWeight = npmt_penatly * dist_factor * SN_factor
+   200    692608     696634.0      1.0      1.4          elif NOESY_TROSY_H_diff < noesy_semi_perfect_match_threshold:
+   201     18335      21094.0      1.2      0.0              subWeight = nspmt_penalty * dist_factor * SN_factor
+   202                                                   else:
+   203    674273     760669.0      1.1      1.5              subWeight = n_no_match_penalty * dist_factor * SN_factor
+   204                                           
+   205   1017118    1158414.0      1.1      2.3          noesy_trosy_diff_list.append(NOESY_TROSY_H_diff)
+   206   1017118    1099934.0      1.1      2.2          subweight_list.append(subWeight)
+   207   1017118    1055040.0      1.0      2.1          weight += subWeight
+   208                                           
+   209    217256     315166.0      1.5      0.6      Delta_List.append(('NOESY', weight, subweight_list, noesy_trosy_diff_list))
+   210    217256     205331.0      0.9      0.4      return weight
+
+sohams-air:Fawzi_pycharm_project sohamkale$ 

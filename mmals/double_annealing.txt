@@ -1,0 +1,331 @@
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 349.7948830127716
+og index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 338.2716660499573
+og index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+index list: [11, 12, 13, 3, 5, 1, 2, 4, 7, 8, 9, 10, 0, 6]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 347.0641314983368
+og index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+index list: [2, 4, 5, 9, 10, 11, 0, 1, 6, 7, 8, 3, 12, 13]
+Done
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 135.03992533683777
+og index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+index list: [3, 4, 5, 0, 1, 2, 6, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004491329193115234
+og index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 347.2205557823181
+og index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 337.3458254337311
+og index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+index list: [11, 12, 10, 0, 1, 2, 3, 4, 5, 9, 13, 6, 7, 8]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 327.5414731502533
+og index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 1, 9, 10, 11, 5]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 187.98876953125
+og index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.005822896957397461
+og index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 342.02130365371704
+og index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+index list: [12, 13, 0, 3, 4, 2, 1, 7, 8, 9, 10, 11, 5, 6]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 349.6901214122772
+og index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+index list: [3, 4, 11, 12, 13, 6, 5, 7, 8, 1, 2, 9, 10, 0]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 339.6229281425476
+og index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+index list: [3, 4, 9, 10, 11, 5, 6, 7, 8, 1, 2, 12, 13, 0]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 178.6943838596344
+og index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004502534866333008
+og index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+index list: [12, 13, 0, 3, 4, 2, 6, 7, 8, 9, 10, 11, 5, 1]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 351.3678846359253
+og index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 350.8855097293854
+og index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 349.3301200866699
+og index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+index list: [0, 1, 4, 2, 12, 13, 6, 7, 8, 9, 10, 11, 5, 3]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 167.29771399497986
+og index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004458189010620117
+og index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+index list: [11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 342.7862181663513
+og index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 337.6238386631012
+og index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [1, 2, 9, 10, 11, 12, 13, 6, 7, 8, 3, 4, 5, 0]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 351.43366956710815
+og index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [6, 7, 8, 3, 4, 5, 1, 2, 9, 10, 11, 12, 13, 0]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 198.94235563278198
+og index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004369497299194336
+og index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 350.3363285064697
+og index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 346.0381941795349
+og index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [12, 13, 6, 0, 1, 2, 4, 7, 8, 9, 10, 11, 5, 3]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 334.7262933254242
+og index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [8, 9, 10, 11, 12, 13, 3, 4, 2, 1, 5, 6, 7, 0]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 210.54086899757385
+og index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004526853561401367
+og index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 3, 4, 2, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 350.5086410045624
+og index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 1, 2, 3, 4, 5]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 350.8574593067169
+og index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+index list: [13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 341.99216198921204
+og index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+index list: [1, 2, 4, 11, 12, 13, 0, 6, 7, 8, 3, 5, 9, 10]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 209.41777682304382
+og index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 1, 2, 4, 5, 3]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004364013671875
+og index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 6, 7, 0, 3, 4, 5, 1, 2]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 347.2685751914978
+og index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 343.6474301815033
+og index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+index list: [2, 1, 11, 12, 13, 0, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 348.9644501209259
+og index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+index list: [2, 5, 3, 4, 11, 12, 13, 1, 9, 10, 0, 6, 7, 8]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 226.2188470363617
+og index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.00483250617980957
+og index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+index list: [8, 9, 10, 11, 12, 13, 3, 4, 5, 6, 7, 0, 1, 2]
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 360.3844692707062
+og index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 354.751580953598
+og index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list: [1, 2, 9, 10, 0, 3, 4, 7, 8, 11, 12, 13, 6, 5]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 343.26310896873474
+og index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list: [6, 7, 8, 9, 10, 0, 1, 2, 4, 11, 12, 13, 3, 5]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 218.59720182418823
+og index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list: [6, 7, 0, 1, 2, 8, 3, 4, 5, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004749774932861328
+og index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+index list: [6, 7, 0, 3, 4, 5, 1, 2, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 356.65253138542175
+og index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 340.7771556377411
+og index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+index list: [12, 13, 9, 10, 11, 5, 3, 4, 2, 6, 7, 8, 0, 1]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 353.4017479419708
+og index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+index list: [3, 4, 5, 9, 10, 0, 1, 2, 6, 7, 8, 11, 12, 13]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 240.0481789112091
+og index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.005956172943115234
+og index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+index list: [6, 7, 8, 3, 4, 5, 0, 1, 2, 9, 10, 11, 12, 13]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 357.5732846260071
+og index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 360.4692692756653
+og index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 359.1775395870209
+og index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+index list: [12, 13, 3, 4, 11, 5, 0, 1, 2, 6, 7, 8, 9, 10]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 224.8809814453125
+og index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004740476608276367
+og index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+index list: [6, 5, 0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 345.1122145652771
+og index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 343.6444842815399
+og index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+index list: [12, 13, 1, 2, 3, 4, 8, 9, 10, 11, 5, 6, 7, 0]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 331.3792448043823
+og index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+index list: [2, 9, 10, 11, 12, 13, 3, 4, 0, 1, 5, 6, 7, 8]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 296.1717245578766
+og index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004618644714355469
+og index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+index list: [5, 9, 10, 11, 12, 13, 6, 7, 8, 0, 1, 2, 3, 4]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 355.6659655570984
+og index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 339.92020297050476
+og index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+index list: [2, 9, 10, 11, 12, 13, 0, 1, 4, 5, 6, 7, 8, 3]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 347.64099884033203
+og index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+index list: [2, 1, 5, 9, 10, 0, 6, 7, 8, 3, 4, 11, 12, 13]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 284.38889718055725
+og index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.004606485366821289
+og index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+index list: [2, 9, 10, 11, 12, 13, 0, 1, 5, 6, 7, 8, 3, 4]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 357.7765896320343
+og index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 341.0481221675873
+og index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 0, 3, 4, 2, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 334.5523669719696
+og index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [11, 12, 13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 308.3318212032318
+og index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 0.005476236343383789
+og index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+index list: [2, 4, 11, 12, 13, 3, 0, 1, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 346.73222827911377
+og index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 338.60605788230896
+og index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [12, 13, 6, 5, 9, 10, 11, 4, 7, 8, 0, 1, 2, 3]
+iterations:1000000, temp:1000000.0, exponent:0.7, eif:200.0
+time taken (sec): 339.0169403553009
+og index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Done
+
+iterations:1000000, temp:10000.0, exponent:0.7, eif:200.0
+time taken (sec): 343.4716694355011
+og index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+iterations:1000000, temp:100000.0, exponent:0.7, eif:200.0
+time taken (sec): 3.618565320968628
+og index list: [2, 0, 1, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9, 10]
+index list: [1, 2, 10, 9, 13, 0, 3, 4, 5, 6, 7, 8, 11, 12]
