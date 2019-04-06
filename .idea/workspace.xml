@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCACB_50.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCACB_75.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCA_50.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCA_75.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCOCACB_50.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCOCACB_75.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCOCA_50.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HNCOCA_75.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_30.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_40.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_50.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_60.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_70.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_80.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOESY_90.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Normal.out" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/EnergyFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/MMAl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_MMAl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,50 +21,24 @@
       <file leaf-file-name="DataImporting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataImporting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-813" />
+            <state relative-caret-position="-869" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpe_EnergyFunctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-979" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DataProcessing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1062">
+              <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnergyFunctions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnergyFunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MMAl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MMAl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,10 +47,27 @@
       <file leaf-file-name="tpe_MMAl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="20" column="119" selection-start-line="20" selection-start-column="119" selection-end-line="20" selection-end-column="119" />
+            <state relative-caret-position="375">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#3978#5094#0" />
+                <element signature="e#5986#7374#0" />
+                <element signature="e#7450#8000#0" />
+                <element signature="e#8238#8877#0" />
+                <element signature="e#8435#8877#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +77,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tpe_MMAl.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -137,6 +124,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/archived_code" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -148,6 +140,51 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tpe_MMAl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tpe_MMAl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tpe_MMAl" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,28 +203,29 @@
     <frame x="0" y="23" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="310" height="633" id="Documentation" order="4" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32938075" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +235,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EnergyFunctions.py">
+    <entry file="file://$PROJECT_DIR$/archived_code/EnergyFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -208,20 +246,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Distances of Residues.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chain creator eval.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -242,9 +266,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/archived_code/MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="342">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -252,21 +285,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MMAl.py">
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-979" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-869" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="20" column="119" selection-start-line="20" selection-start-column="119" selection-end-line="20" selection-end-column="119" />
+        <state relative-caret-position="375">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#3978#5094#0" />
+            <element signature="e#5986#7374#0" />
+            <element signature="e#7450#8000#0" />
+            <element signature="e#8238#8877#0" />
+            <element signature="e#8435#8877#0" />
           </folding>
         </state>
       </provider>

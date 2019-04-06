@@ -1,9 +1,8 @@
-from EnergyFunctions import *
+from archived_code.EnergyFunctions import *
 from DataProcessing import *
 from DataImporting import *
 import random
 import math
-import copy
 
 
 def main(iterations, temp, exponent):
