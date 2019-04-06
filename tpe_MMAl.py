@@ -186,7 +186,7 @@ def super_main(t):
     a = np.percentile(result_list, 6)
     return a
 
-date = dt.datetime.now() + dt.timedelta(minutes=58)
+date = dt.datetime.now() + dt.timedelta(hours=16, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
