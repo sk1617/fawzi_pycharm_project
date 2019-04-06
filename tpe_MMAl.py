@@ -18,8 +18,6 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
     assert len(index_list) == len(residue_list)
     random.shuffle(index_list, returns_number)
 
-
-
     og_index_list = index_list
     count_temp = 0
     count = 0
@@ -188,8 +186,7 @@ def super_main(t):
     a = np.percentile(result_list, 6)
     return a
 
-
-date = dt.datetime.now() + dt.timedelta(hours=13.98)
+date = dt.datetime.now() + dt.timedelta(minutes=1)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
