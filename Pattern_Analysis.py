@@ -9,7 +9,7 @@ peak_list, residue_list = main_data_processing()
 acceptance_threshold = 0.2
 should_print_unassigned_lists = False
 
-for NAME in ['slurm_1e7_combined.txt']:
+for NAME in ['slurm_1e8_combined.txt']:
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
@@ -111,8 +111,10 @@ for NAME in ['slurm_1e7_combined.txt']:
     print('duplicate peaks: {}'.format(duplicated_assignments))
     print('not assigned peaks: {}'.format(not_assigned))
     for i, line in enumerate(mode_list_full):
+        # if successful assignment
         if type(line) == int:
             print(sequence_list[i], ':', line)
+        # if not successful and not None
         elif type(line) == list:
             try:
                 if should_print_unassigned_lists:
@@ -124,6 +126,7 @@ for NAME in ['slurm_1e7_combined.txt']:
                     print(sequence_list[i], ':', line.sort())
                 else:
                     print(sequence_list[i], ':', "No mode")
+        # if none
         else:
             print(sequence_list[i], ':', line)
     print('DONE\n\n')
