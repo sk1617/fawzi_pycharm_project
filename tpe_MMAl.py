@@ -164,28 +164,6 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-def super_main(t):
-    temp = t[0]
-    exponent = t[1]
-    energy_if_false = t[2]
-    result_list = []
-    peak_list, residue_list = main_data_processing()
-    for i in range(30):
-        result = main(int(1e4), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
-        result_list.append(result[3])
-        print('Done\n\n')
-        if should_save_to_file:
-            fh.write('Done\n\n')
-
-        if dt.datetime.now() > date:
-            break
-
-    if should_save_to_file:
-        fh.close()
-
-    a = np.percentile(result_list, 6)
-    return a
-
 date = dt.datetime.now() + dt.timedelta(hours=16, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
@@ -196,21 +174,6 @@ if __name__ == '__main__':
         file_name = str(dt.datetime.now().isoformat())
         file_name = file_name[5:-5]
         fh = open('mmals/' + file_name + '.txt', 'w+')
-
-        optimize = False
-        if optimize:
-            import numpy as np
-            from scipy import optimize as op
-            x = op.minimize(super_main, [temp, exponent, energy_if_false])
-            print(x['x'])
-            print(x['success'])
-            print(x['message'])
-            print('Done\n\n')
-            if should_save_to_file:
-                fh.write('Done\n\n')
-                fh.write(x['x'])
-                fh.write(x['success'])
-                fh.write(x['message'])
 
     # starts program
     if True:

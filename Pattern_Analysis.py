@@ -6,7 +6,7 @@ from DataProcessing import *
 from DataImporting import sequence_list
 peak_list, residue_list = main_data_processing()
 
-acceptance_threshold = 0.2
+acceptance_threshold = 0.5
 should_print_unassigned_lists = False
 
 for NAME in ['slurm_1e8_combined.txt']:
