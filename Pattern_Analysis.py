@@ -2,12 +2,14 @@ import glob
 import pandas as pd
 import numpy as np
 import statistics as st
-from tpe_DataProcessing import *
-from full_DataImporting import sequence_list
+from DataProcessing import *
+from DataImporting import sequence_list
 peak_list, residue_list = main_data_processing()
 
-for NAME in ['HNCA_50.out', 'HNCA_75.out', 'HNCACB_50.out', 'HNCACB_75.out', 'HNCOCA_75.out', 'HNCOCA_50.out', 'HNCOCACB_75.out', 'HNCOCACB_50.out',
-             'NOESY_90.out','NOESY_80.out','NOESY_70.out','NOESY_60.out','NOESY_50.out','NOESY_40.out','NOESY_30.out','Normal.out']:
+acceptance_threshold = 0.5
+should_print_unassigned_lists = False
+
+for NAME in ['slurm_1e8_combined.txt']:
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
@@ -39,7 +41,7 @@ for NAME in ['HNCA_50.out', 'HNCA_75.out', 'HNCACB_50.out', 'HNCACB_75.out', 'HN
                 time_taken_str = line[start_index:]
                 time_taken = float(time_taken_str)
                 time_taken_list.append(time_taken)
-            if 'index list energy:' in line:
+            if 'index list energy:' in line and not 'og' in line:
                 start_index = line.index(':') + 2
                 final_energy_str = line[start_index:]
                 final_energy = float(final_energy_str)
@@ -55,7 +57,7 @@ for NAME in ['HNCA_50.out', 'HNCA_75.out', 'HNCACB_50.out', 'HNCACB_75.out', 'HN
     mode_list_full = list()
     mode_list = list()
     unassigned_positions = list()
-    acceptance_threshold = 0.50
+
     for i, assignment_list in enumerate(table_inverted):
         assignment_list = list(assignment_list)
         try:
@@ -85,10 +87,6 @@ for NAME in ['HNCA_50.out', 'HNCA_75.out', 'HNCACB_50.out', 'HNCACB_75.out', 'HN
                 mode_list.append('NA')
 
     # DATA ANALYSIS
-    perfect_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 79, 14, 15, 16, 78, 17, 18, 19, 20, 21, 22, 23, 24,
-                    25, 26, 27, 28, 29, 30, 31, 32, 77, 33, 34, 35, 36, 37, 38, 39, 40, 41, 76, 42, 43, 44, 45, 46, 47,
-                    48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 75, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71,
-                    74, 72, 73]
     sequence_list = sequence_list
     len_index_list = len(sequence_list)
 
@@ -113,13 +111,22 @@ for NAME in ['HNCA_50.out', 'HNCA_75.out', 'HNCACB_50.out', 'HNCACB_75.out', 'HN
     print('duplicate peaks: {}'.format(duplicated_assignments))
     print('not assigned peaks: {}'.format(not_assigned))
     for i, line in enumerate(mode_list_full):
+        # if successful assignment
         if type(line) == int:
             print(sequence_list[i], ':', line)
+        # if not successful and not None
         elif type(line) == list:
             try:
-                print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+                if should_print_unassigned_lists:
+                    print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+                else:
+                    print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
             except st.StatisticsError:
-                print(sequence_list[i], ':', line.sort())
+                if should_print_unassigned_lists:
+                    print(sequence_list[i], ':', line.sort())
+                else:
+                    print(sequence_list[i], ':', "No mode")
+        # if none
         else:
             print(sequence_list[i], ':', line)
     print('DONE\n\n')

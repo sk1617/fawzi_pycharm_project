@@ -7,6 +7,7 @@ import time
 import datetime as dt
 
 Delta_List = []; energy_list = []
+# @profile
 def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, create_chain = False):
     start_time = time.time()
     if dt.datetime.now() < date:
@@ -17,17 +18,6 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
     index_list = list(range(len(peak_list)))
     assert len(index_list) == len(residue_list)
     random.shuffle(index_list, returns_number)
-
-    # perfect_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 79, 14, 15, 16, 78, 17, 18, 19, 20, 21, 22, 23, 24,
-    #                 25, 26, 27, 28, 29, 30, 31, 32, 77, 33, 34, 35, 36, 37, 38, 39, 40, 41, 76, 42, 43, 44, 45, 46, 47,
-    #                 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 75, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71,
-    #                 74, 72, 73]
-
-    # insert another list here
-    # index_list = [43, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 79, 14, 15, 16, 77, 17, 18, 46, 47, 48, 22, 23, 24,
-    #               25, 26, 27, 28, 29, 30, 31, 32, 49, 33, 34, 35, 36, 37, 38, 39, 40, 41, 71, 50, 51, 52, 53, 54, 0,
-    #               75, 44, 45, 78, 19, 20, 21, 55, 56, 57, 58, 74, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 76,
-    #               42, 72, 73]
 
     og_index_list = index_list
     count_temp = 0
@@ -80,7 +70,9 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
             if swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
                 index_list = new_index_list
 
-            if temp == 0: continue
+            if temp == 0:
+                print('hi')
+            #FIX THIS SO IT DOESNT TAKE UP TIME
             elif count_temp == int(iterations*((math.log(1/temp, exponent))**-1)):
                 count_temp = 0
                 temp = temp * exponent
@@ -114,7 +106,7 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
     # RETURNS HERE
     return og_index_list, og_energy, index_list, energy
 
-
+# @profile
 def swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
     global delta
     delta = main_energy_function(a_list, b_list, index_list, new_index_list, peak_list, residue_list, energy_if_false, Delta_List)
@@ -132,7 +124,7 @@ def swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, 
         else:
             return False
 
-
+# @profile
 def  chain_creator(index_list, peak_list, a):
     # 120 is probably a good cutoff
     # forwards
@@ -175,30 +167,7 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-def super_main(t):
-    temp = t[0]
-    exponent = t[1]
-    energy_if_false = t[2]
-    result_list = []
-    peak_list, residue_list = main_data_processing()
-    for i in range(30):
-        result = main(int(1e4), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
-        result_list.append(result[3])
-        print('Done\n\n')
-        if should_save_to_file:
-            fh.write('Done\n\n')
-
-        if dt.datetime.now() > date:
-            break
-
-    if should_save_to_file:
-        fh.close()
-
-    a = np.percentile(result_list, 6)
-    return a
-
-
-date = dt.datetime.now() + dt.timedelta(hours=13.98)
+date = dt.datetime.now() + dt.timedelta(hours=16, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -209,25 +178,10 @@ if __name__ == '__main__':
         file_name = file_name[5:-5]
         fh = open('mmals/' + file_name + '.txt', 'w+')
 
-        optimize = False
-        if optimize:
-            import numpy as np
-            from scipy import optimize as op
-            x = op.minimize(super_main, [temp, exponent, energy_if_false])
-            print(x['x'])
-            print(x['success'])
-            print(x['message'])
-            print('Done\n\n')
-            if should_save_to_file:
-                fh.write('Done\n\n')
-                fh.write(x['x'])
-                fh.write(x['success'])
-                fh.write(x['message'])
-
     # starts program
     if True:
         peak_list, residue_list = main_data_processing()
-        for i in range(50):
+        for i in range(1):
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
 
             print('Done\n\n')

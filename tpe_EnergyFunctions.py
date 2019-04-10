@@ -212,7 +212,6 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
 
     for j, closeby in enumerate(closeby_residue_list):
         closeby_dist = closeby_residue_list_dist[j]
-        closeby_pai = index_list[closeby - 1]
         closeby_assignment_peak = peak_list[index_list[closeby - 1]]
 
         closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')

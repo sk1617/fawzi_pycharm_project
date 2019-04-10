@@ -6,7 +6,6 @@ sequence_list = 'TPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPV
                 'NEILTAILASLTARQNLRREWHARCQSRIARTLPADQKPECRPYWEKDDASMPLPFDLTDIVSELRGQLLEAKP'
 import random
 
-num_to_return = .1
 def returns_number():
     return random.random()
 
@@ -46,7 +45,7 @@ def sn_factor_formula(sn):
     return .22 * (sn ** .5)
 
 
-iterations = 1e7
+iterations = 3e4
 temp = 1e6
 exponent = .7
 

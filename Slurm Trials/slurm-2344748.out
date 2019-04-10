@@ -1,0 +1,10 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 2344748
+##  Job Name : pypy_1e7
+##  Nodelist : node1119
+##      CPUs : 1
+##  Mem/Node : 1024 MB
+## Directory : /gpfs/data/nfawzi/skale/Fawzi_pycharm_project
+##   Started : Mon Feb  4 19:13:36 EST 2019
+###############################################################################
+slurmstepd: error: *** JOB 2344748 ON node1119 CANCELLED AT 2019-02-05T05:13:44 DUE TO TIME LIMIT ***
