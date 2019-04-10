@@ -45,7 +45,7 @@ def sn_factor_formula(sn):
     return .22 * (sn ** .5)
 
 
-iterations = 5e2
+iterations = 3e4
 temp = 1e6
 exponent = .7
 

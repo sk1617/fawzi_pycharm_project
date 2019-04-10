@@ -61,7 +61,7 @@ def eval_energy(index_list, peak_list, residue_list, energy_if_false):
 
 
 # calculates energy for difference in CA and CA-1
-@profile
+# @profile
 def CA_CA_prime_diff(i, peak_assignment_index, index_list, peak_list, Delta_List, append=False):
     try:
         peak = peak_list[peak_assignment_index]
@@ -124,7 +124,7 @@ def CB_CB_prime_diff(i, pk_ass_ind, index_list, peak_list, Delta_List, append=Fa
   
 
 # calculates energy between CA observed in spectral data, and that expected from BMRB
-@profile
+# @profile
 def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, append=False, use_prime_data=False):
     if i == 0 and use_prime_data:
         return energy_if_false
@@ -188,7 +188,7 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
 # that are actually seen.
 
 
-@profile
+# @profile
 def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append=False):
 
     peak = peak_list[pai]

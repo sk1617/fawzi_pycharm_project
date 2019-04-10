@@ -7,6 +7,7 @@ import time
 import datetime as dt
 
 Delta_List = []; energy_list = []
+# @profile
 def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, create_chain = False):
     start_time = time.time()
     if dt.datetime.now() < date:
@@ -69,7 +70,9 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
             if swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
                 index_list = new_index_list
 
-            if temp == 0: continue
+            if temp == 0:
+                print('hi')
+            #FIX THIS SO IT DOESNT TAKE UP TIME
             elif count_temp == int(iterations*((math.log(1/temp, exponent))**-1)):
                 count_temp = 0
                 temp = temp * exponent
@@ -103,7 +106,7 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
     # RETURNS HERE
     return og_index_list, og_energy, index_list, energy
 
-
+# @profile
 def swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
     global delta
     delta = main_energy_function(a_list, b_list, index_list, new_index_list, peak_list, residue_list, energy_if_false, Delta_List)
@@ -121,7 +124,7 @@ def swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, 
         else:
             return False
 
-
+# @profile
 def  chain_creator(index_list, peak_list, a):
     # 120 is probably a good cutoff
     # forwards
@@ -178,7 +181,7 @@ if __name__ == '__main__':
     # starts program
     if True:
         peak_list, residue_list = main_data_processing()
-        for i in range(50):
+        for i in range(1):
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
 
             print('Done\n\n')
