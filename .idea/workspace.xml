@@ -1,58 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="2019-04-08-13:50">
-      <change beforePath="$PROJECT_DIR$/.2n4p.pdb.icloud" beforeDir="false" />
+    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/2n4p distances.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/2n4p distances.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-CBCACONH.list" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-CBCACONH.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCACB.list" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCACB.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCACO.list" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCACO.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCO.list" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCO.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HSQC.list" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HSQC.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index list comparison.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/2n4p distances_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/2n4p distances_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Useful code.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Useful code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chain creator for p.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/full_DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/full_DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_rsa.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output for lower NRG.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432559.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432560.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432561.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432562.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432563.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432564.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432565.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432566.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432576.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432577.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432578.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432579.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432580.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432581.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432582.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm-3432583.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test output for lower NRG.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_EnergyFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_MMAl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py.lprof" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v3 NOESY runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/bin/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/bin/activate.csh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/bin/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$chain creator for p.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,8 +50,8 @@
       <file leaf-file-name="tpe_MMAl.py" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="20" />
+            <state relative-caret-position="196">
+              <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -436,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554781827138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2019-04-10-17:39">
+      <created>1554932412519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554932412519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -450,6 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -457,10 +415,10 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32900944" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3431604" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3431604" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32969698" />
       <window_info anchor="right" id="Remote Host" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
@@ -511,7 +469,8 @@
     <MESSAGE value="2019-04-08-17:38" />
     <MESSAGE value="2019-04-08-17:45" />
     <MESSAGE value="2019-04-08-13:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-04-08-13:50" />
+    <MESSAGE value="2019-04-10-17:39" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-04-10-17:39" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="196">
+          <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

@@ -1,0 +1,620 @@
+Last login: Tue Jan 22 18:03:34 on ttys000
+sohams-air:Fawzi_pycharm_project sohamkale$ python /Users/sohamkale/Documents/Fawzi_Python/Fawzi_pycharm_project/Pattern_Analysis.py 
+the following files were analyzed: ['HNCA_50.out'] with a total of 40 assignments
+the average time taken for each trial was: 898.1935127019882 sec
+the average end energy was: 55729214.738512136
+duplicate peaks: []
+not assigned peaks: [0, 49, 72]
+M : [72, 0, 0, 72, 72, 0, 72, 72, 0, 0, 0, 0, 0, 0, 0, 72, 0, 0, 72, 0, 43, 0, 72, 72, 0, 14, 72, 0, 0, 14, 0, 72, 72, 0, 72, 46, 72, 14, 14, 6] mode: 0 count: 19
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : [79, 78, 75, 44, 65, 49, 0, 71, 79, 76, 71, 76, 76, 49, 79, 74, 49, 74, 49, 76, 75, 49, 79, 76, 71, 10, 74, 74, 76, 41, 78, 77, 71, 71, 76, 50, 16, 12, 0, 8] mode: 76 count: 7
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : [0, 49, 74, 13, 74, 74, 4, 32, 4, 49, 78, 49, 75, 76, 78, 49, 77, 75, 4, 75, 78, 79, 4, 68, 42, 4, 77, 77, 75, 15, 77, 4, 43, 42, 4, 0, 40, 4, 4, 32] mode: 4 count: 9
+K : [73, 72, 72, 46, 42, 72, 15, 0, 15, 72, 42, 72, 72, 72, 72, 14, 72, 72, 5, 72, 72, 72, 5, 69, 72, 5, 14, 72, 72, 6, 72, 15, 44, 72, 5, 44, 0, 5, 5, 24] mode: 72 count: 18
+D : 73
+DONE
+
+
+the following files were analyzed: ['HNCACB_50.out'] with a total of 43 assignments
+the average time taken for each trial was: 835.5285532197287 sec
+the average end energy was: 53618043.536135174
+duplicate peaks: []
+not assigned peaks: [49, 72]
+M : 0
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : [78, 71, 74, 79, 76, 49, 49, 71, 75, 75, 50, 71, 0, 79, 74, 77, 74, 71, 77, 78, 0, 14, 76, 42, 71, 49, 0, 0, 77, 0, 75, 71, 49, 74, 79, 71, 71, 71, 47, 72, 79, 75, 0] mode: 71 count: 9
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : None
+K : [72, 42, 72, 72, 72, 15, 72, 0, 72, 72, 0, 72, 16, 72, 72, 12, 75, 42, 72, 72, 43, 5, 14, 5, 42, 72, 42, 16, 72, 5, 72, 42, 73, 72, 72, 72, 78, 72, 46, 41, 72, 44, 15] mode: 72 count: 20
+D : 73
+DONE
+
+
+
+the following files were analyzed: ['HNCOCA_50.out'] with a total of 37 assignments
+the average time taken for each trial was: 971.0195404516684 sec
+the average end energy was: 55204930.98061252
+duplicate peaks: []
+not assigned peaks: [49, 72]
+M : 0
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : [16, 74, 43, 79, 74, 75, 49, 49, 77, 77, 77, 77, 74, 11, 74, 77, 49, 78, 76, 77, 49, 11, 75, 32, 49, 49, 76, 14, 49, 49, 79, 78, 11, 2, 50, 49, 44] mode: 49 count: 9
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : None
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : None
+K : [15, 72, 14, 72, 72, 72, 72, 72, 73, 0, 35, 72, 72, 77, 72, 0, 72, 72, 72, 72, 0, 3, 70, 15, 5, 72, 72, 5, 72, 32, 74, 72, 5, 42, 15, 72, 69] mode: 72 count: 18
+D : 73
+DONE
+
+
+the following files were analyzed: ['HNCOCACB_50.out'] with a total of 42 assignments
+the average time taken for each trial was: 855.422649536814 sec
+the average end energy was: 56131670.66598842
+duplicate peaks: []
+not assigned peaks: [49]
+M : 0
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : None
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : None
+K : 72
+D : 73
+DONE
+
+
+the following files were analyzed: ['NOESY_50.out'] with a total of 43 assignments
+the average time taken for each trial was: 835.5285979093508 sec
+the average end energy was: 54757108.85378401
+duplicate peaks: []
+not assigned peaks: [0, 49]
+M : [47, 0, 0, 0, 72, 72, 0, 0, 72, 0, 43, 72, 0, 72, 72, 0, 72, 0, 72, 0, 14, 33, 72, 72, 0, 0, 0, 0, 0, 72, 72, 0, 0, 0, 72, 0, 72, 42, 0, 0, 70, 43, 53] mode: 0 count: 21
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : None
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : [74, 78, 49, 75, 14, 0, 49, 77, 75, 74, 49, 14, 77, 50, 4, 76, 0, 78, 4, 42, 4, 4, 74, 14, 75, 79, 42, 49, 76, 77, 4, 49, 49, 75, 79, 74, 0, 4, 77, 42, 14, 75, 4] mode: 4 count: 7
+K : 72
+D : 73
+DONE
+
+
+the following files were analyzed: ['NOESY_30.out'] with a total of 42 assignments
+the average time taken for each trial was: 855.4222211894535 sec
+the average end energy was: 53973940.9504643
+duplicate peaks: []
+not assigned peaks: [0, 42, 49, 72, 73]
+M : [47, 0, 72, 72, 46, 0, 72, 0, 0, 72, 0, 0, 0, 72, 72, 14, 0, 5, 0, 72, 0, 72, 0, 72, 72, 2, 14, 0, 0, 0, 1, 72, 72, 0, 0, 72, 0, 0, 14, 0, 72, 42] mode: 0 count: 19
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : [0, 71, 75, 15, 50, 75, 0, 76, 78, 4, 74, 49, 71, 71, 77, 0, 78, 72, 43, 49, 71, 68, 78, 71, 0, 77, 0, 75, 76, 79, 72, 0, 14, 75, 75, 0, 75, 76, 78, 77, 0, 0] mode: 0 count: 9
+V : [78, 75, 42, 16, 75, 42, 73, 42, 42, 76, 42, 42, 75, 78, 42, 74, 42, 73, 44, 42, 74, 69, 42, 74, 44, 42, 75, 42, 42, 42, 73, 73, 75, 42, 42, 73, 42, 42, 42, 42, 73, 76] mode: 42 count: 20
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : [75, 42, 4, 50, 0, 78, 4, 49, 74, 32, 79, 77, 42, 32, 4, 15, 79, 4, 75, 0, 14, 79, 79, 70, 78, 4, 4, 78, 49, 75, 15, 49, 74, 79, 49, 4, 79, 77, 4, 78, 49, 4] mode: 4 count: 9
+K : [72, 72, 5, 0, 44, 72, 5, 72, 72, 0, 72, 72, 72, 0, 5, 3, 72, 15, 70, 73, 15, 17, 72, 0, 42, 5, 5, 72, 72, 72, 46, 45, 15, 72, 72, 5, 72, 72, 15, 72, 42, 5] mode: 72 count: 18
+D : [73, 73, 3, 73, 45, 73, 16, 73, 73, 1, 73, 73, 73, 73, 3, 4, 73, 41, 71, 50, 16, 18, 73, 73, 43, 3, 3, 73, 73, 73, 41, 16, 41, 73, 73, 16, 73, 73, 16, 73, 43, 16] mode: 73 count: 21
+DONE
+
+
+the following files were analyzed: ['Normal.out'] with a total of 41 assignments
+the average time taken for each trial was: 876.2856024765387 sec
+the average end energy was: 53378181.28088736
+duplicate peaks: []
+not assigned peaks: [49]
+M : 0
+S : 1
+E : 2
+Y : 3
+I : 4
+R : 5
+V : 6
+T : 7
+E : 8
+D : 9
+E : 10
+N : 11
+D : 12
+E : 13
+P : None
+I : 14
+E : 15
+I : 16
+P : None
+S : 17
+E : 18
+D : 19
+D : 20
+G : 21
+T : 22
+V : 23
+L : 24
+L : 25
+S : 26
+T : 27
+V : 28
+T : 29
+A : 30
+Q : 31
+F : 32
+P : None
+G : 33
+A : 34
+C : 35
+G : 36
+L : 37
+R : 38
+Y : 39
+R : 40
+N : 41
+P : [77, 42, 76, 71, 78, 78, 76, 71, 71, 79, 73, 71, 49, 76, 71, 0, 77, 14, 0, 71, 77, 79, 78, 78, 49, 79, 79, 79, 49, 0, 79, 78, 71, 79, 71, 76, 71, 49, 45, 0, 11] mode: 71 count: 9
+V : 42
+E : 43
+Q : 44
+C : 45
+M : 46
+R : 47
+G : 48
+V : None
+R : 50
+L : 51
+V : 52
+E : 53
+G : 54
+I : 55
+L : 56
+H : 57
+A : 58
+P : None
+D : 59
+A : 60
+G : 61
+W : 62
+G : 63
+N : 64
+L : 65
+V : 66
+Y : 67
+V : 68
+V : 69
+N : 70
+Y : 71
+P : [4, 25, 75, 32, 76, 76, 78, 32, 42, 78, 40, 76, 77, 79, 32, 74, 4, 50, 4, 4, 78, 49, 77, 14, 74, 78, 49, 74, 4, 4, 75, 75, 42, 49, 42, 0, 49, 77, 15, 49, 57] mode: 4 count: 6
+K : 72
+D : 73
+DONE
+
+
+sohams-air:Fawzi_pycharm_project sohamkale$ 
