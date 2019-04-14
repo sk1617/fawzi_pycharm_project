@@ -167,7 +167,7 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-date = dt.datetime.now() + dt.timedelta(hours=16, minutes=58)
+date = dt.datetime.now() + dt.timedelta(hours=3, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -175,11 +175,12 @@ if __name__ == '__main__':
     should_save_to_file = True
     if should_save_to_file:
         file_name = str(dt.datetime.now().isoformat())
-        file_name = file_name[5:-5]
         fh = open('mmals/' + file_name + '.txt', 'w+')
 
     # starts program
     if True:
+        time_start = dt.datetime.now()
+        print('program started at:{}'.format(time_start))
         peak_list, residue_list = main_data_processing()
         for i in range(50):
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
@@ -190,6 +191,8 @@ if __name__ == '__main__':
 
             if dt.datetime.now() > date:
                 break
+        time_finish = dt.datetime.now()
+        print('program ended at: {} \n time delta: {}'.format(time_finish, time_finish - time_start))
 
     if should_save_to_file:
         fh.close()
