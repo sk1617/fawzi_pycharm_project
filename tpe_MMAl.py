@@ -1,6 +1,6 @@
 from tpe_EnergyFunctions import *
 from DataProcessing import *
-from DataImporting import *
+from full_DataImporting import *
 import random
 import math
 import time
@@ -181,7 +181,7 @@ if __name__ == '__main__':
     # starts program
     if True:
         peak_list, residue_list = main_data_processing()
-        for i in range(1):
+        for i in range(50):
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
 
             print('Done\n\n')

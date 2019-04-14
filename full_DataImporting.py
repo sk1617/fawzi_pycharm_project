@@ -1,10 +1,8 @@
 sequence_list = 'MSEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVEQCMRGVRLVEGILHAPDAGWGNLVYVVNYPKD'
 import random
 
-num_to_return = .1
 def returns_number():
     return random.random()
-
 
 energy_if_false = 300.
 
