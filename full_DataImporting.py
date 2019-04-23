@@ -1,9 +1,7 @@
 sequence_list = 'MSEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVEQCMRGVRLVEGILHAPDAGWGNLVYVVNYPKD'
 import random
 
-def returns_number():
-    return random.random()
-
+# ENERGY FUNCTION VARIABLES
 energy_if_false = 300.
 
 aa_p_d_delta = .15
@@ -22,26 +20,21 @@ b_bmrb_sn_factor = .316
 
 noesy_perfect_match_threshold = .02
 npmt_penatly = 0.1
+# Need to justify why I have this middle tier
 noesy_semi_perfect_match_threshold = .05
 nspmt_penalty = 600.
 n_no_match_penalty = 1200.
 
-# @profile
-def dist_factor_forumla(dist):
-    if dist < 3:
-        return 2.8
-    elif dist >= 3 and dist < 7:
-        return 25/(dist ** 2)
-    elif dist >= 7:
-        return .5
-# @profile
-def sn_factor_formula(sn):
-    return .22 * (sn ** .5)
-
-
+# ANNEALING SCHEDULE VARIABLES
+# Current
 iterations = 1e6
 temp = 1e6
 exponent = .7
+# Eponential
+# Logistic
+# Linear
+# Quadratic 1
+# Quadratic 2
 
 
 iterations = int(iterations)
@@ -133,3 +126,19 @@ for closeby_line in FTOList:
 
     app = ('{}N-NH'.format(pk_num), clpk_H, pk_N, pk_H, 0.0, 20.0)
     NOESY.append(app)
+
+
+# @profile
+def dist_factor_forumla(dist):
+    if dist < 3:
+        return 2.8
+    elif dist >= 3 and dist < 7:
+        return 25/(dist ** 2)
+    elif dist >= 7:
+        return .5
+# @profile
+def sn_factor_formula(sn):
+    return .22 * (sn ** .5)
+
+def returns_number():
+    return random.random()
