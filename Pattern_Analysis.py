@@ -3,13 +3,13 @@ import pandas as pd
 import numpy as np
 import statistics as st
 from DataProcessing import *
-from DataImporting import sequence_list
+from full_DataImporting import sequence_list
 peak_list, residue_list = main_data_processing()
 
 acceptance_threshold = 0.5
 should_print_unassigned_lists = False
 
-for NAME in ['slurm_1e8_combined.txt']:
+for NAME in ['slurm-3611158.out']:
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
