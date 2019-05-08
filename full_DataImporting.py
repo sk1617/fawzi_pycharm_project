@@ -28,10 +28,13 @@ n_no_match_penalty = 1200.
 # ANNEALING SCHEDULE VARIABLES
 # Current
 iterations = 1e6
-temp = 1e6
+temp = 1e3
 exponent = .7
 # Eponential
 # Logistic
+    # going for 1/2*(initial_temp) @ 1/2*(iterations)
+    # 0 < a < 1; a * initial temp = y intercept; basically how steep the curve is
+a_variable_for_y_intercept = 0.04
 # Linear
 # Quadratic 1
 # Quadratic 2

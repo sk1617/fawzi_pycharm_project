@@ -9,7 +9,7 @@ peak_list, residue_list = main_data_processing()
 acceptance_threshold = 0.5
 should_print_unassigned_lists = False
 
-for NAME in ['slurm-3611158.out']:
+for NAME in ['slurm-3834589.out']:
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()

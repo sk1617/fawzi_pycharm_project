@@ -22,6 +22,8 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
     og_index_list = index_list
     count_temp = 0
     count = 0
+    inital_temp = temp
+    rate_of_decay = -1 * (2 * math.log(a_variable_for_y_intercept) / (iterations))
 
     # iterations
     for i in range(iterations):
@@ -29,7 +31,6 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
         count_temp += 1
         a = random.randint(0, len(index_list) - 1)
         new_index_list = index_list[:]
-        should_swap_eval = True
 
         if create_chain:
             r, f = chain_creator(index_list, peak_list, a)
@@ -49,18 +50,17 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
             new_index_list[a], new_index_list[b] = new_index_list[b], new_index_list[a]
             a_list = [a]; b_list = [b]
 
-        if should_swap_eval:
-            if swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
-                index_list = new_index_list
+        if swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, residue_list, energy_if_false, Delta_List):
+            index_list = new_index_list
 
-            if temp == 0:
-                print('hi')
-            #FIX THIS SO IT DOESNT TAKE UP TIME
-            elif count_temp == int(iterations*((math.log(1/temp, exponent))**-1)):
-                count_temp = 0
-                temp = temp * exponent
+        if count_temp == 100:
+            count_temp = 0
+            temp = inital_temp / (1 + a_variable_for_y_intercept * math.exp(rate_of_decay * count))
+            print(temp)
 
-            if dt.datetime.now() > date: break
+        if temp == 0:
+            print('hi')
+        if dt.datetime.now() > date: break
 
     # Data for runtime
     if True:
@@ -150,7 +150,7 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-date = dt.datetime.now() + dt.timedelta(hours=20, minutes=58)
+date = dt.datetime.now() + dt.timedelta(hours=23, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -179,5 +179,3 @@ if __name__ == '__main__':
 
     if should_save_to_file:
         fh.close()
-
-
