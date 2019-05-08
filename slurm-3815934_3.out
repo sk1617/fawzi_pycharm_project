@@ -1,9 +1,0 @@
-## SLURM PROLOG ###############################################################
-##    Job ID : 3815943
-##  Job Name : background_trials_for_further_data
-##  Nodelist : node1102
-##      CPUs : 1
-##  Mem/Node : 1024 MB
-## Directory : /gpfs/data/nfawzi/skale/Fawzi_pycharm_project
-##   Started : Tue Apr 23 19:04:37 EDT 2019
-###############################################################################
