@@ -1,6 +1,6 @@
 from tpe_EnergyFunctions import *
 from DataProcessing import *
-from full_DataImporting import *
+from DataImporting import *
 import random
 import math
 import time
@@ -148,7 +148,7 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-date = dt.datetime.now() + dt.timedelta(hours=23, minutes=58)
+date = dt.datetime.now() + dt.timedelta(hours=47, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')

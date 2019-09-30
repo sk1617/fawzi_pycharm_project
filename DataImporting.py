@@ -49,7 +49,6 @@ iterations = 1e8
 temp = 1e6
 exponent = .7
 
-
 iterations = int(iterations)
 should_append_DL = True if iterations <= 1e3 else False
 

@@ -9,7 +9,7 @@ peak_list, residue_list = main_data_processing()
 acceptance_threshold = 0.5
 should_print_unassigned_lists = False
 
-for NAME in ['slurm-3834589.out']:
+for NAME in ['MMAl.out', 'exponential.out', 'linear.out']:
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
@@ -110,23 +110,24 @@ for NAME in ['slurm-3834589.out']:
     print('the average end energy was: {}'.format(st.mean(final_energy_list)))
     print('duplicate peaks: {}'.format(duplicated_assignments))
     print('not assigned peaks: {}'.format(not_assigned))
-    for i, line in enumerate(mode_list_full):
-        # if successful assignment
-        if type(line) == int:
-            print(sequence_list[i], ':', line)
-        # if not successful and not None
-        elif type(line) == list:
-            try:
-                if should_print_unassigned_lists:
-                    print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
-                else:
-                    print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
-            except st.StatisticsError:
-                if should_print_unassigned_lists:
-                    print(sequence_list[i], ':', line.sort())
-                else:
-                    print(sequence_list[i], ':', "No mode")
-        # if none
-        else:
-            print(sequence_list[i], ':', line)
+
+    # for i, line in enumerate(mode_list_full):
+    #     # if successful assignment
+    #     if type(line) == int:
+    #         print(sequence_list[i], ':', line)
+    #     # if not successful and not None
+    #     elif type(line) == list:
+    #         try:
+    #             if should_print_unassigned_lists:
+    #                 print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+    #             else:
+    #                 print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+    #         except st.StatisticsError:
+    #             if should_print_unassigned_lists:
+    #                 print(sequence_list[i], ':', line.sort())
+    #             else:
+    #                 print(sequence_list[i], ':', "No mode")
+    #     # if none
+    #     else:
+    #         print(sequence_list[i], ':', line)
     print('DONE\n\n')

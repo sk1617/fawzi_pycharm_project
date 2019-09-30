@@ -1,4 +1,4 @@
-from full_DataImporting import *
+from DataImporting import *
 
 # @profile
 def main_energy_function(a, b, old_index_list, new_index_list, peak_list, residue_list, energy_if_false, Delta_List):
