@@ -3,11 +3,12 @@ import pandas as pd
 import numpy as np
 import statistics as st
 from DataProcessing import *
-from full_DataImporting import sequence_list
+from DataImporting import sequence_list
 peak_list, residue_list = main_data_processing()
 
-acceptance_threshold = 0.5
+acceptance_threshold = 0.25
 should_print_unassigned_lists = False
+should_print_peak_data = True
 
 # if you want to analyze multiple test conditions, add them here.
 for count in range(1):
@@ -21,12 +22,14 @@ for count in range(1):
     # glob.glob returns a list of paths that match filename NAME.
     # add all files for each test condition
 
-    NAME = ["slurm-4102660_{}.out".format(str(x)) for x in range(1, 201)]
+    NAME = ["slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
+           ["slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
+
     for filename_str in NAME:
         # imports each file
-        filename = [i[0] for i in glob.glob(filename_str)]
-        file = open(filename, 'r')
-        filename_list.append(filename)
+        # filename = [i[0] for i in glob.glob(filename_str)]
+        file = open(filename_str, 'r')
+        filename_list.append(filename_str)
         for line in file:
             # selects the correct line
             if 'index list' in line and not 'og index list' in line and not 'energy' in line:
@@ -118,23 +121,23 @@ for count in range(1):
     print('duplicate peaks: {}'.format(duplicated_assignments))
     print('not assigned peaks: {}'.format(not_assigned))
 
-    # for i, line in enumerate(mode_list_full):
-    #     # if successful assignment
-    #     if type(line) == int:
-    #         print(sequence_list[i], ':', line)
-    #     # if not successful and not None
-    #     elif type(line) == list:
-    #         try:
-    #             if should_print_unassigned_lists:
-    #                 print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
-    #             else:
-    #                 print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
-    #         except st.StatisticsError:
-    #             if should_print_unassigned_lists:
-    #                 print(sequence_list[i], ':', line.sort())
-    #             else:
-    #                 print(sequence_list[i], ':', "No mode")
-    #     # if none
-    #     else:
-    #         print(sequence_list[i], ':', line)
+    for i, line in enumerate(mode_list_full):
+        # if successful assignment
+        if type(line) == int:
+            print(sequence_list[i], ':', line)
+        # if not successful and not None
+        elif type(line) == list:
+            try:
+                if should_print_unassigned_lists:
+                    print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+                else:
+                    print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
+            except st.StatisticsError:
+                if should_print_unassigned_lists:
+                    print(sequence_list[i], ':', line.sort())
+                else:
+                    print(sequence_list[i], ':', "No mode")
+        # if none
+        else:
+            print(sequence_list[i], ':', line)
     print('DONE\n\n')

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="">
+    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="2019-10-14-12:27">
       <change beforePath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="tpe_MMAl.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
+            <state relative-caret-position="1332">
               <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -74,8 +74,8 @@
       <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="73" />
+            <state relative-caret-position="261">
+              <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -91,7 +91,7 @@
       <file leaf-file-name="slurm-4102660_1.out" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slurm-4102660_1.out">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
+            <state relative-caret-position="2718">
               <caret line="151" column="22" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="22" />
             </state>
           </provider>
@@ -128,6 +128,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -193,7 +194,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -418,21 +419,21 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.24964234" side_tool="true" weight="0.32848486" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="5" visible="true" weight="0.32848486" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.38181818" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.49454546" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32969698" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.7503576" weight="0.32848486" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32969698" />
       <window_info anchor="right" id="Remote Host" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24034335" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39976415" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
@@ -446,25 +447,25 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3443396" />
-      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
-      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39976415" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +479,8 @@
     <MESSAGE value="2019-04-08-17:45" />
     <MESSAGE value="2019-04-08-13:50" />
     <MESSAGE value="2019-04-10-17:39" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-04-10-17:39" />
+    <MESSAGE value="2019-10-14-12:27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-10-14-12:27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,13 +686,6 @@
     <entry file="file://$PROJECT_DIR$/archived_code/Useful code.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BMRB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -701,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis_1.py" />
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
+        <state relative-caret-position="1332">
           <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -727,16 +722,9 @@
     <entry file="file://$PROJECT_DIR$/slurm-4109433_21.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/glob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slurm-4102660_1.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
+        <state relative-caret-position="2718">
           <caret line="151" column="22" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="22" />
         </state>
       </provider>
@@ -744,10 +732,24 @@
     <entry file="file://$PROJECT_DIR$/slurm-3834579.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/glob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="261">
+          <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
