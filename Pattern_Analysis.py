@@ -9,7 +9,8 @@ peak_list, residue_list = main_data_processing()
 acceptance_threshold = 0.5
 should_print_unassigned_lists = False
 
-for NAME in ['MMAl.out', 'exponential.out', 'linear.out']:
+# if you want to analyze multiple test conditions, add them here.
+for count in range(1):
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
@@ -17,9 +18,13 @@ for NAME in ['MMAl.out', 'exponential.out', 'linear.out']:
     filename_list = list()
     count_of_assignments = 0
     # extracts index list
-    # gets list of file names that match '*.out'
-    for filename in glob.glob(NAME):
+    # glob.glob returns a list of paths that match filename NAME.
+    # add all files for each test condition
+
+    NAME = ["slurm-4102660_{}.out".format(str(x)) for x in range(1, 201)]
+    for filename_str in NAME:
         # imports each file
+        filename = [i[0] for i in glob.glob(filename_str)]
         file = open(filename, 'r')
         filename_list.append(filename)
         for line in file:
@@ -46,6 +51,8 @@ for NAME in ['MMAl.out', 'exponential.out', 'linear.out']:
                 final_energy_str = line[start_index:]
                 final_energy = float(final_energy_str)
                 final_energy_list.append(final_energy)
+
+    assert len(uninitialized_table) > 0
 
     # Makes numpy array, table, and makes pandas dataframe, data
     table = np.array(uninitialized_table)
