@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="2019-10-14-12:27">
+    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -74,8 +74,8 @@
       <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="117" column="103" selection-start-line="117" selection-start-column="103" selection-end-line="117" selection-end-column="103" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -403,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554932412519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2019-10-14-12:27">
+      <created>1571070727605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571070727605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,6 +424,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.24964234" side_tool="true" weight="0.32848486" />
@@ -748,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+        <state relative-caret-position="123">
+          <caret line="117" column="103" selection-start-line="117" selection-start-column="103" selection-end-line="117" selection-end-column="103" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
