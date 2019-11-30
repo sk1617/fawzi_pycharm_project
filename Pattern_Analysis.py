@@ -22,8 +22,8 @@ for count in range(1):
     # glob.glob returns a list of paths that match filename NAME.
     # add all files for each test condition
 
-    NAME = ["slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
-           ["slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
+    NAME = ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(1, 17)] + \
+           ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
 
     for filename_str in NAME:
         # imports each file
