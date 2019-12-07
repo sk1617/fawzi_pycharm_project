@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pattern_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_MMAl.py" afterDir="false" />
     </list>
     <ignored path="venv/bin/iptest" />
     <ignored path="venv/bin/iptest3" />
@@ -3418,7 +3418,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Evaluate_List_Energy_FTO.coverage" NAME="Evaluate List Energy FTO Coverage Results" MODIFIED="1554770906289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$cython_setup_tpe_MMAl.coverage" NAME="cython_setup_tpe_MMAl Coverage Results" MODIFIED="1554824416790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$tpe_MMAl.coverage" NAME="tpe_MMAl Coverage Results" MODIFIED="1569865419060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$tpe_MMAl.coverage" NAME="tpe_MMAl Coverage Results" MODIFIED="1575430818718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Fawzi_pycharm_project.coverage" NAME="Fawzi_pycharm_project Coverage Results" MODIFIED="1554757698237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Jupyter.coverage" NAME="Jupyter Coverage Results" MODIFIED="1575134264823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Pattern_Analysis.coverage" NAME="Pattern_Analysis Coverage Results" MODIFIED="1554756825722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -3442,8 +3442,8 @@
       <file leaf-file-name="DataImporting.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataImporting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+            <state relative-caret-position="792">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -3451,8 +3451,8 @@
       <file leaf-file-name="tpe_EnergyFunctions.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="720">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -3460,17 +3460,20 @@
       <file leaf-file-name="DataProcessing.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="1800">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tpe_MMAl.py" pinned="true" current-in-tab="false">
+      <file leaf-file-name="tpe_MMAl.py" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="-69">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -3478,29 +3481,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyvenv.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyvenv.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
+            <state relative-caret-position="2394">
               <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interactiveshell.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11376">
-              <caret line="702" column="19" selection-start-line="702" selection-start-column="19" selection-end-line="702" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -3535,18 +3520,18 @@
       <list>
         <option value="$PROJECT_DIR$/Chain creator eval.py" />
         <option value="$PROJECT_DIR$/Evaluate List Energy.py" />
-        <option value="$PROJECT_DIR$/DataImporting.py" />
         <option value="$PROJECT_DIR$/cython_setup_tpe_MMAl.py" />
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/full_DataImporting.py" />
         <option value="$PROJECT_DIR$/DataProcessing.py" />
         <option value="$PROJECT_DIR$/tpe_EnergyFunctions.py" />
-        <option value="$PROJECT_DIR$/tpe_MMAl.py" />
         <option value="$PROJECT_DIR$/BMRB.py" />
         <option value="$PROJECT_DIR$/Pattern_Analysis_1.py" />
         <option value="$PROJECT_DIR$/Evaluate List Energy FTO.py" />
         <option value="$PROJECT_DIR$/Pattern_Analysis.py" />
         <option value="$PROJECT_DIR$/Test.ipynb" />
+        <option value="$PROJECT_DIR$/DataImporting.py" />
+        <option value="$PROJECT_DIR$/tpe_MMAl.py" />
       </list>
     </option>
   </component>
@@ -3561,7 +3546,7 @@
       <path value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
@@ -3613,7 +3598,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.Jupyter">
+  <component name="RunManager" selected="Python.tpe_MMAl">
     <configuration name="Fawzi_pycharm_project" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3773,10 +3758,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tpe_MMAl" />
         <item itemvalue="Python.Pattern_Analysis_Correct_Run" />
         <item itemvalue="Python.Pattern_Analysis" />
         <item itemvalue="Python.BMRB" />
-        <item itemvalue="Python.tpe_MMAl" />
         <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
@@ -3848,7 +3833,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575133577157</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2019-12-3-21:32">
+      <created>1575426812339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575426812339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3861,11 +3853,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.24964234" side_tool="true" weight="0.32848486" />
-      <window_info active="true" anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" visible="true" weight="0.32916668" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32900944" />
       <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.7503576" weight="0.32848486" />
@@ -3892,25 +3885,25 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3443396" />
-      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
-      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39976415" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3963,10 +3956,91 @@
     <MESSAGE value="2019-10-14-12:27" />
     <MESSAGE value="2019-10-14-15:00" />
     <MESSAGE value="2019-11-30-12:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-11-30-12:00" />
+    <MESSAGE value="2019-12-3-21:32" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-12-3-21:32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_EnergyFunctions.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tpe_MMAl.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -3974,13 +4048,28 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="NAME" />
+        <watch expression="iterations" />
+        <watch expression="temp" />
+        <watch expression="i" />
+        <watch expression="energy_list" />
+        <watch expression="list_for_expected" />
+        <watch expression="list_for_prime" />
+        <watch expression="count_temp" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>int(iterations*((math.log(1/temp, exponent))**-1))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataImporting.py">
@@ -4165,51 +4254,13 @@
     <entry file="file://$PROJECT_DIR$/slurm-3834579.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/glob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4222,15 +4273,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11376">
+        <state relative-caret-position="18">
           <caret line="702" column="19" selection-start-line="702" selection-start-column="19" selection-end-line="702" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
+        <state relative-caret-position="2394">
           <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

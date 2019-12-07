@@ -69,6 +69,9 @@ def main(iterations, temp, exponent, energy_if_false, peak_list, residue_list, c
         print('number of iterations: {}'.format(count))
         if should_save_to_file: fh.write('number of iterations: {}\n'.format(count))
 
+        print('final temperature: {}'.format(temp))
+        if should_save_to_file: fh.write('final temperature: {}'.format(temp))
+
         print('og index list:', [x for x in og_index_list])
         if should_save_to_file: fh.write('og index list: {}\n'.format([x for x in og_index_list]))
 
