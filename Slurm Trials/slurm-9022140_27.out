@@ -1,0 +1,10 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 9022167
+##  Job Name : will_it_run?
+##  Nodelist : node1127
+##      CPUs : 1
+##  Mem/Node : 1024 MB
+## Directory : /gpfs/data/nfawzi/skale/Fawzi_pycharm_project
+##   Started : Sat Nov 30 12:58:12 EST 2019
+###############################################################################
+slurmstepd: error: *** JOB 9022167 ON node1127 CANCELLED AT 2019-11-30T12:58:39 ***

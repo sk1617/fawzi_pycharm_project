@@ -1,22 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Pattern_Analysis.py" line="151" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="2019-12-6-20:08">
-      <change afterPath="$PROJECT_DIR$/archived_code/results_from_cooling_schedule_optimization.ipynb" afterDir="false" />
+    <list default="true" id="4062e68d-2261-48e5-9f37-bdf561972df2" name="Default" comment="2019-12-11-14:42 with unversioned files">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/MMAl.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-3834579.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-3834589.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-3834595.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_100.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_101.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_102.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_103.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_104.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_17.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_18.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_19.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_20.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_21.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_22.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_23.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_24.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_26.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_27.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_28.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_29.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_30.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_31.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_32.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_33.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_34.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_35.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_36.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_37.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_38.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_39.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_40.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_41.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_42.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_43.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_44.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_45.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_46.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_47.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_48.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_49.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_50.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_51.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_52.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_53.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_54.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_55.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_56.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_57.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_58.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_59.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_60.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_61.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_62.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_63.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_64.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_65.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_66.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_67.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_68.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_69.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_70.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_71.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_72.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_73.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_74.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_75.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_76.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_77.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_78.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_79.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_80.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_81.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_82.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_83.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_84.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_85.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_86.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_87.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_88.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_89.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_90.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_91.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_92.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_93.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_94.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_95.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_96.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_97.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_98.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022140_99.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_100.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_101.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_102.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_103.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_104.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_17.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_18.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_19.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_20.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_21.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_22.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_23.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_24.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_25.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_26.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_27.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_28.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_29.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_30.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_31.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_32.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_33.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_34.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_35.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_36.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_37.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_38.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_39.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_40.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_41.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_42.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_43.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_44.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_45.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_46.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_47.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_48.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_49.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_50.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_51.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_52.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_53.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_54.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_55.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_56.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_57.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_58.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_59.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_60.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_61.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_62.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_63.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_64.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_65.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_66.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_67.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_68.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_69.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_70.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_71.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_72.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_73.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_74.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_75.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_76.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_77.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_78.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_79.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_80.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_81.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_82.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_83.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_84.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_85.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_86.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_87.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_88.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_89.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_90.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_91.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_92.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_93.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_94.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_95.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_96.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_97.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_98.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm-9022252_99.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm_1e7_combined.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slurm Trials/slurm_1e8_combined.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1 copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2 copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exponential.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_evaluator.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2019-12-03T22:18:55.783628.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2019-12-03T22:40:37.144274.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venditti_data_importer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/runxlrd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd-1.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/biffh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/compdoc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/formula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/sheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/timemachine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/xldate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/xlrd/xlsx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMAl.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exponential.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm_1e7_combined.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slurm_1e8_combined.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_MMAl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl_exponential.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl_linear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl_logistic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl_quadratic_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl_quadratic_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Test.ipynb" afterDir="false" />
     </list>
     <ignored path="venv/bin/iptest" />
     <ignored path="venv/bin/iptest3" />
@@ -3429,10 +3668,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Evaluate_List_Energy_FTO.coverage" NAME="Evaluate List Energy FTO Coverage Results" MODIFIED="1554770906289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Pattern_Analysis_Correct_Run.coverage" NAME="Pattern_Analysis_Correct_Run Coverage Results" MODIFIED="1576109633672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$cython_setup_tpe_MMAl.coverage" NAME="cython_setup_tpe_MMAl Coverage Results" MODIFIED="1554824416790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$tpe_MMAl.coverage" NAME="tpe_MMAl Coverage Results" MODIFIED="1575430818718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Fawzi_pycharm_project.coverage" NAME="Fawzi_pycharm_project Coverage Results" MODIFIED="1554757698237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Jupyter.coverage" NAME="Jupyter Coverage Results" MODIFIED="1576091244109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Jupyter.coverage" NAME="Jupyter Coverage Results" MODIFIED="1576108505838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Pattern_Analysis.coverage" NAME="Pattern_Analysis Coverage Results" MODIFIED="1554756825722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -3454,8 +3694,8 @@
       <file leaf-file-name="DataImporting.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataImporting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-927">
+              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -3463,7 +3703,7 @@
       <file leaf-file-name="tpe_EnergyFunctions.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="-1467">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
@@ -3472,8 +3712,8 @@
       <file leaf-file-name="DataProcessing.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="243">
+              <caret line="43" column="76" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="76" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -3484,7 +3724,7 @@
       <file leaf-file-name="tpe_MMAl.py" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="509">
               <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -3496,17 +3736,56 @@
       <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+            <state relative-caret-position="311">
+              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+              <folding>
+                <element signature="e#5303#5606#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/re.py">
+      <file leaf-file-name="list_evaluator.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+            <state relative-caret-position="181">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="venditti_data_importer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venditti_data_importer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="venditti_assignment.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venditti_assignment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -3524,12 +3803,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>None</find>
-      <find>P :</find>
+      <find />
       <find>mode:</find>
       <find>HNCO</find>
       <find>hnco</find>
       <find>temp</find>
       <find>hi</find>
+      <find>peakNum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3549,10 +3829,12 @@
         <option value="$PROJECT_DIR$/BMRB.py" />
         <option value="$PROJECT_DIR$/Pattern_Analysis_1.py" />
         <option value="$PROJECT_DIR$/Evaluate List Energy FTO.py" />
-        <option value="$PROJECT_DIR$/Pattern_Analysis.py" />
         <option value="$PROJECT_DIR$/DataImporting.py" />
         <option value="$PROJECT_DIR$/tpe_MMAl.py" />
         <option value="$PROJECT_DIR$/Test.ipynb" />
+        <option value="$PROJECT_DIR$/Pattern_Analysis.py" />
+        <option value="$PROJECT_DIR$/archived_code/venditti_data_importer.py" />
+        <option value="$PROJECT_DIR$/venditti_data_importer.py" />
       </list>
     </option>
   </component>
@@ -3567,7 +3849,7 @@
       <path value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="11" />
     <option name="y" value="71" />
     <option name="width" value="1440" />
@@ -3605,6 +3887,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/archived_code" />
       <recent name="$PROJECT_DIR$/Full 2np4 peak list" />
     </key>
@@ -3621,7 +3904,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tpe_MMAl">
+  <component name="RunManager" selected="Python.Pattern_Analysis_Correct_Run">
     <configuration name="Fawzi_pycharm_project" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="Fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3781,8 +4064,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tpe_MMAl" />
         <item itemvalue="Python.Pattern_Analysis_Correct_Run" />
+        <item itemvalue="Python.tpe_MMAl" />
         <item itemvalue="Python.Pattern_Analysis" />
         <item itemvalue="Python.BMRB" />
         <item itemvalue="Python.Test" />
@@ -3870,10 +4153,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575680914492</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2019-12-11-14:42">
+      <created>1576093382168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576093382168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -3883,27 +4173,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="71" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32969698" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.24964234" side_tool="true" weight="0.3275218" />
-      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="6" side_tool="true" weight="0.32916668" />
+      <window_info anchor="right" x="0" y="0" width="430" height="810" id="Documentation" order="6" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.7503576" weight="0.3275218" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.39975095" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.7503576" weight="0.3272727" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.31614786" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32876712" />
       <window_info anchor="right" id="Remote Host" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24027778" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18229167" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.3298611" />
       <window_info anchor="bottom" x="0" y="46" width="1920" height="987" id="Find" order="7" type="WINDOWED" weight="0.3275218" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39976415" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.36673152" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
@@ -3915,25 +4205,25 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3443396" />
-      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
-      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39976415" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="6" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" x="0" y="66" width="1440" height="790" id="SciView" order="2" type="WINDOWED" weight="0.3298611" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32938075" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3988,7 +4278,9 @@
     <MESSAGE value="2019-11-30-12:00" />
     <MESSAGE value="2019-12-3-21:32" />
     <MESSAGE value="2019-12-6-20:08" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-12-6-20:08" />
+    <MESSAGE value="2019-12-11-14:42" />
+    <MESSAGE value="2019-12-11-14:42 with unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-12-11-14:42 with unversioned files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4068,6 +4360,11 @@
           <line>101</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pattern_Analysis.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -4079,7 +4376,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -4090,57 +4387,58 @@
         <watch expression="list_for_expected" />
         <watch expression="list_for_prime" />
         <watch expression="count_temp" />
+        <watch expression="assignment_list" />
+        <watch expression="temp_df" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>int(iterations*((math.log(1/temp, exponent))**-1))</expression-string>
+        <expression-string>max(assignment_list)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>max((assignment_frequency_array[1]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>st.mean((assignment_frequency_array[1]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>min(assignment_frequency_array[1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>max(assignment_frequency_array[1])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>assignment_frequency_array[1][3]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3276">
-          <caret line="188" column="48" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern_Analysis_1.py" />
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3384">
@@ -4221,13 +4519,6 @@
     <entry file="file://$PROJECT_DIR$/archived_code/Useful code.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BMRB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis_1.py" />
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis_1.py" />
     <entry file="file://$PROJECT_DIR$/slurm-4102660_11.out" />
@@ -4265,47 +4556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -4333,13 +4583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archived_code/results_from_cooling_schedule_optimization.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -4347,10 +4590,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="178" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1788940814/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5346">
+          <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1788940814/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="10665" column="8" selection-start-line="10665" selection-start-column="8" selection-end-line="10665" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-927">
+          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1467">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BMRB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pypy/lib-python/3/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="832" column="8" selection-start-line="832" selection-start-column="8" selection-end-line="832" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venditti_assignment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venditti_data_importer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+        <state relative-caret-position="311">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+          <folding>
+            <element signature="e#5303#5606#0" />
+          </folding>
         </state>
       </provider>
     </entry>

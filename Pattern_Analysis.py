@@ -6,7 +6,7 @@ from DataProcessing import *
 from DataImporting import sequence_list
 peak_list, residue_list = main_data_processing()
 
-acceptance_threshold = 0.25
+acceptance_threshold = .20
 should_print_unassigned_lists = False
 should_print_peak_data = True
 
@@ -32,8 +32,9 @@ for count in range(1):
         filename_list.append(filename_str)
         for line in file:
             # selects the correct line
-            if 'index list' in line and not 'og index list' in line and not 'energy' in line:
+            if 'index list' in line and 'og index list' not in line and 'energy' not in line:
                 # finds [ and ] in str to made
+                # TODO: replace w/ regex
                 start_index = line.index('[') + 1
                 end_index = line.index(']')
                 line_list_str = line[start_index:end_index]
@@ -60,7 +61,7 @@ for count in range(1):
     # Makes numpy array, table, and makes pandas dataframe, data
     table = np.array(uninitialized_table)
     table_inverted = table.T
-    data = pd.DataFrame(table)
+
 
     # DATA PROCESSING
     # mode table
@@ -68,8 +69,13 @@ for count in range(1):
     mode_list = list()
     unassigned_positions = list()
 
+
+
+    # Sorting data into mode list and into data dataframe
     for i, assignment_list in enumerate(table_inverted):
         assignment_list = list(assignment_list)
+
+        # PREVIOUS
         try:
             mode = int(st.mode(assignment_list))
             count = assignment_list.count(mode)
@@ -77,7 +83,7 @@ for count in range(1):
             count = 0
         # only adds to mode list if more than threshold % of assignments agree
         if count/count_of_assignments > acceptance_threshold:
-            mode_list_full.append(mode)
+            mode_list_full.append((mode, count))
             mode_list.append(mode)
         # advanced case for Prolines and unassigned
         else:
@@ -90,11 +96,64 @@ for count in range(1):
                 temporary_list.append(trosy_h_shift)
             # must add exception if the number of total Null peaks > threshold
             if temporary_list.count(None)/count_of_assignments > acceptance_threshold:
-                mode_list_full.append(None)
+                mode_list_full.append((None, temporary_list.count(None)))
                 mode_list.append(None)
             else:
                 mode_list_full.append(assignment_list)
                 mode_list.append('NA')
+
+
+    # NEW (Adding to "data" dataframe)
+    data = pd.DataFrame(columns=['residue number', 'amino acid', 'mode', 'freq',
+                                 'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime'])
+
+    # 1. Add rows to data DataFrame
+    for i, line in enumerate(mode_list_full):
+        residue_number = i + 1
+        amino_acid = sequence_list[i]
+
+        # find mode and freq
+        if type(line) == tuple:
+            mode = line[0]
+            freq = round(line[1]/count_of_assignments, 4)
+        elif type(line) == list:
+            try:
+                mode = st.mode(line)
+                freq = round(line.count(mode)/count_of_assignments, 4)
+            except st.StatisticsError:
+                mode = 'could not find mode'
+                freq = 'NA'
+
+        # find other data
+        if type(mode) == int:
+            peak = peak_list[mode]
+            assert mode == peak.get_data('peakNumber')
+            n_shift = peak.get_data('TROSYNShift')
+            h_shift = peak.get_data('TROSYHShift')
+            ca_shift = peak.get_data('CAShift')
+            ca_prime_shift = peak.get_data('CAPrimeShift')
+            cb_shift = peak.get_data('CBShift')
+            cb_prime_shift = peak.get_data('CBPrimeShift')
+        else:
+            n_shift = None
+            h_shift = None
+            ca_shift = None
+            ca_prime_shift = None
+            cb_shift = None
+            cb_prime_shift = None
+
+        temp_df = pd.DataFrame([[residue_number, amino_acid, mode, freq,
+                                 n_shift, h_shift, ca_shift, ca_prime_shift, cb_shift, cb_prime_shift]],
+                               columns=['residue number', 'amino acid', 'mode', 'freq',
+                                        'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime'])
+        data = data.append(temp_df, ignore_index=True)
+
+
+    print(data.head())
+
+
+
+
 
     # DATA ANALYSIS
     sequence_list = sequence_list
@@ -123,16 +182,19 @@ for count in range(1):
 
     for i, line in enumerate(mode_list_full):
         # if successful assignment
-        if type(line) == int:
-            print(sequence_list[i], ':', line)
+        if type(line) == tuple:
+            print(sequence_list[i], ':', 'mode:', line[0],
+                          'count:{} ({}%)'.format(line[1], round(100 * line[1]/count_of_assignments, 5)))
+
         # if not successful and not None
         elif type(line) == list:
             try:
                 if should_print_unassigned_lists:
                     print(sequence_list[i], ':', line, 'mode:', st.mode(line), 'count:', line.count(st.mode(line)))
                 else:
-                    print(sequence_list[i], ':', 'mode:', st.mode(line), 'count:{} ({})'.format(line.count(st.mode(line)),
-                                                                        line.count(st.mode(line))/count_of_assignments))
+                    print(sequence_list[i], ':', 'mode:', st.mode(line),
+                          'count:{} ({}%)'.format(line.count(st.mode(line)),
+                                                  round(100 * line.count(st.mode(line))/count_of_assignments, 5)))
             except st.StatisticsError:
                 if should_print_unassigned_lists:
                     print(sequence_list[i], ':', line.sort())
@@ -142,3 +204,6 @@ for count in range(1):
         else:
             print(sequence_list[i], ':', line)
     print('DONE\n\n')
+
+
+
