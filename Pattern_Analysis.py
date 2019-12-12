@@ -2,10 +2,11 @@ import glob
 import pandas as pd
 import numpy as np
 import statistics as st
+import matplotlib.pyplot as plt
 from DataProcessing import *
-import plotly.graph_objects as go
 from DataImporting import sequence_list
 from venditti_data_importer import venditti_assignment
+# fig = plt.figure()
 peak_list, residue_list = main_data_processing()
 
 acceptance_threshold = .20
@@ -168,6 +169,7 @@ for random_index in range(1):
         data = data.append(temp_df, ignore_index=True)
 
     # Data visualization
+
 
 
 
