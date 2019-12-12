@@ -3,15 +3,19 @@ import pandas as pd
 import numpy as np
 import statistics as st
 from DataProcessing import *
+import plotly.graph_objects as go
 from DataImporting import sequence_list
+from venditti_data_importer import venditti_assignment
 peak_list, residue_list = main_data_processing()
 
 acceptance_threshold = .20
 should_print_unassigned_lists = False
 should_print_peak_data = True
+should_export_to_excel = True
+
 
 # if you want to analyze multiple test conditions, add them here.
-for count in range(1):
+for random_index in range(1):
     # DATA INGESTION
     uninitialized_table = list()
     time_taken_list = list()
@@ -102,21 +106,31 @@ for count in range(1):
                 mode_list_full.append(assignment_list)
                 mode_list.append('NA')
 
+    # which peaks appear twice in mode_list
+    duplicated_assignments = []
+    for i in range(0, len(sequence_list)):
+        if mode_list.count(i) > 1:
+            duplicated_assignments.append(i)
+
 
     # NEW (Adding to "data" dataframe)
     data = pd.DataFrame(columns=['residue number', 'amino acid', 'mode', 'freq',
-                                 'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime'])
+                                 'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime', 'duplicated?', 'venditti assignment'])
 
     # 1. Add rows to data DataFrame
+    # proline_index_list = [i for i, ltr in enumerate(sequence_list) if ltr == 'P']
     for i, line in enumerate(mode_list_full):
         residue_number = i + 1
         amino_acid = sequence_list[i]
 
         # find mode and freq
-        if type(line) == tuple:
+        if amino_acid == 'P':
+            mode = None
+            freq = 0
+        elif type(line) is tuple:
             mode = line[0]
             freq = round(line[1]/count_of_assignments, 4)
-        elif type(line) == list:
+        elif type(line) is list:
             try:
                 mode = st.mode(line)
                 freq = round(line.count(mode)/count_of_assignments, 4)
@@ -134,6 +148,7 @@ for count in range(1):
             ca_prime_shift = peak.get_data('CAPrimeShift')
             cb_shift = peak.get_data('CBShift')
             cb_prime_shift = peak.get_data('CBPrimeShift')
+            duplicated = True if mode in duplicated_assignments else False
         else:
             n_shift = None
             h_shift = None
@@ -141,16 +156,18 @@ for count in range(1):
             ca_prime_shift = None
             cb_shift = None
             cb_prime_shift = None
+            duplicated = False
+
+        venditti = venditti_assignment[i]
+
 
         temp_df = pd.DataFrame([[residue_number, amino_acid, mode, freq,
-                                 n_shift, h_shift, ca_shift, ca_prime_shift, cb_shift, cb_prime_shift]],
+                                 n_shift, h_shift, ca_shift, ca_prime_shift, cb_shift, cb_prime_shift, duplicated, venditti]],
                                columns=['residue number', 'amino acid', 'mode', 'freq',
-                                        'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime'])
+                                        'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime', 'duplicated?', 'venditti assignment'])
         data = data.append(temp_df, ignore_index=True)
 
-
-    print(data.head())
-
+    # Data visualization
 
 
 
@@ -161,12 +178,6 @@ for count in range(1):
 
     # figure out how many non-Null peaks there should be
     count_non_null_peaks = len(sequence_list) - sequence_list.count('P')
-
-    # which peaks appear twice in mode_list
-    duplicated_assignments = []
-    for i in range(0, len_index_list):
-        if mode_list.count(i) > 1:
-            duplicated_assignments.append(i)
 
     # which peaks do not appear
     not_assigned = []
@@ -205,5 +216,4 @@ for count in range(1):
             print(sequence_list[i], ':', line)
     print('DONE\n\n')
 
-
-
+    if should_export_to_excel: data.to_csv('/Volumes/Transcend/Fawzi_pycharm_project/data.csv')
