@@ -6,13 +6,12 @@ import matplotlib.pyplot as plt
 from DataProcessing import *
 from DataImporting import sequence_list
 from venditti_data_importer import venditti_assignment
-# fig = plt.figure()
 peak_list, residue_list = main_data_processing()
 
 acceptance_threshold = .20
 should_print_unassigned_lists = False
 should_print_peak_data = True
-should_export_to_excel = True
+should_export_to_excel = False
 
 
 # if you want to analyze multiple test conditions, add them here.
@@ -29,6 +28,8 @@ for random_index in range(1):
 
     NAME = ["Slurm Trials/slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
            ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
+
+    # NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
 
     for filename_str in NAME:
         # imports each file
@@ -170,10 +171,6 @@ for random_index in range(1):
 
     # Data visualization
 
-
-
-
-
     # DATA ANALYSIS
     sequence_list = sequence_list
     len_index_list = len(sequence_list)
@@ -218,4 +215,4 @@ for random_index in range(1):
             print(sequence_list[i], ':', line)
     print('DONE\n\n')
 
-    if should_export_to_excel: data.to_csv('/Volumes/Transcend/Fawzi_pycharm_project/data.csv')
+    if should_export_to_excel: data.to_csv('/Volumes/Transcend/Fawzi_pycharm_project/data_long.csv')
