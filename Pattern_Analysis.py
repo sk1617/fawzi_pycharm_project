@@ -30,7 +30,9 @@ for random_index in range(1):
     # NAME = ["Slurm Trials/slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
     #        ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
 
-    NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
+    # NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
+
+    NAME = ["Slurm Trials/NOESY_80.out"]
 
     for filename_str in NAME:
         # imports each file
@@ -38,40 +40,7 @@ for random_index in range(1):
         file = open(filename_str, 'r')
         filename_list.append(filename_str)
         for line in file:
-            # selects the correct line
-            if 'index list' in line and 'og index list' not in line and 'energy' not in line:
-                # finds [ and ] in str to made
-                # TODO: replace w/ regex
-                start_index = line.index('[') + 1
-                end_index = line.index(']')
-                line_list_str = line[start_index:end_index]
-                # makes IL with ints
-                index_list = line_list_str.split(',')
-                index_list = [int(x) for x in index_list]
-                # asserts there are no repeats in IL
-                assert len(index_list) == len(set(index_list))
-
-            if 'time taken (sec):' in line:
-                start_index = line.index(':') + 2
-                time_taken_str = line[start_index:]
-                time_taken = float(time_taken_str)
-                time_taken_list.append(time_taken)
-            if 'index list energy:' in line and not 'og' in line:
-                start_index = line.index(':') + 2
-                final_energy_str = line[start_index:]
-                final_energy = float(final_energy_str)
-                final_energy_list.append(final_energy)
-                if should_take_best_10:
-                    if final_energy > 1597672.:
-                        final_energy_list.pop()
-                        time_taken_list.pop()
-                    else:
-                        uninitialized_table.append(index_list)
-                        count_of_assignments += 1
-                else:
-                    uninitialized_table.append(index_list)
-                    count_of_assignments += 1
-
+            pass
 
 
     assert len(uninitialized_table) > 0
