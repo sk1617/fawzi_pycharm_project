@@ -11,7 +11,8 @@ peak_list, residue_list = main_data_processing()
 acceptance_threshold = .20
 should_print_unassigned_lists = False
 should_print_peak_data = True
-should_export_to_excel = False
+should_export_to_excel = True
+should_take_best_10 = False
 
 
 # if you want to analyze multiple test conditions, add them here.
@@ -26,10 +27,10 @@ for random_index in range(1):
     # glob.glob returns a list of paths that match filename NAME.
     # add all files for each test condition
 
-    NAME = ["Slurm Trials/slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
-           ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
+    # NAME = ["Slurm Trials/slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
+    #        ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
 
-    # NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
+    NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
 
     for filename_str in NAME:
         # imports each file
@@ -49,8 +50,7 @@ for random_index in range(1):
                 index_list = [int(x) for x in index_list]
                 # asserts there are no repeats in IL
                 assert len(index_list) == len(set(index_list))
-                uninitialized_table.append(index_list)
-                count_of_assignments += 1
+
             if 'time taken (sec):' in line:
                 start_index = line.index(':') + 2
                 time_taken_str = line[start_index:]
@@ -61,6 +61,18 @@ for random_index in range(1):
                 final_energy_str = line[start_index:]
                 final_energy = float(final_energy_str)
                 final_energy_list.append(final_energy)
+                if should_take_best_10:
+                    if final_energy > 1597672.:
+                        final_energy_list.pop()
+                        time_taken_list.pop()
+                    else:
+                        uninitialized_table.append(index_list)
+                        count_of_assignments += 1
+                else:
+                    uninitialized_table.append(index_list)
+                    count_of_assignments += 1
+
+
 
     assert len(uninitialized_table) > 0
 
