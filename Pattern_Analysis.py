@@ -87,10 +87,11 @@ for random_index in range(1):
         # print(time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy)
 
     # Makes numpy array, table, and makes pandas dataframe, data
-    assignment_table_ = np.array(initial_data['index_list'])
-    print(len(assignment_table_))
-    assignment_table = assignment_table_.transpose()
-    print(len(assignment_table))
+    assignment_table = np.array([])
+    for i, j in enumerate(initial_data['index_list']):
+        assignment_table = np.concatenate((assignment_table, np.array(j)))
+    assignment_table.resize((len(initial_data['index_list']), len(sequence_list)))
+    assignment_table = assignment_table.transpose()
 
     # DATA PROCESSING
     # mode table
@@ -116,7 +117,7 @@ for random_index in range(1):
         else:
             temporary_list = list()
             for assignment in assignment_list:
-                peak = peak_list[assignment]
+                peak = peak_list[int(assignment)]
                 peak_number = peak.get_data('peakNumber')
                 trosy_h_shift = peak.get_data('TROSYHShift')
                 assert assignment == peak_number
