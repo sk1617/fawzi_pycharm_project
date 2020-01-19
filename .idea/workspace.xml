@@ -1,20 +1,797 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92a246c4-cd48-49d6-8122-c384c3fed39f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Jinja2-2.10.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Jinja2-2.10.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/MarkupSafe-1.1.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Pygments-2.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Pygments-2.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Send2Trash-1.5.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Send2Trash-1.5.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/appnope-0.1.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/appnope-0.1.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/attrs-19.3.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/attrs-19.3.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bleach-3.1.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bleach-3.1.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/bleach/_vendor/html5lib-1.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/decorator-4.4.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/defusedxml-0.6.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/defusedxml-0.6.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/entrypoints-0.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/entrypoints-0.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/importlib_metadata-0.23.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/importlib_metadata-0.23.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipykernel-5.1.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipykernel-5.1.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipython-5.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipython-5.0.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipython_genutils-0.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipython_genutils-0.2.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipywidgets-7.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ipywidgets-7.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jdcal-1.4.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jdcal-1.4.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jsonschema-3.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jsonschema-3.2.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter-1.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter-1.0.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_client-5.3.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_client-5.3.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_console-6.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_console-6.0.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_console-6.0.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_console-6.0.0.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_core-4.6.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/jupyter_core-4.6.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/mistune-0.8.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/mistune-0.8.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/more_itertools-7.2.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/more_itertools-7.2.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/nbconvert-5.6.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/nbconvert-5.6.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/nbformat-4.4.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/nbformat-4.4.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/notebook-6.0.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/notebook-6.0.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pexpect-4.7.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pexpect-4.7.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pickleshare-0.7.5.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pickleshare-0.7.5.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/prompt_toolkit-1.0.18.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/prompt_toolkit-1.0.18.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ptyprocess-0.6.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/ptyprocess-0.6.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pyzmq-18.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/pyzmq-18.1.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/qtconsole-4.6.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/qtconsole-4.6.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/terminado-0.8.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/terminado-0.8.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/terminado/tests/basic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/terminado/tests/basic_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/testpath-0.4.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/testpath-0.4.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/traitlets-4.3.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/traitlets-4.3.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/wcwidth-0.1.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/wcwidth-0.1.7.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/webencodings-0.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/webencodings-0.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/widgetsnbextension-3.5.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/widgetsnbextension-3.5.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/zipp-0.6.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/zipp-0.6.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/share/jupyter/nbextensions/plotlywidget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/share/jupyter/nbextensions/plotlywidget/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$tpe_MMAl.coverage" NAME="tpe_MMAl Coverage Results" MODIFIED="1579384442398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Fawzi_pycharm_project.coverage" NAME="Fawzi_pycharm_project Coverage Results" MODIFIED="1579191907241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Pattern_Analysis.coverage" NAME="Pattern_Analysis Coverage Results" MODIFIED="1579204133413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="slurm-9199622_80.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pattern_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1065">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpe_EnergyFunctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="196" column="62" selection-start-line="196" selection-start-column="45" selection-end-line="196" selection-end-column="62" />
+              <folding>
+                <element signature="e#1865#2734#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataImporting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataImporting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpe_MMAl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1394">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tpe_MMAl_logistic copy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1746">
+              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hncacb copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncacb copy.list">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DataProcessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="318" column="18" selection-start-line="318" selection-start-column="18" selection-end-line="318" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HNCA_50.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slurm Trials/HNCA_50.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Normal.out" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Slurm Trials/Normal.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>should_save</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out" />
+        <option value="$PROJECT_DIR$/BMRB.py" />
+        <option value="$PROJECT_DIR$/pattern_analysis_working.ipynb" />
+        <option value="$PROJECT_DIR$/DataImporting.py" />
+        <option value="$PROJECT_DIR$/tpe_MMAl.py" />
+        <option value="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" />
+        <option value="$PROJECT_DIR$/Pattern_Analysis.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery-ui-1.12.1/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fawzi_pycharm_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fawzi_pycharm_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fawzi_pycharm_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fawzi_pycharm_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Slurm Trials" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="chain_C&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tpe_MMAl">
+    <configuration name="Fawzi_pycharm_project" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8889" />
+    </configuration>
+    <configuration name="Pattern_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pattern_Analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tpe_MMAl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tpe_MMAl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.Fawzi_pycharm_project" />
+      <item itemvalue="Python.Pattern_Analysis" />
+      <item itemvalue="Python.tpe_MMAl" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tpe_MMAl" />
+        <item itemvalue="Python.Pattern_Analysis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92a246c4-cd48-49d6-8122-c384c3fed39f" name="Default" comment="" />
+      <created>1578018945879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578018945879</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2020-01-16-11:23AM">
+      <created>1579191825139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579191825139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2020-01-18-16:55">
+      <created>1579384546141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579384546141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.35185185" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32671958" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32936507" />
+      <window_info anchor="right" id="Remote Host" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19236112" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" weight="0.3263889" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.5118306" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16597222" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.4074074" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="5" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-01-16-11:23AM" />
+    <MESSAGE value="2020-01-18-16:55" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-01-18-16:55" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>len(initial_data['index_list'][0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>len(assignment_table.transpose())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>assignment_table.transpose()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(initial_data['index_list'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>initial_data['index_list']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(assignment_table)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47844">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52668">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BMRB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47844">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52668">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="138" column="38" lean-forward="true" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47844">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52668">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47844">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52668">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47844">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52668">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="173" column="40" lean-forward="true" selection-start-line="173" selection-start-column="40" selection-end-line="173" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47016">
+          <caret line="2658" selection-start-line="2658" selection-end-line="2658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13464">
+          <caret line="748" column="4" selection-start-line="748" selection-start-column="4" selection-end-line="748" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50994">
+          <caret line="2926" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BMRB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern_analysis_working.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full_DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50184">
+          <caret line="2837" column="4" selection-start-line="2837" selection-start-column="4" selection-end-line="2837" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_31.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1394">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archived_code/MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/AA sequence.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hnco copy.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="273" column="52" lean-forward="true" selection-start-line="273" selection-start-column="52" selection-end-line="273" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncacb copy.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_80.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="196" column="62" selection-start-line="196" selection-start-column="45" selection-end-line="196" selection-end-column="62" />
+          <folding>
+            <element signature="e#1865#2734#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="318" column="18" selection-start-line="318" selection-start-column="18" selection-end-line="318" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/HNCA_50.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/Normal.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

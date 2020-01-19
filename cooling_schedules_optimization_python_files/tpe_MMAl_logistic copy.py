@@ -109,7 +109,7 @@ def swap_evaluator(a_list, b_list, index_list, new_index_list, temp, peak_list, 
 
 # @profile
 def  chain_creator(index_list, peak_list, a):
-    # 120 is probably a good cutoff
+    # 120 is probably a good cutoff Ca c'est quoi?? J'ai oublié
     # forwards
     f = 0
     r = 0

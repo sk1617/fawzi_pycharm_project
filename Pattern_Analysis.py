@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import statistics as st
 import matplotlib.pyplot as plt
+import re
 from DataProcessing import *
 from DataImporting import sequence_list
 from venditti_data_importer import venditti_assignment
@@ -18,12 +19,11 @@ should_take_best_10 = False
 # if you want to analyze multiple test conditions, add them here.
 for random_index in range(1):
     # DATA INGESTION
-    uninitialized_table = list()
     time_taken_list = list()
     final_energy_list = list()
     filename_list = list()
     count_of_assignments = 0
-    # extracts index list
+
     # glob.glob returns a list of paths that match filename NAME.
     # add all files for each test condition
 
@@ -32,54 +32,65 @@ for random_index in range(1):
 
     NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
 
+
+    set_iterations, initial_temperature, exponent, eif = None, None, None, None
+    time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy = \
+        None, None, None, None, None, None, None
+
+    initial_data = pd.DataFrame(columns=['set_iterations', 'time_taken', 'completed_iterations', 'final_temp',
+                                         'og_index_list', 'og_energy', 'index_list', 'final_energy'])
+
     for filename_str in NAME:
         # imports each file
         # filename = [i[0] for i in glob.glob(filename_str)]
         file = open(filename_str, 'r')
         filename_list.append(filename_str)
-        for line in file:
-            # selects the correct line
-            if 'index list' in line and 'og index list' not in line and 'energy' not in line:
-                # finds [ and ] in str to made
-                # TODO: replace w/ regex
-                start_index = line.index('[') + 1
-                end_index = line.index(']')
-                line_list_str = line[start_index:end_index]
-                # makes IL with ints
-                index_list = line_list_str.split(',')
-                index_list = [int(x) for x in index_list]
-                # asserts there are no repeats in IL
-                assert len(index_list) == len(set(index_list))
 
-            if 'time taken (sec):' in line:
-                start_index = line.index(':') + 2
-                time_taken_str = line[start_index:]
-                time_taken = float(time_taken_str)
+        for line in file.readlines():
+            if "Done" in line:
+                count_of_assignments += 1
+                df_temp = pd.DataFrame([[set_iterations, time_taken, completed_iterations,
+                                         final_temp, og_index_list, og_energy,
+                                         index_list, final_energy]],
+                                       columns=['set_iterations', 'time_taken', 'completed_iterations',
+                                                'final_temp', 'og_index_list', 'og_energy',
+                                                'index_list', 'final_energy'])
+                initial_data = initial_data.append(df_temp, ignore_index=True)
+
+                set_iterations, initial_temperature, exponent, eif = None, None, None, None
+                time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy = \
+                    None, None, None, None, None, None, None
+
+            elif 'exponent:' in line:
+                set_iterations = int(re.search(r" \d* ", line)[0][1:-1])
+            elif 'time taken (sec)' in line:
+                time_taken = float(re.search(r"\d*\.\d*", line)[0])
                 time_taken_list.append(time_taken)
-            if 'index list energy:' in line and not 'og' in line:
-                start_index = line.index(':') + 2
-                final_energy_str = line[start_index:]
-                final_energy = float(final_energy_str)
-                final_energy_list.append(final_energy)
-                if should_take_best_10:
-                    if final_energy > 1597672.:
-                        final_energy_list.pop()
-                        time_taken_list.pop()
-                    else:
-                        uninitialized_table.append(index_list)
-                        count_of_assignments += 1
-                else:
-                    uninitialized_table.append(index_list)
-                    count_of_assignments += 1
+            elif 'number of iterations' in line:
+                completed_iterations = int(re.search(r"[0-9].*", line)[0])
+            elif 'final temperature' in line:
+                final_temp = float(re.search(r"\d*\.\d*", line)[0])
+                final_energy_list.append(final_temp)
+            elif 'og index list:' in line:
+                og_index_list = list()
+                [og_index_list.append(int(x)) for x in line[line.index('[') + 1:line.index(']')].split(', ')]
+            elif 'og index list energy:' in line:
+                og_energy = float(re.search(r"\d*\.\d*", line)[0])
+            elif 'index list:' in line:
+                index_list = list()
+                [index_list.append(int(x)) for x in line[line.index('[') + 1:line.index(']')].split(', ')]
+            elif 'index list energy:' in line:
+                final_energy = float(re.search(r"\d*\.\d*", line)[0])
 
-
-
-    assert len(uninitialized_table) > 0
+        # print(initial_data.head())
+        # print(time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy)
 
     # Makes numpy array, table, and makes pandas dataframe, data
-    table = np.array(uninitialized_table)
-    table_inverted = table.T
-
+    assignment_table = np.array([])
+    for i, j in enumerate(initial_data['index_list']):
+        assignment_table = np.concatenate((assignment_table, np.array(j)))
+    assignment_table.resize((len(initial_data['index_list']), len(sequence_list)))
+    assignment_table = assignment_table.transpose()
 
     # DATA PROCESSING
     # mode table
@@ -87,12 +98,10 @@ for random_index in range(1):
     mode_list = list()
     unassigned_positions = list()
 
-
-
     # Sorting data into mode list and into data dataframe
-    for i, assignment_list in enumerate(table_inverted):
+    for i, assignment_list in enumerate(assignment_table):
         assignment_list = list(assignment_list)
-
+        # print(assignment_list)
         # PREVIOUS
         try:
             mode = int(st.mode(assignment_list))
@@ -107,7 +116,7 @@ for random_index in range(1):
         else:
             temporary_list = list()
             for assignment in assignment_list:
-                peak = peak_list[assignment]
+                peak = peak_list[int(assignment)]
                 peak_number = peak.get_data('peakNumber')
                 trosy_h_shift = peak.get_data('TROSYHShift')
                 assert assignment == peak_number
@@ -174,7 +183,6 @@ for random_index in range(1):
 
         venditti = venditti_assignment[i]
 
-
         temp_df = pd.DataFrame([[residue_number, amino_acid, mode, freq,
                                  n_shift, h_shift, ca_shift, ca_prime_shift, cb_shift, cb_prime_shift, duplicated, venditti]],
                                columns=['residue number', 'amino acid', 'mode', 'freq',
@@ -206,7 +214,7 @@ for random_index in range(1):
         # if successful assignment
         if type(line) == tuple:
             print(sequence_list[i], ':', 'mode:', line[0],
-                          'count:{} ({}%)'.format(line[1], round(100 * line[1]/count_of_assignments, 5)))
+                  'count:{} ({}%)'.format(line[1], round(100 * line[1]/count_of_assignments, 5)))
 
         # if not successful and not None
         elif type(line) == list:
