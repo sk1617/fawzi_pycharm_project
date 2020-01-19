@@ -32,7 +32,6 @@ for random_index in range(1):
 
     NAME = ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)]
 
-    # NAME = ["Slurm Trials/slurm-9199622_80.out"]
 
     set_iterations, initial_temperature, exponent, eif = None, None, None, None
     time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy = \
