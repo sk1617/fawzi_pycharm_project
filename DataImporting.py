@@ -20,7 +20,7 @@ aa_p_d = 30
 bb_p_d_delta = .15
 bb_p_d_sn_factor = .316
 bb_p_d_sub = 0
-bb_p_d = 20
+bb_p_d = 40
 
 bmrb = 1.5
 a_bmrb_sn_factor = .186
@@ -45,7 +45,8 @@ def sn_factor_formula(sn):
     return .22 * (sn ** .5)
 
 
-iterations = 5e9
+# iterations = 5e9
+iterations = .9e9
 temp = 1e6
 exponent = .9
 

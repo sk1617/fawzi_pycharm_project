@@ -151,7 +151,7 @@ def  chain_creator(index_list, peak_list, a):
     return r, f
 
 
-date = dt.datetime.now() + dt.timedelta(hours=119, minutes=50)
+date = dt.datetime.now() + dt.timedelta(hours=47, minutes=50)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -183,6 +183,3 @@ if __name__ == '__main__':
 
 # TODO: Fix proline problem
 # TODO: Fix CO/CO' problem
-# TODO: Look at best energy fit
-
-
