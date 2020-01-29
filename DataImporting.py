@@ -12,25 +12,27 @@ def returns_number():
 
 energy_if_false = 300.
 
-aa_p_d_delta = .15
+aa_p_d_delta = .05
 aa_p_d_sn_factor = .186
 aa_p_d_sub = 0
 aa_p_d = 30
 
-bb_p_d_delta = .15
+bb_p_d_delta = .05
 bb_p_d_sn_factor = .316
 bb_p_d_sub = 0
-bb_p_d = 40
+bb_p_d = 30
 
 bmrb = 1.5
+# bmrb = 3.0
 a_bmrb_sn_factor = .186
 b_bmrb_sn_factor = .316
 
 noesy_perfect_match_threshold = .02
 npmt_penatly = 0.1
-noesy_semi_perfect_match_threshold = .05
-nspmt_penalty = 600.
 n_no_match_penalty = 1200.
+n_no_match_penalty = 600.
+n_no_match_penalty = 300.
+n_no_match_penalty = 0.1
 
 # @profile
 def dist_factor_forumla(dist):
@@ -46,7 +48,7 @@ def sn_factor_formula(sn):
 
 
 # iterations = 5e9
-iterations = .9e9
+iterations = .5e9
 temp = 1e6
 exponent = .9
 

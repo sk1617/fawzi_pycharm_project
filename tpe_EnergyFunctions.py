@@ -159,15 +159,12 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
 
     if ca_delta > CA_BMRB_SD and cb_delta > CB_BMRB_SD:
         sub_energy = ((ca_delta - CA_BMRB_SD) * (ca_delta + CA_BMRB_SD) * \
-                      (cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) * \
-                     bmrb
+                      (cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) * bmrb
 
     elif ca_delta < CA_BMRB_SD and cb_delta > CB_BMRB_SD:
-        sub_energy = ((cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) ** 2 * \
-                     bmrb
+        sub_energy = ((cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) ** 2 * bmrb
     elif ca_delta > CA_BMRB_SD and cb_delta < CB_BMRB_SD:
-        sub_energy = ((ca_delta - CA_BMRB_SD) * (ca_delta + CA_BMRB_SD)) ** 2 * \
-                     bmrb
+        sub_energy = ((ca_delta - CA_BMRB_SD) * (ca_delta + CA_BMRB_SD)) ** 2 * bmrb
     elif ca_delta < CA_BMRB_SD and cb_delta < CB_BMRB_SD:
         sub_energy = 0.1
 
@@ -237,8 +234,6 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
         SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
         if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
             subWeight = npmt_penatly * dist_factor * SN_factor
-        elif NOESY_TROSY_H_diff < noesy_semi_perfect_match_threshold:
-            subWeight = nspmt_penalty * dist_factor * SN_factor
         else:
             subWeight = n_no_match_penalty * dist_factor * SN_factor
 
