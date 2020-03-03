@@ -233,7 +233,7 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
         dist_factor = dist_factor_forumla(closeby_dist)
         SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
         if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
-            subWeight = npmt_penatly * dist_factor * SN_factor
+            subWeight = npmt_penatly
         else:
             subWeight = n_no_match_penalty * dist_factor * SN_factor
 

@@ -28,9 +28,11 @@ for random_index in range(1):
     # add all files for each test condition
 
     NAME = ["Slurm Trials/slurm-4102660_{}.out".format(str(x)) for x in range(1, 17)] + \
-           ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)]
+           ["Slurm Trials/slurm-4109433_{}.out".format(str(x)) for x in range(17, 201)] + \
+           ["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1, 81)]
 
-    NAME.append(["Slurm Trials/slurm-9199622_{}.out".format(str(x)) for x in range(1,81)])
+    # NAME = ["40:30.out", "40:30_2.out"]
+
 
 
     set_iterations, initial_temperature, exponent, eif = None, None, None, None
@@ -83,4 +85,29 @@ for random_index in range(1):
                 final_energy = float(re.search(r"\d*\.\d*", line)[0])
 
     print(initial_data.head())
-        # print(time_taken, completed_iterations, final_temp, og_index_list, og_energy, index_list, final_energy)
+
+    initial_data = initial_data.sort_values(by='final_energy')
+    if False:
+        for j, index_list in enumerate(best_list):
+            data = pd.DataFrame(columns=['residue number', 'amino acid', 'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime', ])
+            for i, pai in enumerate(index_list):
+                residue_number = i + 1
+                amino_acid = sequence_list[i]
+
+                peak = peak_list[pai]
+                assert pai == peak.get_data('peakNumber')
+                n_shift = peak.get_data('TROSYNShift')
+                h_shift = peak.get_data('TROSYHShift')
+                ca_shift = peak.get_data('CAShift')
+                ca_prime_shift = peak.get_data('CAPrimeShift')
+                cb_shift = peak.get_data('CBShift')
+                cb_prime_shift = peak.get_data('CBPrimeShift')
+
+                temp_df = pd.DataFrame([[residue_number, amino_acid,
+                                         n_shift, h_shift, ca_shift, ca_prime_shift, cb_shift, cb_prime_shift]],
+
+                                       columns=['residue number', 'amino acid',
+                                                'N', 'H', 'CA', 'CAPrime', 'CB', 'CBPrime', ])
+                data = data.append(temp_df, ignore_index=True)
+            print(data.head())
+            data.to_csv('/Volumes/Transcend/Fawzi_pycharm_project/data_{}.csv'.format('40:30'))

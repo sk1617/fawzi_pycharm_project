@@ -29,7 +29,7 @@ b_bmrb_sn_factor = .316
 
 noesy_perfect_match_threshold = .02
 npmt_penatly = 0.1
-n_no_match_penalty = 1200.
+n_no_match_penalty = 264.
 n_no_match_penalty = 600.
 n_no_match_penalty = 300.
 n_no_match_penalty = 0.1
@@ -44,7 +44,7 @@ def dist_factor_forumla(dist):
         return .5
 # @profile
 def sn_factor_formula(sn):
-    return .22 * (sn ** .5)
+    return (sn ** .5)
 
 
 # iterations = 5e9

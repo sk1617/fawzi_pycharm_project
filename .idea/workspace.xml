@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3110aa-bdd0-48e6-b6db-73f79fc8de70" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/matching_information.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matching_information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30:30.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/35:30.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40:30.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40:30_2.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_0.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_30:30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_30:30.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_35:30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_35:30.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_40:30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_40:30.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_control.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_control.numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_evaluator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/list_evaluator.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tpe_EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_EnergyFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_MMAl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,57 +43,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Fawzi_pycharm_project.coverage" NAME="Fawzi_pycharm_project Coverage Results" MODIFIED="1580088088926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$Fawzi_pycharm_project.coverage" NAME="Fawzi_pycharm_project Coverage Results" MODIFIED="1583206778004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tpe_MMAl.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <element signature="e#2293#3541#0" />
-                <element signature="e#3758#4302#0" />
-                <element signature="e#4365#5891#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tpe_EnergyFunctions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3175">
-              <caret line="235" column="62" selection-start-line="235" selection-start-column="62" selection-end-line="235" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataImporting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataImporting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1003">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_evaluator.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+    <leaf>
+      <file leaf-file-name="matching_information.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matching_information.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="8" />
+              <selected id="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hnca copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hnca copy.list">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hncoca copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncoca copy.list">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="hncocacb copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncocacb copy.list">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="hncacb copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncacb copy.list">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="hnco copy.list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTO_peaklists/hnco copy.list">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="frame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5184">
+              <caret line="396" column="8" selection-start-line="396" selection-start-column="8" selection-end-line="396" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51552">
+              <caret line="2864" column="8" selection-start-line="2864" selection-start-column="8" selection-end-line="2864" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/generic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="3077" column="8" selection-start-line="3077" selection-start-column="8" selection-end-line="3077" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matching_information.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matching_information.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1042">
+              <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+              <folding>
+                <element signature="e#13#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>csv</find>
+      <find>NOESY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,12 +146,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
         <option value="$PROJECT_DIR$/Pattern_Analysis.py" />
-        <option value="$PROJECT_DIR$/list_evaluator.ipynb" />
         <option value="$PROJECT_DIR$/tpe_MMAl.py" />
+        <option value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
         <option value="$PROJECT_DIR$/tpe_EnergyFunctions.py" />
         <option value="$PROJECT_DIR$/DataImporting.py" />
+        <option value="$PROJECT_DIR$/list_evaluator.ipynb" />
+        <option value="$PROJECT_DIR$/matching_information.ipynb" />
+        <option value="$PROJECT_DIR$/matching_information.py" />
       </list>
     </option>
   </component>
@@ -92,7 +166,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
@@ -102,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,20 +183,29 @@
               <item name="Fawzi_pycharm_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fawzi_pycharm_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Fawzi_pycharm_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fawzi_pycharm_project" type="462c0819:PsiDirectoryNode" />
+              <item name="FTO_peaklists" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="energy&#9;FILE&#9;file:///Volumes/Transcend/Fawzi_pycharm_project/tpe_EnergyFunctions.py&#10;dataproc&#9;FILE&#9;file:///Volumes/Transcend/Fawzi_pycharm_project/DataProcessing.py&#10;datapro&#9;FILE&#9;file:///Volumes/Transcend/Fawzi_pycharm_project/DataProcessing.py&#10;bmrb.py&#9;FILE&#9;file:///Volumes/Transcend/Fawzi_pycharm_project/BMRB.py" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/archived_code" />
     </key>
   </component>
@@ -147,7 +229,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -155,7 +237,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
-      <option name="ipnbPort" value="8888" />
+      <option name="ipnbPort" value="8889" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -169,24 +251,32 @@
       <option name="presentableId" value="Default" />
       <updated>1579464792047</updated>
     </task>
+    <task id="LOCAL-00001" summary="2020-1-28-22:17&#10;NOESY and BMRB">
+      <created>1580267899103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580267899103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.07936508" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.41721854" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19339623" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.5763889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -198,6 +288,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19339623" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.41721854" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.5763889" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -205,17 +319,85 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-1-28-22:17&#10;NOESY and BMRB" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-1-28-22:17&#10;NOESY and BMRB" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="100" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89694">
+          <caret line="4983" column="11" selection-start-line="4983" selection-start-column="11" selection-end-line="4983" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="112" column="91" selection-start-line="112" selection-start-column="91" selection-end-line="112" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="175" column="40" lean-forward="true" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4230">
+          <caret line="235" column="62" selection-start-line="235" selection-start-column="62" selection-end-line="235" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <element signature="e#2293#3541#0" />
-            <element signature="e#3758#4302#0" />
-            <element signature="e#4365#5891#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -237,12 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <element signature="e#2293#3541#0" />
-            <element signature="e#3758#4302#0" />
-            <element signature="e#4365#5891#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -302,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pattern_Analysis_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pattern_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4266">
@@ -323,37 +492,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="8" />
+    <entry file="file://$PROJECT_DIR$/tpe_BMRB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataImporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9022140_78.out">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9022140_65.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9022140_81.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9022252_43.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9022252_83.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slurm Trials/slurm-9199622_63.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3175">
-          <caret line="235" column="62" selection-start-line="235" selection-start-column="62" selection-end-line="235" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpe_MMAl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+        <state relative-caret-position="72">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pattern_Analysis_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BMRB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_evaluator.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataImporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="2623" column="19" lean-forward="true" selection-start-line="2623" selection-start-column="19" selection-end-line="2623" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpe_EnergyFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="84" column="106" selection-start-line="196" selection-end-line="197" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/1847598093/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51552">
+          <caret line="2864" column="8" selection-start-line="2864" selection-start-column="8" selection-end-line="2864" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5184">
+          <caret line="396" column="8" selection-start-line="396" selection-start-column="8" selection-end-line="396" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hnco copy.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncacb copy.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncocacb copy.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hncoca copy.list">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTO_peaklists/hnca copy.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="3077" column="8" selection-start-line="3077" selection-start-column="8" selection-end-line="3077" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matching_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <element signature="e#2293#3541#0" />
-            <element signature="e#3758#4302#0" />
-            <element signature="e#4365#5891#0" />
+            <element signature="e#13#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matching_information.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
         </state>
       </provider>
     </entry>
