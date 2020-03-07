@@ -45,7 +45,7 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, max(x), step=.05))
 plt.ylabel('Count')
 plt.title('CAShift Deltas')
-plt.show()
+# plt.show()
 
 # CA Truncated
 z = find_closest(sorted_list('CAShift'), sorted_list('CAPrimeShift'))
@@ -55,7 +55,7 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, .5, step=.05))
 plt.ylabel('Count')
 plt.title('TRUNCATED CAShift Deltas')
-plt.show()
+# plt.show()
 
 # CB Shift
 x = find_closest(sorted_list('CBShift'), sorted_list('CBPrimeShift'))
@@ -64,7 +64,7 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, max(x), step=.2))
 plt.ylabel('Count')
 plt.title('CBShift Deltas')
-plt.show()
+# plt.show()
 
 # CB Shift TRUNCATED
 z = find_closest(sorted_list('CBShift'), sorted_list('CBPrimeShift'))
@@ -75,13 +75,13 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, max(x)+.05, step=.05))
 plt.ylabel('Count')
 plt.title('TRUNCATED CBShift Deltas')
-plt.show()
+# plt.show()
 
 # NOESY List
 NOESY_shift_list = []
 for peak in peak_list:
     [NOESY_shift_list.append(shift) for shift in peak.get_data('NOESYHShift')]
-print(NOESY_shift_list[0:100])
+# print(NOESY_shift_list[0:100])
 
 # H Shift
 x = find_closest(sorted_list('TROSYHShift'), NOESY_shift_list)
@@ -90,8 +90,8 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, max(x), step=.005))
 plt.ylabel('Count')
 plt.title('H Shift (NOESY) Deltas')
-plt.show()
-print(max(x))
+# plt.show()
+# print(max(x))
 
 # H Shift TRUNCATED
 x = [y for y in sorted_delta_list(sorted_list('TROSYHShift')) if y < .1]
@@ -100,7 +100,7 @@ plt.xlabel('Closest Shift Delta (ppm)')
 plt.xticks(np.arange(0, max(x), step=.01))
 plt.ylabel('Count')
 plt.title('H Shift (NOESY) Deltas')
-plt.show()
+# plt.show()
 
 ########################################################################################################################
 
@@ -146,23 +146,30 @@ two_d_dataframe['ClosestCAShift1D'] = closest_ca_list
 two_d_dataframe['ClosestCBShift1D'] = closest_cb_list
 
 closest_2d_list = []
+row_number = []
 for row1 in range(len(two_d_dataframe)):
     ca_shift = two_d_dataframe.loc[row1, "CA"]
     cb_shift = two_d_dataframe.loc[row1, "CB"]
     if np.isnan(ca_shift):
         closest_2d_list.append(None)
+        row_number.append(None)
     elif np.isnan(cb_shift):
         closest_2d_list.append(None)
+        row_number.append(None)
     else:
         ls = []
+        ls1 = []
         for row2 in range(len(two_d_dataframe)):
             ca_prime_shift = two_d_dataframe.loc[row2, "CAPrime"]
             cb_prime_shift = two_d_dataframe.loc[row2, "CBPrime"]
             if not np.isnan(ca_prime_shift) and not np.isnan(cb_prime_shift):
+                ls1.append(row2)
                 ca_delta_squared = (abs(ca_shift - ca_prime_shift)) ** 2
                 cb_delta_squared = (abs(cb_shift - cb_prime_shift)) ** 2
-                ls.append((ca_delta_squared + cb_delta_squared) ** .5)
-        ls.sort()
+                ls.append(((ca_delta_squared + cb_delta_squared)/2) ** .5)
+        ls, ls1 = zip(*sorted(zip(ls, ls1)))
         closest_2d_list.append([round(x, 5) for x in ls[0:5]])
+        row_number.append(ls1[0:5])
 two_d_dataframe['Closest2DShift (ppm)'] = closest_2d_list
+two_d_dataframe['Corresponding peak'] = row_number
 
