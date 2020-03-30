@@ -583,7 +583,7 @@ for i in info_list_exp_20_trials:
 
 
 # showing cacabmrb from new index list
-from tpe_EnergyFunctions import *
+from EnergyFunctions import *
 from tpe_DataImporting import *
 
 index_list = result[1]
@@ -619,7 +619,7 @@ for u, thing in enumerate(it):
         perfect_list.insert(u, w - v)
 
 
-from tpe_EnergyFunctions import *
+from EnergyFunctions import *
 from tpe_DataProcessing import main_data_processing
 import matplotlib.pyplot as plt
 import statistics as st

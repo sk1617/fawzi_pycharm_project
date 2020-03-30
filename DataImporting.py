@@ -1,15 +1,4 @@
-# Beginning part of the sequence list: MGSSHHHHHHSSGLVPRGSHM'
-sequence_list = 'TPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAE' \
-                'IAAACETFLKLNDYLQIETIQALEELAAKEKANEDAVPLCMSADFPRVGMGSSYNGQDEVDIKSRAAYNVTLLNFMDPQKMPYLKEEPYFGMGKMAVSWH' \
-                'HDENLVDRSAVAVYSYSCEGPEEESEDDSHLEGRDPDIWHVGFKISWDIETPGLAIPLHQGDCYFMLDDLNATHQHCVLAGSQPRFSSTHRVAECSTGTL' \
-                'DYILQRCQLALQNVCDDVDNDDVSLKSFEPAVLKQGEEIHNEVEFEWLRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGVTNAVLHEVKREGLPVEQR' \
-                'NEILTAILASLTARQNLRREWHARCQSRIARTLPADQKPECRPYWEKDDASMPLPFDLTDIVSELRGQLLEAKP'
-import random
-
-def returns_number():
-    return random.random()
-
-
+sequence_list = 'MSEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVEQCMRGVRLVEGILHAPDAGWGNLVYVVNYPKD'
 energy_if_false = 300.
 
 aa_p_d_delta = .05
@@ -29,10 +18,10 @@ b_bmrb_sn_factor = .316
 
 noesy_perfect_match_threshold = .02
 npmt_penatly = 0.1
-n_no_match_penalty = 264.
+# n_no_match_penalty = 264.
 n_no_match_penalty = 600.
-n_no_match_penalty = 300.
-n_no_match_penalty = 0.1
+# n_no_match_penalty = 300.
+# n_no_match_penalty = 0.1
 
 # @profile
 def dist_factor_forumla(dist):
@@ -48,7 +37,7 @@ def sn_factor_formula(sn):
 
 
 # iterations = 5e9
-iterations = .5e9
+iterations = 1.1e3
 temp = 1e6
 exponent = .9
 
@@ -58,93 +47,89 @@ should_append_DL = True if iterations <= 1e3 else False
 
 # NMR experiments
 if True:
-    trosy = open('FTO_peaklists/NH_TROSY copy.list')
-    hnca = open('FTO_peaklists/hnca copy.list')
-    hncoca = open('FTO_peaklists/hncoca copy.list')
-    hncocacb = open('FTO_peaklists/hncocacb copy.list')
-    hncacb = open('FTO_peaklists/hncacb copy.list')
-    hnco = open('FTO_peaklists/hnco copy.list')
-    noesy = open('FTO_peaklists/HHN_NOESY_3D copy.list')
+    tr = open('Full 2np4 peak list/TDP1-80-S48E-HSQC copy.txt', 'r')
+    f1 = open('Full 2np4 peak list/TDP1-80-S48E-HNCACB copy.txt', 'r')
+    f2 = open('Full 2np4 peak list/TDP1-80-S48E-CBCACONH copy.txt', 'r')
 
-    ftolist_file = open('FTO_peaklists/HNdistances_FTO.txt')
+    TROSY = []
+    HNCA = []
+    HNCACB = []
+    HNCOCA = []
+    HNCOCACB = []
 
-    TROSY = list()
-    for line in trosy.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        addition = tuple(i[:])
-        TROSY.append(addition)
+    for line in f1.readlines():
+        split = line.split()
+        if len(split) == 0:
+            continue
+        elif split[0][-6:] == 'CB-N-H':
+            split.insert(4, 1.)
+            for i in range(1, 6):
+                split[i] = float(split[i])
+            HNCACB.append(split)
+        elif split[0][-6:] == 'CA-N-H':
+            split.insert(4, 1.)
+            for i in range(1, 6):
+                split[i] = float(split[i])
+            HNCA.append(split)
 
-    HNCA = list()
-    for line in hnca.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        HNCA.append(addition)
+    for line in f2.readlines():
+        split = line.split()
+        if len(split) == 0:
+            continue
+        elif 'CA-' in split[0]:
+            split.insert(4, 1.)
+            for i in range(1, 6):
+                split[i] = float(split[i])
+            HNCOCA.append(split)
 
-    HNCOCA = list()
-    for line in hncoca.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        HNCOCA.append(addition)
+        elif 'CB-' in split[0]:
+            split.insert(4, 1.)
+            for i in range(1, 6):
+                split[i] = float(split[i])
+            HNCOCACB.append(split)
 
-    HNCOCACB = list()
-    for line in hncocacb.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        HNCOCACB.append(addition)
-
-    HNCACB = list()
-    for line in hncacb.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        HNCACB.append(addition)
-
-    HNCO = list()
-    for line in hnco.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        HNCO.append(addition)
-
-    NOESY = list()
-    for line in noesy.readlines():
-        i = line.split()
-        i[1] = float(i[1])
-        i[2] = float(i[2])
-        i[3] = float(i[3])
-        i[4] = float(i[4])
-        i[5] = float(i[5])
-        addition = tuple(i[:])
-        NOESY.append(addition)
+    for line in tr.readlines():
+        split = line.split()
+        if len(split) == 0:
+            continue
+        elif split[0] == 'Assignment':
+            continue
+        else:
+            split.insert(3, 1.)
+            for i in range(1, 5):
+                split[i] = float(split[i])
+            TROSY.append(split)
 
     FTOList = list()
+    ftolist_file = open('Full 2np4 peak list/2n4p distances copy.txt')
     for line in ftolist_file.readlines():
         split = line.split()
-        FTOList.append(split)
+        if float(split[6]) < 6:
+            split[0], split[1] = split[1], split[0]
+            split[3], split[4] = split[4], split[3]
+            split[0] = int(split[0])
+            split[3] = int(split[3])
+            split[6] = float(split[6])
+            FTOList.append(split)
+
+NOESY = []
+for closeby_line in FTOList:
+    pk_num = closeby_line[0]
+    close_pk_num = closeby_line[3]
+    for line1 in TROSY:
+        x = line1[0].index('N')
+        if line1[0][1:x] == str(pk_num):
+            pk_H = line1[2]
+            pk_N = line1[1]
+            break
+
+    for line2 in TROSY:
+        x = line2[0].index('N')
+        if line2[0][1:x] == str(close_pk_num):
+            clpk_H = line2[2]
+            break
+
+    app = ('{}N-NH'.format(pk_num), clpk_H, pk_N, pk_H, 0.0, 20.0)
+    NOESY.append(app)
+
+

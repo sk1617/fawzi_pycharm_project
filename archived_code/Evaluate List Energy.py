@@ -1,5 +1,5 @@
 from tpe_DataProcessing import *
-from tpe_EnergyFunctions import *
+from EnergyFunctions import *
 peak_list, residue_list = main_data_processing()
 import pandas as pd
 
