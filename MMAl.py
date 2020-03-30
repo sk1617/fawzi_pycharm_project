@@ -153,7 +153,7 @@ def chain_creator(index_list, peak_list, a):
 
 
 # HOW LONG DOES THE PROGRAM RUN??? (you can also add a specific time instead of a delta)
-date = dt.datetime.now() + dt.timedelta(hours=106, minutes=58)
+date = dt.datetime.now() + dt.timedelta(hours=11, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -168,7 +168,7 @@ if __name__ == '__main__':
         time_start = dt.datetime.now()
         print('program started at:{}'.format(time_start))
         peak_list, residue_list = main_data_processing()
-        for i in range(2):  # HOW MANY TRIALS SHOULD HAPPEN
+        for i in range(100):  # HOW MANY TRIALS SHOULD HAPPEN
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
 
             print('Done\n\n')

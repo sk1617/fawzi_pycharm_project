@@ -37,7 +37,7 @@ def sn_factor_formula(sn):
 
 
 # iterations = 5e9
-iterations = 1.1e3
+iterations = 1e8
 temp = 1e6
 exponent = .9
 
@@ -47,9 +47,9 @@ should_append_DL = True if iterations <= 1e3 else False
 
 # NMR experiments
 if True:
-    tr = open('Full 2np4 peak list/TDP1-80-S48E-HSQC copy.txt', 'r')
-    f1 = open('Full 2np4 peak list/TDP1-80-S48E-HNCACB copy.txt', 'r')
-    f2 = open('Full 2np4 peak list/TDP1-80-S48E-CBCACONH copy.txt', 'r')
+    tr = open('full_2np4_peak_list/TDP1-80-S48E-HSQC copy.txt', 'r')
+    f1 = open('full_2np4_peak_list/TDP1-80-S48E-HNCACB copy.txt', 'r')
+    f2 = open('full_2np4_peak_list/TDP1-80-S48E-CBCACONH copy.txt', 'r')
 
     TROSY = []
     HNCA = []
@@ -101,7 +101,7 @@ if True:
             TROSY.append(split)
 
     FTOList = list()
-    ftolist_file = open('Full 2np4 peak list/2n4p distances copy.txt')
+    ftolist_file = open('full_2np4_peak_list/2n4p distances copy.txt')
     for line in ftolist_file.readlines():
         split = line.split()
         if float(split[6]) < 6:

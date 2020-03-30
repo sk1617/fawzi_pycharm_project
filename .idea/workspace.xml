@@ -19,33 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-07-18:53">
+    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-29 Pushing Ailin to CCV">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/2n4p distances.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/2n4p distances.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-CBCACONH.list" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-CBCACONH.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCACB.list" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCACB.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCACO.list" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCACO.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HNCO.list" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HNCO.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p peak list/TDP1-80-S48E-HSQC.list" beforeDir="false" afterPath="$PROJECT_DIR$/2n4p peak list/TDP1-80-S48E-HSQC.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archived_code/Chain creator eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Chain creator eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archived_code/Evaluate List Energy FTO.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Evaluate List Energy FTO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archived_code/Evaluate List Energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Evaluate List Energy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archived_code/Useful code.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Useful code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_exponential.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_linear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_logistic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1 copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1 copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2 copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2 copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooling_schedules_optimization_python_files/tpe_MMAl_quadratic_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/tpe_DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpe_MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMAl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p distances copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-CBCACONH copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-HNCACB copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-HSQC copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/2n4p distances_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMAl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +152,7 @@
       <workItem from="1583767225229" duration="1231000" />
       <workItem from="1584546316230" duration="598000" />
       <workItem from="1585165484381" duration="5589000" />
-      <workItem from="1585504213715" duration="7240000" />
+      <workItem from="1585504213715" duration="8263000" />
     </task>
     <task id="LOCAL-00001" summary="2020-03-07-18:53">
       <created>1583625225616</created>
@@ -173,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583625225617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020-03-29 Pushing Ailin to CCV">
+      <created>1585529788002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585529788003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,46 +198,49 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-03-07-18:53" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-03-07-18:53" />
+    <MESSAGE value="2020-03-29 Pushing Ailin to CCV" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-03-29 Pushing Ailin to CCV" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="44" key="CommitChangelistDialog2" timestamp="1583625199159">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="399" y="71" key="CommitChangelistDialog2" timestamp="1585529787546">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="299" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583625199159" />
-    <state x="0" y="22" width="1920" height="1057" key="DiffContextDialog" timestamp="1585181269996">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="399" y="71" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1585529787546" />
+    <state x="0" y="43" width="1920" height="1057" key="DiffContextDialog" timestamp="1585529748587">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
+    <state x="0" y="43" key="DiffContextDialog/0.23.1920.978@0.23.1920.978" timestamp="1585529748587" />
     <state x="0" y="22" width="1920" height="1057" key="DiffContextDialog/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585181269996" />
     <state x="0" y="22" width="1920" height="1057" key="DiffContextDialog/270.1103.1440.798/0.0.1920.1080@0.0.1920.1080" timestamp="1585177163844" />
     <state x="508" y="212" key="FileChooserDialogImpl" timestamp="1583548310965">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="212" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583548310965" />
-    <state width="1920" height="132" key="GridCell.Tab.0.bottom" timestamp="1585529680073">
+    <state width="1453" height="183" key="GridCell.Tab.0.bottom" timestamp="1585530949229">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583642668603" />
     <state width="790" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583549812521" />
-    <state width="1920" height="132" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585529680073" />
-    <state width="1920" height="132" key="GridCell.Tab.0.center" timestamp="1585529680072">
+    <state width="1453" height="183" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585530949229" />
+    <state width="1453" height="183" key="GridCell.Tab.0.center" timestamp="1585530949228">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583642668601" />
     <state width="790" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583549812519" />
-    <state width="1920" height="132" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585529680072" />
-    <state width="1920" height="132" key="GridCell.Tab.0.left" timestamp="1585529680072">
+    <state width="1453" height="183" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585530949228" />
+    <state width="1453" height="183" key="GridCell.Tab.0.left" timestamp="1585530949227">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583642668600" />
     <state width="790" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583549812518" />
-    <state width="1920" height="132" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585529680072" />
-    <state width="1920" height="132" key="GridCell.Tab.0.right" timestamp="1585529680073">
+    <state width="1453" height="183" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585530949227" />
+    <state width="1453" height="183" key="GridCell.Tab.0.right" timestamp="1585530949229">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583642668602" />
     <state width="790" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583549812520" />
-    <state width="1920" height="132" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585529680073" />
+    <state width="1453" height="183" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585530949229" />
     <state width="1698" height="334" key="GridCell.Tab.1.bottom" timestamp="1585517404236">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
@@ -277,13 +275,13 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="325" y="289" width="603" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585513635590" />
-    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup" timestamp="1585529454635">
+    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup" timestamp="1585530461895">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup/0.23.1920.978@0.23.1920.978" timestamp="1585529454635" />
+    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup/0.23.1920.978@0.23.1920.978" timestamp="1585530461895" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585176128919" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1585529680063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1585530949210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
