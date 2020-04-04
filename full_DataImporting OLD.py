@@ -1,55 +1,53 @@
 sequence_list = 'MSEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVEQCMRGVRLVEGILHAPDAGWGNLVYVVNYPKD'
+import random
+
+# ENERGY FUNCTION VARIABLES
 energy_if_false = 300.
 
-aa_p_d_delta = .05
+aa_p_d_delta = .15
 aa_p_d_sn_factor = .186
 aa_p_d_sub = 0
 aa_p_d = 30
 
-bb_p_d_delta = .05
+bb_p_d_delta = .15
 bb_p_d_sn_factor = .316
 bb_p_d_sub = 0
-bb_p_d = 30
+bb_p_d = 20
 
 bmrb = 1.5
-# bmrb = 3.0
 a_bmrb_sn_factor = .186
 b_bmrb_sn_factor = .316
 
 noesy_perfect_match_threshold = .02
 npmt_penatly = 0.1
-# n_no_match_penalty = 264.
-n_no_match_penalty = 600.
-# n_no_match_penalty = 300.
-# n_no_match_penalty = 0.1
+# Need to justify why I have this middle tier
+noesy_semi_perfect_match_threshold = .05
+nspmt_penalty = 600.
+n_no_match_penalty = 1200.
 
-# @profile
-def dist_factor_forumla(dist):
-    if dist < 3:
-        return 2.8
-    elif dist >= 3 and dist < 7:
-        return 25/(dist ** 2)
-    elif dist >= 7:
-        return .5
-# @profile
-def sn_factor_formula(sn):
-    return (sn ** .5)
+# ANNEALING SCHEDULE VARIABLES
+# Current
+iterations = 1e6
+temp = 1e3
+exponent = .7
+# Eponential
+# Logistic
+    # going for 1/2*(initial_temp) @ 1/2*(iterations)
+    # 0 < a < 1; a * initial temp = y intercept; basically how steep the curve is
+a_variable_for_y_intercept = 0.04
+# Linear
+# Quadratic 1
+# Quadratic 2
 
-
-# iterations = 5e9
-iterations = 1e8
-temp = 1e6
-exponent = .9
 
 iterations = int(iterations)
 should_append_DL = True if iterations <= 1e3 else False
 
-
 # NMR experiments
 if True:
-    tr = open('full_2np4_peak_list/TDP1-80-S48E-HSQC copy.txt', 'r')
-    f1 = open('full_2np4_peak_list/TDP1-80-S48E-HNCACB copy.txt', 'r')
-    f2 = open('full_2np4_peak_list/TDP1-80-S48E-CBCACONH copy.txt', 'r')
+    tr = open('Full 2np4 peak list/TDP1-80-S48E-HSQC copy.txt', 'r')
+    f1 = open('Full 2np4 peak list/TDP1-80-S48E-HNCACB copy.txt', 'r')
+    f2 = open('Full 2np4 peak list/TDP1-80-S48E-CBCACONH copy.txt', 'r')
 
     TROSY = []
     HNCA = []
@@ -101,7 +99,7 @@ if True:
             TROSY.append(split)
 
     FTOList = list()
-    ftolist_file = open('full_2np4_peak_list/2n4p distances copy.txt')
+    ftolist_file = open('Full 2np4 peak list/2n4p distances copy.txt')
     for line in ftolist_file.readlines():
         split = line.split()
         if float(split[6]) < 6:
@@ -133,3 +131,17 @@ for closeby_line in FTOList:
     NOESY.append(app)
 
 
+# @profile
+def dist_factor_forumla(dist):
+    if dist < 3:
+        return 2.8
+    elif dist >= 3 and dist < 7:
+        return 25/(dist ** 2)
+    elif dist >= 7:
+        return .5
+# @profile
+def sn_factor_formula(sn):
+    return .22 * (sn ** .5)
+
+def returns_number():
+    return random.random()

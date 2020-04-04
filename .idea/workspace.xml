@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-29 Pushing Ailin to CCV">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/2n4p distances copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-CBCACONH copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-HNCACB copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/TDP1-80-S48E-HSQC copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/2n4p distances_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMAl.py" afterDir="false" />
-    </list>
+    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-29 Testing Ailin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +137,7 @@
       <workItem from="1583767225229" duration="1231000" />
       <workItem from="1584546316230" duration="598000" />
       <workItem from="1585165484381" duration="5589000" />
-      <workItem from="1585504213715" duration="8263000" />
+      <workItem from="1585504213715" duration="8527000" />
     </task>
     <task id="LOCAL-00001" summary="2020-03-07-18:53">
       <created>1583625225616</created>
@@ -168,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585529788003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2020-03-29 Testing Ailin">
+      <created>1585531360709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585531360709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,14 +191,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-03-07-18:53" />
     <MESSAGE value="2020-03-29 Pushing Ailin to CCV" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-03-29 Pushing Ailin to CCV" />
+    <MESSAGE value="2020-03-29 Testing Ailin" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-03-29 Testing Ailin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="71" key="CommitChangelistDialog2" timestamp="1585529787546">
+    <state x="0" y="23" width="1920" height="977" key="CommitChangelistDialog2" timestamp="1585531360329">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="299" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583625199159" />
-    <state x="399" y="71" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1585529787546" />
+    <state x="0" y="23" width="1920" height="977" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1585531360329" />
     <state x="0" y="43" width="1920" height="1057" key="DiffContextDialog" timestamp="1585529748587">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
@@ -217,30 +210,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="212" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583548310965" />
-    <state width="1453" height="183" key="GridCell.Tab.0.bottom" timestamp="1585530949229">
+    <state width="1453" height="322" key="GridCell.Tab.0.bottom" timestamp="1585531534404">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583642668603" />
     <state width="790" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583549812521" />
-    <state width="1453" height="183" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585530949229" />
-    <state width="1453" height="183" key="GridCell.Tab.0.center" timestamp="1585530949228">
+    <state width="1453" height="322" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
+    <state width="1453" height="322" key="GridCell.Tab.0.center" timestamp="1585531534403">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583642668601" />
     <state width="790" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583549812519" />
-    <state width="1453" height="183" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585530949228" />
-    <state width="1453" height="183" key="GridCell.Tab.0.left" timestamp="1585530949227">
+    <state width="1453" height="322" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
+    <state width="1453" height="322" key="GridCell.Tab.0.left" timestamp="1585531534403">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583642668600" />
     <state width="790" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583549812518" />
-    <state width="1453" height="183" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585530949227" />
-    <state width="1453" height="183" key="GridCell.Tab.0.right" timestamp="1585530949229">
+    <state width="1453" height="322" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
+    <state width="1453" height="322" key="GridCell.Tab.0.right" timestamp="1585531534404">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="91" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583642668602" />
     <state width="790" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583549812520" />
-    <state width="1453" height="183" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585530949229" />
+    <state width="1453" height="322" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
     <state width="1698" height="334" key="GridCell.Tab.1.bottom" timestamp="1585517404236">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
@@ -265,6 +258,10 @@
     <state x="535" y="138" key="SettingsEditor/0.23.1920.978@0.23.1920.978" timestamp="1585529009727" />
     <state x="63" y="30" key="SettingsEditor/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585176228755" />
     <state x="535" y="147" key="SettingsEditor/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585513697929" />
+    <state x="334" y="210" key="Vcs.Push.Dialog.v2" timestamp="1585531377500">
+      <screen x="0" y="23" width="1920" height="978" />
+    </state>
+    <state x="334" y="210" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1585531377500" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585234674216">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
