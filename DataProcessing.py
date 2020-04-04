@@ -1,7 +1,7 @@
 from itertools import chain
 import random
 from DataImporting import *
-from tpe_EnergyFunctions import *
+from EnergyFunctions import *
 # defining the peak_list first cuz it needs to be global
 # peak_list is a list of instances of class Peaks, where each instance represents a peak from TROSY data
 

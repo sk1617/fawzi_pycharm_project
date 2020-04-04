@@ -1,4 +1,4 @@
-from tpe_EnergyFunctions import *
+from EnergyFunctions import *
 from DataProcessing import *
 from full_DataImporting import *
 import random

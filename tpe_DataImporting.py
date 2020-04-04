@@ -50,14 +50,14 @@ should_append_DL = True if iterations <= 1e3 else False
 
 # NMR experiments
 if True:
-    trosy = open('Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt')
-    hnca = open('Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt')
-    hncoca = open('Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt')
-    hncocacb = open('Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt')
-    hncacb = open('Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt')
-    noesy = open('Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt')
+    trosy = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HSQC_tpe.txt')
+    hnca = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCA_tpe.txt')
+    hncoca = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCA_tpe.txt')
+    hncocacb = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCOCACB_tpe.txt')
+    hncacb = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-HNCACB_tpe.txt')
+    noesy = open('Full 2np4 peak list/Test 2n4p peak list/TDP1-80-S48E-NOESY_tpe.txt')
 
-    ftolist_file = open('Test 2n4p peak list/2n4p distances_tpe.txt')
+    ftolist_file = open('Full 2np4 peak list/Test 2n4p peak list/2n4p distances_tpe.txt')
 
     TROSY = list()
     for line in trosy.readlines():

@@ -1,5 +1,5 @@
-from tpe_MMAl import *
-from tpe_EnergyFunctions import *
+from MMAl import *
+from EnergyFunctions import *
 from tpe_DataProcessing import main_data_processing
 import matplotlib.pyplot as plt
 import statistics as st
