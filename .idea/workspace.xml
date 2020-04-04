@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-29 Testing Ailin" />
+    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-03-29 Testing Ailin">
+      <change afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_nrg_functions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_nrg_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_analysis_graphs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs_from_p_a.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matching_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/matching_information.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +36,13 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$BMRB.coverage" NAME="BMRB Coverage Results" MODIFIED="1583542556171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,8 +63,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Jupyter" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,7 +85,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MMAl">
+  <component name="RunManager" selected="Python.matching_information">
     <configuration name="BMRB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,8 +130,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matching_information" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matching_information.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.matching_information" />
         <item itemvalue="Python.MMAl" />
         <item itemvalue="Python.BMRB" />
       </list>
@@ -138,6 +180,10 @@
       <workItem from="1584546316230" duration="598000" />
       <workItem from="1585165484381" duration="5589000" />
       <workItem from="1585504213715" duration="8527000" />
+      <workItem from="1585969184484" duration="3496000" />
+      <workItem from="1586016369295" duration="434000" />
+      <workItem from="1586016931394" duration="342000" />
+      <workItem from="1586017479115" duration="8011000" />
     </task>
     <task id="LOCAL-00001" summary="2020-03-07-18:53">
       <created>1583625225616</created>
@@ -210,28 +256,28 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="212" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583548310965" />
-    <state width="1453" height="322" key="GridCell.Tab.0.bottom" timestamp="1585531534404">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1440" height="239" key="GridCell.Tab.0.bottom" timestamp="1586032128425">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="91" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583642668603" />
+    <state width="1440" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586032128425" />
     <state width="790" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583549812521" />
     <state width="1453" height="322" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
-    <state width="1453" height="322" key="GridCell.Tab.0.center" timestamp="1585531534403">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1440" height="239" key="GridCell.Tab.0.center" timestamp="1586032128423">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="91" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583642668601" />
+    <state width="1440" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586032128423" />
     <state width="790" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583549812519" />
     <state width="1453" height="322" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
-    <state width="1453" height="322" key="GridCell.Tab.0.left" timestamp="1585531534403">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1440" height="239" key="GridCell.Tab.0.left" timestamp="1586032128422">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="91" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583642668600" />
+    <state width="1440" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586032128422" />
     <state width="790" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583549812518" />
     <state width="1453" height="322" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
-    <state width="1453" height="322" key="GridCell.Tab.0.right" timestamp="1585531534404">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1440" height="239" key="GridCell.Tab.0.right" timestamp="1586032128424">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="91" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583642668602" />
+    <state width="1440" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586032128424" />
     <state width="790" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583549812520" />
     <state width="1453" height="322" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
     <state width="1698" height="334" key="GridCell.Tab.1.bottom" timestamp="1585517404236">
@@ -272,13 +318,26 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="325" y="289" width="603" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585513635590" />
-    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup" timestamp="1585530461895">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="469" y="201" width="670" height="565" key="search.everywhere.popup" timestamp="1586034027621">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="469" y="201" width="670" height="565" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586034027621" />
     <state x="625" y="241" width="670" height="613" key="search.everywhere.popup/0.23.1920.978@0.23.1920.978" timestamp="1585530461895" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585176128919" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataImporting.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$matching_information.coverage" NAME="matching_information Coverage Results" MODIFIED="1586018014749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1585530949210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -188,42 +188,37 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
 # @profile
 def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append=False):
 
-    peak = peak_list[pai]
-    residue = residue_list[i]
+    peak = peak_list[pai]  # gets peak
+    residue = residue_list[i]  # gets residue
 
-    closeby_residue_list = residue.get_data('closebyAminoAcids')
-    closeby_residue_list_dist = residue.get_data('closebyAminoAcidsDist')
+    closeby_residue_list = residue.get_data('closebyAminoAcids')  # gets list of closeby residues from residue
+    closeby_residue_list_dist = residue.get_data('closebyAminoAcidsDist')  # gets a list of their distances
 
-    if len(closeby_residue_list) == 0:
+    if len(closeby_residue_list) == 0:  # not used
         return False
 
-    nearby_H_shift_list = peak.get_data('NearbyHShift')
-    nearby_H_shift_list_signal_noise = peak.get_data('NOESYSignalNoise')
+    nearby_H_shift_list = peak.get_data('NearbyHShift')  # gets list of nearby H shifts from peak
+    nearby_H_shift_list_signal_noise = peak.get_data('NOESYSignalNoise')  # gets list of nearby signal noises from peak
 
-    if len(nearby_H_shift_list) == 0:
+    if len(nearby_H_shift_list) == 0:  # not used
         return False
 
     weight = float()
     noesy_trosy_diff_list = []
     subweight_list =[]
 
-    for j, closeby in enumerate(closeby_residue_list):
-        closeby_dist = closeby_residue_list_dist[j]
-        closeby_assignment_peak = peak_list[index_list[closeby - 1]]
+    for j, closeby in enumerate(closeby_residue_list):  # for every close residue
+        closeby_dist = closeby_residue_list_dist[j]  # get its distance
+        closeby_assignment_peak = peak_list[index_list[closeby - 1]]  # get the peak of that closeby residue
 
-        closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')
+        closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')  # get closeby residue's TROSY H shift
 
-        if closeby_peak_H_shift is None:
+        if closeby_peak_H_shift is None:  # no nrg added if that closeby residue is not assigned a peak
             continue
 
-        '''
-        variables so far: residue, peak, closeby_residue_list(&dist) iter: , nearbyHShiftList (& SN) 
-        closebyAAnumber (&index & dist), closebyPeak (&TROSY Hshift)
-        '''
-
-        NOESY_TROSY_H_diff = 5
+        NOESY_TROSY_H_diff = 5  # random number
         index = int()
-        for k, nearby_H_shift in enumerate(nearby_H_shift_list):
+        for k, nearby_H_shift in enumerate(nearby_H_shift_list):  # matches closest residue's H shift to peak's list
             if abs(nearby_H_shift - closeby_peak_H_shift) < NOESY_TROSY_H_diff:
                 NOESY_TROSY_H_diff = abs(nearby_H_shift - closeby_peak_H_shift)
                 index = k
@@ -231,6 +226,13 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
         nearby_H_shift_signal_noise = nearby_H_shift_list_signal_noise[index]
 
         dist_factor = dist_factor_forumla(closeby_dist)
+        # def dist_factor_forumla(dist):
+        #     if dist < 3:
+        #         return 2.8
+        #     elif dist >= 3 and dist < 7:
+        #         return 25/(dist ** 2)
+        #     elif dist >= 7:
+        #         return .5
         SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
         if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
             subWeight = npmt_penatly
