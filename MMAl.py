@@ -121,9 +121,9 @@ def chain_creator(index_list, peak_list, a):
                 break
             ca_ca_prime_diff = CA_CA_prime_diff(i, index_list[i], index_list, peak_list, [])  # gets energy for next pk
             cb_cb_prime_diff = CB_CB_prime_diff(i, index_list[i], index_list, peak_list, [])
-            if ca_ca_prime_diff and cb_cb_prime_diff and ca_ca_prime_diff < 900 and cb_cb_prime_diff < 900:
-                p = ((1 + math.exp(.01 * (ca_ca_prime_diff - 500))) ** -1) * \
-                    ((1 + math.exp(.04 * (cb_cb_prime_diff - 400))) ** -1)
+            sum_energy = ca_ca_prime_diff + cb_cb_prime_diff
+            if sum_energy < 600:
+                p = math.exp(-0.007 * sum_energy)
                 if random.random() < p:
                     f += 1
                 else:
@@ -137,10 +137,9 @@ def chain_creator(index_list, peak_list, a):
                 break
             ca_ca_prime_diff = CA_CA_prime_diff(i, index_list[i], index_list, peak_list, [])
             cb_cb_prime_diff = CB_CB_prime_diff(i, index_list[i], index_list, peak_list, [])
-            if ca_ca_prime_diff and cb_cb_prime_diff and ca_ca_prime_diff < 900 and cb_cb_prime_diff < 900:
-                # TODO: Change this w/ a exponential decay
-                p = ((1 + math.exp(.01 * (ca_ca_prime_diff - 500))) ** -1) * \
-                    ((1 + math.exp(.04 * (cb_cb_prime_diff - 400))) ** -1)
+            sum_energy = ca_ca_prime_diff + cb_cb_prime_diff
+            if sum_energy < 600:
+                p = math.exp(-0.007 * sum_energy)
                 if random.random() < p:
                     r -= 1
                 else:
@@ -153,7 +152,7 @@ def chain_creator(index_list, peak_list, a):
 
 
 # HOW LONG DOES THE PROGRAM RUN??? (you can also add a specific time instead of a delta)
-date = dt.datetime.now() + dt.timedelta(hours=11, minutes=58)
+date = dt.datetime.now() + dt.timedelta(days=5, hours=11, minutes=58)
 if __name__ == '__main__':
     if dt.datetime.now() > date:
         raise Exception('end time before begin time')
@@ -168,7 +167,7 @@ if __name__ == '__main__':
         time_start = dt.datetime.now()
         print('program started at:{}'.format(time_start))
         peak_list, residue_list = main_data_processing()
-        for i in range(100):  # HOW MANY TRIALS SHOULD HAPPEN
+        for i in range(1):  # HOW MANY TRIALS SHOULD HAPPEN
             result = main(int(iterations), temp, exponent, energy_if_false, peak_list, residue_list, create_chain=True)
 
             print('Done\n\n')

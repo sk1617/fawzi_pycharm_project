@@ -5,7 +5,7 @@ def main_energy_function(a, b, old_index_list, new_index_list, peak_list, residu
     old_energy, new_energy = 0.0, 0.0
     energy_list = [old_energy, new_energy]
     for i, index_list in enumerate([old_index_list, new_index_list]):
-        list_for_prime = [min(a) - 1] + [x for x in a] + [min(b) - 1] + [x for x in b] # move this out of the loop
+        list_for_prime = [min(a) - 1] + [x for x in a] + [min(b) - 1] + [x for x in b]  # move this out of the loop
         list_for_expected = [x for x in a] + [x for x in b]
 
         # CA/CA Prime
@@ -67,23 +67,13 @@ def CA_CA_prime_diff(i, peak_assignment_index, index_list, peak_list, Delta_List
         peak = peak_list[peak_assignment_index]
         peak_next = peak_list[index_list[i + 1]]
 
-        CA_prime_shift = peak_next.get_data('CAPrimeShift')
-        CA_prime_signal_noise = peak_next.get_data('HNCOCASignalNoise')
-
         CA_shift = peak.get_data('CAShift')
-        CA_signal_noise = peak.get_data('HNCASignalNoise')
+        CA_prime_shift = peak_next.get_data('CAPrimeShift')
 
         if CA_prime_shift is None or CA_shift is None:
             return False
-        elif abs(CA_shift - CA_prime_shift) < aa_p_d_delta and \
-                CA_prime_signal_noise >= 10 and CA_signal_noise >= 10:
-            if should_append_DL or append:
-                Delta_List.append(('CACAPrime', 0.1, CA_shift - CA_prime_shift))
-            return 0.1
-
         else:
-            w1 = float((aa_p_d_sn_factor * ((CA_signal_noise * CA_prime_signal_noise) ** .5)) - aa_p_d_sub)
-            result_new = w1 * aa_p_d * (CA_shift - CA_prime_shift)**2
+            result_new = aa_p_d * (CA_shift - CA_prime_shift)**2 + 1e-6
             if should_append_DL or append:
                 Delta_List.append(('CACAPrime', result_new, CA_shift - CA_prime_shift))
             return result_new
@@ -98,23 +88,12 @@ def CB_CB_prime_diff(i, pk_ass_ind, index_list, peak_list, Delta_List, append=Fa
         peak_next = peak_list[index_list[i + 1]]
 
         CB_prime_shift = peak_next.get_data('CBPrimeShift')
-        CB_prime_signal_noise = peak_next.get_data('HNCOCACBSignalNoise')
-
         CB_shift = peak.get_data('CBShift')
-        CB_shift_signal_noise = peak.get_data('HNCACBSignalNoise')
 
         if CB_prime_shift is None or CB_shift is None:
             return False
-
-        elif abs(CB_shift - CB_prime_shift) < bb_p_d_delta and \
-                CB_shift_signal_noise >= 10 and CB_prime_signal_noise >= 10:
-            if should_append_DL or append:
-                Delta_List.append(('CBCBPrime', 0.1, CB_shift - CB_prime_shift))
-            return 0.1
-
         else:
-            w1 = float((bb_p_d_sn_factor * ((CB_shift_signal_noise * CB_prime_signal_noise) ** .5)) - bb_p_d_sub)
-            result_new = w1 * bb_p_d * (CB_shift - CB_prime_shift) ** 2
+            result_new = bb_p_d * (CB_shift - CB_prime_shift) ** 2 + 1e-6
             if should_append_DL or append:
                 Delta_List.append(('CBCBPrime', result_new, CB_shift - CB_prime_shift))
             return result_new
@@ -132,41 +111,27 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
     peak = peak_list[peak_assignment_index]
     residue = residue_list[i] if not use_prime_data else residue_list[i - 1]
 
+
     CA_shift = peak.get_data('CAShift') if not use_prime_data else peak.get_data('CAPrimeShift')
     CA_BMRB = residue.get_data('CAExpected')
     CA_BMRB_SD = residue.get_data('CAExpectedSD')
 
     CB_shift = peak.get_data('CBShift') if not use_prime_data else peak.get_data('CBPrimeShift')
+    if residue.get_data('residue_name') == 'G' and CB_shift is not None:
+        return 10000
     CB_BMRB = residue.get_data('CBExpected')
     CB_BMRB_SD = residue.get_data('CBExpectedSD')
 
-    if CA_shift is None and CB_shift is None:
-        sub_energy += energy_if_false * 2
-        ca_delta = 0
-        cb_delta = 0
+    ca_delta = (CA_shift - CA_BMRB)/CA_BMRB_SD if CA_shift else False
+    try:
+        cb_delta = (CB_shift - CB_BMRB)/CB_BMRB_SD if CB_shift else False
+    except ZeroDivisionError:
+        print(CB_shift, CB_BMRB, CA_BMRB_SD, residue.residue_properties, peak.peak_properties)
+        raise ZeroDivisionError
 
-    if CA_shift is None:
-        sub_energy += energy_if_false
-        ca_delta = 0
-    else:
-        ca_delta = abs(CA_shift - CA_BMRB)
-
-    if CB_shift is None:
-        sub_energy += energy_if_false
-        cb_delta = 0
-    else:
-        cb_delta = abs(CB_shift - CB_BMRB)
-
-    if ca_delta > CA_BMRB_SD and cb_delta > CB_BMRB_SD:
-        sub_energy = ((ca_delta - CA_BMRB_SD) * (ca_delta + CA_BMRB_SD) * \
-                      (cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) * bmrb
-
-    elif ca_delta < CA_BMRB_SD and cb_delta > CB_BMRB_SD:
-        sub_energy = ((cb_delta - CB_BMRB_SD) * (cb_delta + CB_BMRB_SD)) ** 2 * bmrb
-    elif ca_delta > CA_BMRB_SD and cb_delta < CB_BMRB_SD:
-        sub_energy = ((ca_delta - CA_BMRB_SD) * (ca_delta + CA_BMRB_SD)) ** 2 * bmrb
-    elif ca_delta < CA_BMRB_SD and cb_delta < CB_BMRB_SD:
-        sub_energy = 0.1
+    ca_energy = bmrb_ca * ca_delta**2 if ca_delta else energy_if_false
+    cb_energy = bmrb_cb * cb_delta**2 if cb_delta else energy_if_false
+    sub_energy = ca_energy + cb_energy + 1e-6
 
     if should_append_DL or append:
         if not use_prime_data:
@@ -190,61 +155,28 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
 
     peak = peak_list[pai]  # gets peak
     residue = residue_list[i]  # gets residue
+    assert i + 1 == residue.get_data('index')
 
     closeby_residue_list = residue.get_data('closebyAminoAcids')  # gets list of closeby residues from residue
-    closeby_residue_list_dist = residue.get_data('closebyAminoAcidsDist')  # gets a list of their distances
-
-    if len(closeby_residue_list) == 0:  # not used
-        return False
-
     nearby_H_shift_list = peak.get_data('NearbyHShift')  # gets list of nearby H shifts from peak
-    nearby_H_shift_list_signal_noise = peak.get_data('NOESYSignalNoise')  # gets list of nearby signal noises from peak
-
-    if len(nearby_H_shift_list) == 0:  # not used
+    if len(closeby_residue_list) == 0:  # used
+        return False
+    if len(nearby_H_shift_list) == 0:  # used
         return False
 
-    weight = float()
-    noesy_trosy_diff_list = []
-    subweight_list =[]
+    closeby_residues_peak_list = [peak_list[index_list[closeby - 1]] for closeby in closeby_residue_list]
+    closeby_residues_peak_h_shift = [peak.get_data('TROSYHShift') for peak in closeby_residues_peak_list if
+                                     peak.get_data('TROSYHShift') is not None]
+    if len(closeby_residues_peak_h_shift) == 0:
+        return False
 
-    for j, closeby in enumerate(closeby_residue_list):  # for every close residue
-        closeby_dist = closeby_residue_list_dist[j]  # get its distance
-        closeby_assignment_peak = peak_list[index_list[closeby - 1]]  # get the peak of that closeby residue
-
-        closeby_peak_H_shift = closeby_assignment_peak.get_data('TROSYHShift')  # get closeby residue's TROSY H shift
-
-        if closeby_peak_H_shift is None:  # no nrg added if that closeby residue is not assigned a peak
-            continue
-
-        NOESY_TROSY_H_diff = 5  # random number
-        index = int()
-        for k, nearby_H_shift in enumerate(nearby_H_shift_list):  # matches closest residue's H shift to peak's list
-            if abs(nearby_H_shift - closeby_peak_H_shift) < NOESY_TROSY_H_diff:
-                NOESY_TROSY_H_diff = abs(nearby_H_shift - closeby_peak_H_shift)
-                index = k
-
-        nearby_H_shift_signal_noise = nearby_H_shift_list_signal_noise[index]
-
-        dist_factor = dist_factor_forumla(closeby_dist)
-        # def dist_factor_forumla(dist):
-        #     if dist < 3:
-        #         return 2.8
-        #     elif dist >= 3 and dist < 7:
-        #         return 25/(dist ** 2)
-        #     elif dist >= 7:
-        #         return .5
-        SN_factor = sn_factor_formula(nearby_H_shift_signal_noise)
-        if NOESY_TROSY_H_diff < noesy_perfect_match_threshold:
-            subWeight = npmt_penatly
-        else:
-            subWeight = n_no_match_penalty * dist_factor * SN_factor
-
-        noesy_trosy_diff_list.append(NOESY_TROSY_H_diff)
-        subweight_list.append(subWeight)
-        weight += subWeight
+    weight = 1e-6
+    for noesy_shift in nearby_H_shift_list:
+        closest_match_delta = min([abs(i - noesy_shift) for i in closeby_residues_peak_h_shift])
+        weight += noesy_weight * closest_match_delta**2
 
     if should_append_DL or append:
-        Delta_List.append(('NOESY', weight, subweight_list, noesy_trosy_diff_list))
+        Delta_List.append(('NOESY', weight, [], []))
     return weight
 
 

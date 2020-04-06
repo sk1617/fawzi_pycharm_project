@@ -18,38 +18,42 @@ energy_if_false = 300.
 # aa_p_d_sub = 0
 aa_p_d = 1875
 
-bb_p_d_delta = .05
-bb_p_d_sn_factor = .316
-bb_p_d_sub = 0
+# bb_p_d_delta = .05
+# bb_p_d_sn_factor = .316
+# bb_p_d_sub = 0
 bb_p_d = 1875
 
-bmrb = 1.5
+# bmrb = 1.5
 # bmrb = 3.0
-a_bmrb_sn_factor = .186
-b_bmrb_sn_factor = .316
+# a_bmrb_sn_factor = .186
+# b_bmrb_sn_factor = .316
+bmrb_ca = 158
+bmrb_cb = 158
 
-noesy_perfect_match_threshold = .02
-npmt_penatly = 0.1
+
+# noesy_perfect_match_threshold = .02
+noesy_weight = 750000
+# npmt_penatly = 0.1
 # n_no_match_penalty = 264.
-n_no_match_penalty = 600.
+# n_no_match_penalty = 600.
 # n_no_match_penalty = 300.
 # n_no_match_penalty = 0.1
 
 # @profile
-def dist_factor_forumla(dist):
-    if dist < 3:
-        return 2.8
-    elif dist >= 3 and dist < 7:
-        return 25/(dist ** 2)
-    elif dist >= 7:
-        return .5
-# @profile
-def sn_factor_formula(sn):
-    return (sn ** .5)
+# def dist_factor_forumla(dist):
+#     if dist < 3:
+#         return 2.8
+#     elif dist >= 3 and dist < 7:
+#         return 25/(dist ** 2)
+#     elif dist >= 7:
+#         return .5
+# # @profile
+# def sn_factor_formula(sn):
+#     return (sn ** .5)
 
 
-# iterations = 5e9
-iterations = .5e9
+iterations = 72000000
+# iterations = 1e4
 temp = 1e6
 exponent = .9
 

@@ -1,0 +1,28 @@
+# Input file for the assignment program MARS
+
+fragSize: 	5   			# Maximum length of pseudoresidue fragments
+cutoffCO: 	0.25			# Connectivity cutoff (ppm) of CO [0.25]
+cutoffCA: 	0.25			# Connectivity cutoff (ppm) of CA [0.5]
+cutoffCB: 	0.25			# Connectivity cutoff (ppm) of CB [0.5]
+cutoffHA: 	0.25			# Connectivity cutoff (ppm) of HA [0.25]
+
+
+fixConn: 	NO  			# Table for fixing sequential connectivity
+fixAss: 	../fix_ass16.tab        # Table for fixing residue type and(or) assignment
+
+
+pdb: 		0   			# 3D structure available [0/1] 
+resolution: 	NO			# Resolution of 3D structure [Angstrom]
+pdbName: 	NO			# Name of PDB file (protons required!)
+tensor: 	NO	   		# Method for obtaining alignment tensor [0/1/2/3/4]
+nIter: 		NO  			# Number of iterations [2/3/4]
+
+dObsExh: 	NO			# Name of RDC table for exhaustive SVD (PALES format)
+dcTab: 		NO			# Name of RDC table (PALES format)
+
+deuterated: 	1 	  		# Protonated proteins [0]; perdeuterated proteins [1]
+sequence: 	../FASTA_FTO.tab 	# Primary sequence (FASTA format)
+secondary: 	../psipred_FTO.tab	# Secondary structure (PSIPRED format)
+csTab: 		../CS17_FTO	        # Chemical shift table
+
+
