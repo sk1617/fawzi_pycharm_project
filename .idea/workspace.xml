@@ -1,169 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="2020-04-04 Before Changing NOESY">
-      <change afterPath="$PROJECT_DIR$/STEIN Physics Problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/CS17_FTO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/FASTA_FTO.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/Cs_expt.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/Cs_pred.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/Cs_pred1.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/SEQuence1L.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/SEQuence3L.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/assigned_peaks_res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/assignment_AA.OUT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/assignment_AAs.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/assignment_PR.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/connectivity.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/connectivity_reduced.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/csi-diff-assigned-res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/csi-diff-lacs-corr-assigned-res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/mars.inp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/mars.inp.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/random_coil_chem_shifts.tbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_CA-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_CA.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_CB-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_CB.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_CO-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/sparky_all.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/Run/unassigned_peaks.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/fix_ass16.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/psipred_FTO.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Readme.txt.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/CS4_cFTO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/FASTA_cFTO.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/cfto_fix_ass16.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/cfto_fix_ass17.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/Cs_expt.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/Cs_pred.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/Cs_pred1.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/SEQuence1L.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/SEQuence3L.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/assigned_peaks_res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/assignment_AA.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/assignment_AAs.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/assignment_PR.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/connectivity.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/connectivity_reduced.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/csi-diff-assigned-res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/csi-diff-lacs-corr-assigned-res.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/mars.inp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/random_coil_chem_shifts.tbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CA-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CA.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CB-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CB.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CO-1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_CO.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/sparky_all.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/ctd_run/unassigned_peaks.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/isolated_CTD/psipred_cFTO.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fto_assignment_files/latest_assignment_combined_from_Full_Length_and_CTD.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:26:17.844780.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:27:41.238091.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:28:01.717117.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:29:28.726994.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:29:41.859903.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:33:26.250726.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmals/2020-04-05T22:34:27.672689.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch.ipynb" afterDir="false" />
+    <list default="true" id="bc630aec-fbcd-42d3-8d57-a98df57165f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fawzi_pycharm_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/scratch-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizing_bals_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMAl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_nrg_functions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/new_nrg_functions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$BMRB.coverage" NAME="BMRB Coverage Results" MODIFIED="1583542556171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jupyter Notebook" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="122c4fc3-adec-47a4-bf21-eecb950bfba5">
-    <option name="files">
-      <option value="matching_information.ipynb" />
-      <option value="scratch.ipynb" />
-    </option>
-  </component>
-  <component name="ProjectId" id="1YmO0x2PuL0TiytbbHcaXkqg9wu" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="JupyterTrust" id="122c4fc3-adec-47a4-bf21-eecb950bfba5" />
+  <component name="ProjectId" id="1aUt2wZaJA1wvadchbKPWq0p7Dv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;Jupyter" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Full 2np4 peak list" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.MMAl">
-    <configuration name="BMRB" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Fawzi_pycharm_project" />
+  <component name="RunManager" selected="Python.visualizing_bals_data">
+    <configuration name="Pattern_Analysis_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,29 +57,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BMRB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MMAl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MMAl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,8 +66,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="STEIN Physics Problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Fawzi_pycharm_project" />
+    <configuration name="visualizing_bals_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -219,51 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STEIN Physics Problem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="matching_information" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matching_information.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizing_bals_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,11 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MMAl" />
-        <item itemvalue="Python.STEIN Physics Problem" />
-        <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.matching_information" />
-        <item itemvalue="Python.BMRB" />
+        <item itemvalue="Python.visualizing_bals_data" />
+        <item itemvalue="Python.Pattern_Analysis_2" />
       </list>
     </recent_temporary>
   </component>
@@ -287,202 +100,62 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aae30a33-67f6-4e4d-8602-9697a0f813f8" name="Default" comment="" />
-      <created>1583542262265</created>
+      <changelist id="bc630aec-fbcd-42d3-8d57-a98df57165f2" name="Default Changelist" comment="" />
+      <created>1586801796165</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583542262265</updated>
-      <workItem from="1583544093547" duration="83000" />
-      <workItem from="1583544182649" duration="776000" />
-      <workItem from="1583548801999" duration="2089000" />
-      <workItem from="1583622774850" duration="1380000" />
-      <workItem from="1583638502324" duration="610000" />
-      <workItem from="1583642512467" duration="155000" />
-      <workItem from="1583767225229" duration="1231000" />
-      <workItem from="1584546316230" duration="598000" />
-      <workItem from="1585165484381" duration="5589000" />
-      <workItem from="1585504213715" duration="8527000" />
-      <workItem from="1585969184484" duration="3496000" />
-      <workItem from="1586016369295" duration="434000" />
-      <workItem from="1586016931394" duration="342000" />
-      <workItem from="1586017479115" duration="25275000" />
-      <workItem from="1586137244683" duration="3227000" />
+      <updated>1586801796165</updated>
+      <workItem from="1586801801693" duration="1972000" />
+      <workItem from="1587152039248" duration="114000" />
+      <workItem from="1587332176817" duration="7000" />
+      <workItem from="1587338719458" duration="1231000" />
+      <workItem from="1587495839361" duration="1448000" />
     </task>
-    <task id="LOCAL-00001" summary="2020-03-07-18:53">
-      <created>1583625225616</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1583625225617</updated>
-    </task>
-    <task id="LOCAL-00002" summary="2020-03-29 Pushing Ailin to CCV">
-      <created>1585529788002</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1585529788003</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2020-03-29 Testing Ailin">
-      <created>1585531360709</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1585531360709</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2020-04-04 Before Changing NOESY">
-      <created>1586039276859</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1586039276859</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2020-03-07-18:53" />
-    <MESSAGE value="2020-03-29 Pushing Ailin to CCV" />
-    <MESSAGE value="2020-03-29 Testing Ailin" />
-    <MESSAGE value="2020-04-04 Before Changing NOESY" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-04-04 Before Changing NOESY" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="210" key="#xdebugger.XInspectDialog" timestamp="1586100206982">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="0" y="210" key="#xdebugger.XInspectDialog/0.0.1440.900@0.0.1440.900" timestamp="1586100206982" />
-    <state x="0" y="0" width="1920" height="977" key="CommitChangelistDialog2" timestamp="1586039276224">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="299" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583625199159" />
-    <state x="0" y="23" width="1920" height="977" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1585531360329" />
-    <state x="0" y="0" key="CommitChangelistDialog2/270.1103.1440.877/0.0.1920.1080@0.0.1920.1080" timestamp="1586039276224" />
-    <state x="0" y="43" width="1920" height="1057" key="DiffContextDialog" timestamp="1585529748587">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state x="0" y="43" key="DiffContextDialog/0.23.1920.978@0.23.1920.978" timestamp="1585529748587" />
-    <state x="0" y="22" width="1920" height="1057" key="DiffContextDialog/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585181269996" />
-    <state x="0" y="22" width="1920" height="1057" key="DiffContextDialog/270.1103.1440.798/0.0.1920.1080@0.0.1920.1080" timestamp="1585177163844" />
-    <state x="508" y="212" key="FileChooserDialogImpl" timestamp="1583548310965">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="508" y="212" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583548310965" />
-    <state width="1440" height="211" key="GridCell.Tab.0.bottom" timestamp="1586140897599">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="211" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586140897599" />
-    <state width="790" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1583549812521" />
-    <state width="1453" height="322" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
-    <state width="1440" height="211" key="GridCell.Tab.0.center" timestamp="1586140897596">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="211" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586140897596" />
-    <state width="790" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1583549812519" />
-    <state width="1453" height="322" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
-    <state width="1440" height="211" key="GridCell.Tab.0.left" timestamp="1586140897595">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="211" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586140897595" />
-    <state width="790" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1583549812518" />
-    <state width="1453" height="322" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1585531534403" />
-    <state width="1440" height="211" key="GridCell.Tab.0.right" timestamp="1586140897598">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="211" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586140897598" />
-    <state width="790" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1583549812520" />
-    <state width="1453" height="322" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1585531534404" />
-    <state width="1698" height="334" key="GridCell.Tab.1.bottom" timestamp="1585517404236">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1698" height="334" key="GridCell.Tab.1.bottom/0.23.1920.978@0.23.1920.978" timestamp="1585517404236" />
-    <state width="1698" height="334" key="GridCell.Tab.1.center" timestamp="1585517404234">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1698" height="334" key="GridCell.Tab.1.center/0.23.1920.978@0.23.1920.978" timestamp="1585517404234" />
-    <state width="1698" height="334" key="GridCell.Tab.1.left" timestamp="1585517404231">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1698" height="334" key="GridCell.Tab.1.left/0.23.1920.978@0.23.1920.978" timestamp="1585517404231" />
-    <state width="1698" height="334" key="GridCell.Tab.1.right" timestamp="1585517404235">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1698" height="334" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1585517404235" />
-    <state x="535" y="138" key="SettingsEditor" timestamp="1585529009728">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state x="47" y="25" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583642417646" />
-    <state x="26" y="23" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1583549718837" />
-    <state x="535" y="138" key="SettingsEditor/0.23.1920.978@0.23.1920.978" timestamp="1585529009727" />
-    <state x="63" y="30" key="SettingsEditor/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585176228755" />
-    <state x="535" y="147" key="SettingsEditor/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585513697929" />
-    <state x="334" y="210" key="Vcs.Push.Dialog.v2" timestamp="1585531377500">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state x="334" y="210" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1585531377500" />
-    <state x="75" y="66" width="1290" height="750" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586101769140">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state x="75" y="66" width="1290" height="750" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.801@0.23.1440.801" timestamp="1586101769139" />
-    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585234416073" />
-    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/270.1103.1440.798/0.0.1920.1080@0.0.1920.1080" timestamp="1585177163846" />
-    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585234674216" />
-    <state x="763" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586110750944">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="763" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1586110750944" />
-    <state x="325" y="289" width="603" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585513635590">
+    <state x="100" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1586802822863">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="325" y="289" width="603" height="278" key="org.intellij.images.editor.actions.BackgroundImageDialog/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1585513635590" />
-    <state x="469" y="201" width="670" height="565" key="search.everywhere.popup" timestamp="1586139211539">
+    <state x="100" y="123" width="1720" height="857" key="DiffContextDialog/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586802822863" />
+    <state width="1920" height="297" key="GridCell.Tab.0.bottom" timestamp="1586810947614">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="297" key="GridCell.Tab.0.bottom/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586804034336" />
+    <state width="1920" height="297" key="GridCell.Tab.0.bottom/270.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1586804200833" />
+    <state width="1920" height="297" key="GridCell.Tab.0.bottom/270.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1586810947614" />
+    <state width="1920" height="297" key="GridCell.Tab.0.center" timestamp="1586810947612">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="297" key="GridCell.Tab.0.center/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586804034333" />
+    <state width="1920" height="297" key="GridCell.Tab.0.center/270.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1586804200831" />
+    <state width="1920" height="297" key="GridCell.Tab.0.center/270.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1586810947612" />
+    <state width="1920" height="297" key="GridCell.Tab.0.left" timestamp="1586810947611">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="297" key="GridCell.Tab.0.left/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586804034332" />
+    <state width="1920" height="297" key="GridCell.Tab.0.left/270.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1586804200830" />
+    <state width="1920" height="297" key="GridCell.Tab.0.left/270.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1586810947611" />
+    <state width="1920" height="297" key="GridCell.Tab.0.right" timestamp="1586810947613">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="297" key="GridCell.Tab.0.right/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586804034335" />
+    <state width="1920" height="297" key="GridCell.Tab.0.right/270.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1586804200832" />
+    <state width="1920" height="297" key="GridCell.Tab.0.right/270.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1586810947613" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1587504962788">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="469" y="201" width="670" height="565" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586139211539" />
-    <state x="625" y="241" width="670" height="613" key="search.everywhere.popup/0.23.1920.978@0.23.1920.978" timestamp="1585530461895" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/270.1080.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1585176128919" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DataImporting.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587504962788" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1586803847784">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/270.1103.1440.798/0.23.1920.1057@0.23.1920.1057" timestamp="1586803847784" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$STEIN_Physics_Problem.coverage" NAME="STEIN Physics Problem Coverage Results" MODIFIED="1586138528956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$matching_information.coverage" NAME="matching_information Coverage Results" MODIFIED="1586018014749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1585530949210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1586055533822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1586140897579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$visualizing_bals_data.coverage" NAME="visualizing_bals_data Coverage Results" MODIFIED="1586804200806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$Pattern_Analysis_2.coverage" NAME="Pattern_Analysis_2 Coverage Results" MODIFIED="1586804034317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
