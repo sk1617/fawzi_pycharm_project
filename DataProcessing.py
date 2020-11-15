@@ -47,7 +47,8 @@ def create_peaks(peak_list):  # instantiate every peak as a class and append it 
                                    HNCOCACBSignalNoise=None,
                                    HNCACBHShift=None, HNCACBNShift=None, CBShift=None, HNCACBSignalNoise=None,
                                    HNCOHShift=None, HNCONShift=None, COPrimeShift=None, HNCOSignalNoise=None,
-                                   NOESYHShift=[], NOESYNShift=[], NearbyHShift=[], NOESYSignalNoise=[]))
+                                   NOESYHShift=[], NOESYNShift=[], NearbyHShift=[], NOESYSignalNoise=[],
+                                   OutsideHShift=[], OutsideNShift=[], OutsideAssignment=[], OutsideProbability=[]))
         except IndexError:
             peak_list.append(Peaks(peakNumber=i,
                                    TROSYHShift=None, TROSYNShift=None,
@@ -58,7 +59,8 @@ def create_peaks(peak_list):  # instantiate every peak as a class and append it 
                                    HNCOCACBSignalNoise=None,
                                    HNCACBHShift=None, HNCACBNShift=None, CBShift=None, HNCACBSignalNoise=None,
                                    HNCOHShift=None, HNCONShift=None, COPrimeShift=None, HNCOSignalNoise=None,
-                                   NOESYHShift=[], NOESYNShift=[], NearbyHShift=[], NOESYSignalNoise=[]))
+                                   NOESYHShift=[], NOESYNShift=[], NearbyHShift=[], NOESYSignalNoise=[],
+                                   OutsideHShift=[], OutsideNShift=[], OutsideAssignment=[], OutsideProbability=[]))
 
 
 
@@ -147,7 +149,7 @@ def hncacb(peak_list):
         if 'PRIME' in line[0]:
             continue
         else:
-            # memory for HCNA line:
+            # memory for HCNACB line:
             peak_number = 0
             H, N = line[3], line[2]
             for i, peak in enumerate(peak_list):
@@ -211,6 +213,11 @@ def noesy(peak_list):
         peak_list[peak_number].add_data_to_list('NOESYNShift', N)
         peak_list[peak_number].add_data_to_list('NearbyHShift', line[1])
         peak_list[peak_number].add_data_to_list('NOESYSignalNoise', line[5])
+
+
+def outside(peak_list):
+    pass
+
 
 
 '''
