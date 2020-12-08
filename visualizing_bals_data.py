@@ -36,11 +36,13 @@ df['Delta CB'] = delta_cb_list
 print('Out of a total {} residues, {} are assigned, of which {} are High, {} are Med, and {} are Low'.format(
     residue_count, assignment_count, high_count, med_count, low_count))
 fig_delta_ca = px.histogram(df, x='Delta CA', color='reli', nbins=100, range_x=[0, 10])
-fig_delta_ca.show()
+# fig_delta_ca.show()
 fig_delta_cb = px.histogram(df, x='Delta CB', color='reli', nbins=100, range_x=[0, 10])
-fig_delta_cb.show()
+# fig_delta_cb.show()
 
 
+
+# 2D old and new NH peaks
 from DataProcessing import main_data_processing, distance_formula
 outside_assignment_df = pd.read_table('fto_assignment_files/Full_length/Run/assigned_peaks_res.out', sep=' +')
 outside_peaks_df = pd.read_table('fto_assignment_files/Full_length/CS17_FTO', sep=' +', index_col=False)
@@ -65,23 +67,18 @@ n_old = []
 h_new = [float(x) for x in outside_peaks_df['H']]
 n_new = [float(x) for x in outside_peaks_df['N']]
 
+
 for peak in peak_list:
     h_shift = peak.get_data('TROSYHShift')
     n_shift = peak.get_data('TROSYNShift')
-    if h_shift == None or n_shift is None:
+    if h_shift is None or n_shift is None:
         continue
     else:
-        h_old.append(float(h_shift))
-        n_old.append(float(n_shift))
+        h_old.append(float(h_shift - .08))
+        n_old.append(float(n_shift - .23))
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=h_new, y=n_new, mode='markers', name='new'))
 fig.add_trace(go.Scatter(x=h_old, y=n_old, mode='markers', name='old'))
 fig.update_layout(title='Comparing new and old NH graphs', xaxis_title='H (ppm)', yaxis_title='N (ppm)')
 fig.show()
-
-import chart_studio.plotly as py
-import chart_studio
-chart_studio.tools.set_credentials_file(username='sk1617', api_key='htVpHm0fYKP0sT2H5vHu')
-#
-py.iplot(fig)

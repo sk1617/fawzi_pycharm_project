@@ -1,49 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc630aec-fbcd-42d3-8d57-a98df57165f2" name="Default Changelist" comment="Before adding Bal's data">
-      <change afterPath="$PROJECT_DIR$/Slurm Trials/linear.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_sources_of_energy.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_sources_of_energy1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oldnewpeakmatching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/2n4p.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/kernprof results" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/output for lower NRG.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/test output for lower NRG.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_files/v3 NOESY runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~$data_sources_of_energy.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Fawzi_pycharm_project.iml" beforeDir="false" />
+    <list default="true" id="fb11b944-0471-4dfc-9778-12e5c5b95ee4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STEIN Physics Problem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved_files/2n4p.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved_files/kernprof results" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved_files/output for lower NRG.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved_files/test output for lower NRG.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved_files/v3 NOESY runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_sources_of_energy.numbers" beforeDir="false" afterPath="$PROJECT_DIR$/data_sources_of_energy.numbers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fto_assignment_files/Full_length/CS17_FTO" beforeDir="false" afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/CS17_FTO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matching_information.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matching_information.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldnewpeakmatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldnewpeakmatching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/visualizing_bals_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizing_bals_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,31 +13,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="122c4fc3-adec-47a4-bf21-eecb950bfba5" />
-  <component name="ProjectId" id="1aUt2wZaJA1wvadchbKPWq0p7Dv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1kw7JCmL9VnRrfCANE3zZ6KLuia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,192 +34,45 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunManager" selected="Python.oldnewpeakmatching">
-    <configuration name="Pattern_Analysis_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="oldnewpeakmatching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oldnewpeakmatching.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="visualizing_bals_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fawzi_pycharm_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizing_bals_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.oldnewpeakmatching" />
-        <item itemvalue="Python.visualizing_bals_data" />
-        <item itemvalue="Python.Pattern_Analysis_2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc630aec-fbcd-42d3-8d57-a98df57165f2" name="Default Changelist" comment="" />
-      <created>1586801796165</created>
+      <changelist id="fb11b944-0471-4dfc-9778-12e5c5b95ee4" name="Default Changelist" comment="" />
+      <created>1606599726222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586801796165</updated>
-      <workItem from="1586801801693" duration="1972000" />
-      <workItem from="1587152039248" duration="114000" />
-      <workItem from="1587332176817" duration="7000" />
-      <workItem from="1587338719458" duration="1231000" />
-      <workItem from="1587495839361" duration="7600000" />
-      <workItem from="1588206219545" duration="4643000" />
-      <workItem from="1588971912557" duration="1082000" />
-      <workItem from="1589126702694" duration="4933000" />
-      <workItem from="1589137771525" duration="3531000" />
-      <workItem from="1589144201910" duration="847000" />
-      <workItem from="1589211698534" duration="1388000" />
-      <workItem from="1589817881559" duration="487000" />
-      <workItem from="1590685941879" duration="509000" />
-      <workItem from="1604177731882" duration="5138000" />
-      <workItem from="1604790855135" duration="415000" />
-      <workItem from="1605453645079" duration="3290000" />
+      <updated>1606599726222</updated>
+      <workItem from="1606599734359" duration="1720000" />
+      <workItem from="1607434010371" duration="5535000" />
     </task>
-    <task id="LOCAL-00001" summary="Before adding Bal's data">
-      <created>1587505029108</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587505029108</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Before adding Bal's data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before adding Bal's data" />
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom" timestamp="1604579535700">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1440" height="143" key="GridCell.Tab.0.bottom" timestamp="1606600413334">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604180434047" />
-    <state width="1440" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604579535700" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center" timestamp="1604579535697">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1440" height="143" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1606600413334" />
+    <state width="1440" height="143" key="GridCell.Tab.0.center" timestamp="1606600413332">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="213" key="GridCell.Tab.0.center/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604180434041" />
-    <state width="1440" height="222" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604579535697" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left" timestamp="1604579535696">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1440" height="143" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1606600413332" />
+    <state width="1440" height="143" key="GridCell.Tab.0.left" timestamp="1606600413332">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="213" key="GridCell.Tab.0.left/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604180434038" />
-    <state width="1440" height="222" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604579535696" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right" timestamp="1604579535699">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1440" height="143" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1606600413332" />
+    <state width="1440" height="143" key="GridCell.Tab.0.right" timestamp="1606600413333">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="213" key="GridCell.Tab.0.right/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604180434044" />
-    <state width="1440" height="222" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604579535699" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1604180758939">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1440" height="143" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1606600413333" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1607438356086">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604180758939" />
-    <state x="0" y="23" width="1020" height="784" maximized="true" key="dock-window-1" timestamp="1604792524256">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="1440" y="159" width="1020" height="741" maximized="true" key="dock-window-1/0.0.1440.852/1440.159.1020.741@0.0.1440.852" timestamp="1604182629532" />
-    <state x="0" y="159" width="1020" height="741" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1604183251516" />
-    <state x="0" y="159" width="1020" height="741" key="dock-window-1/0.23.1440.829@0.23.1440.829" timestamp="1604333248824" />
-    <state x="0" y="23" width="1020" height="784" maximized="true" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1604792524256" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605454166490">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.136.1020.764@0.0.1440.900" timestamp="1604182272498" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605454166490" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DataProcessing.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$visualizing_bals_data.coverage" NAME="visualizing_bals_data Coverage Results" MODIFIED="1588214264484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$Pattern_Analysis_2.coverage" NAME="Pattern_Analysis_2 Coverage Results" MODIFIED="1586804034317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$oldnewpeakmatching.coverage" NAME="oldnewpeakmatching Coverage Results" MODIFIED="1605461608112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1607438356086" />
   </component>
 </project>

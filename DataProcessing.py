@@ -68,7 +68,7 @@ def create_peaks(peak_list):  # instantiate every peak as a class and append it 
     hncoca(peak_list)
     hncocacb(peak_list)
     hncacb(peak_list)
-    # hnco(peak_list)
+    hnco(peak_list)
     noesy(peak_list)
 
 
@@ -170,27 +170,27 @@ def hncacb(peak_list):
         peak_list[peak_number].add_data('HNCACBSignalNoise', line[5])
 
 
-# def hnco(peak_list):
-#     for line in HNCO:
-#         # memory for hnco line:
-#         peak_number = 0
-#         H, N = line[3], line[2]
-#         for i, peak in enumerate(peak_list):
-#             if peak.get_data('TROSYHShift') is None:
-#                 continue
-#             else:
-#                 prev_H = peak_list[peak_number].get_data('TROSYHShift')
-#                 prev_N = peak_list[peak_number].get_data('TROSYNShift')
-#                 new_H = peak.get_data('TROSYHShift')
-#                 new_N = peak.get_data('TROSYNShift')
-#                 if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
-#                         distance_formula(H, new_H, N, new_N) < .075:
-#                     peak_number = i
-#
-#         peak_list[peak_number].add_data('HNCOHShift', H)
-#         peak_list[peak_number].add_data('HNCONShift', N)
-#         peak_list[peak_number].add_data('COPrimeShift', line[1])
-#         peak_list[peak_number].add_data('HNCOSignalNoise', line[5])
+def hnco(peak_list):
+    for line in HNCO:
+        # memory for hnco line:
+        peak_number = 0
+        H, N = line[3], line[2]
+        for i, peak in enumerate(peak_list):
+            if peak.get_data('TROSYHShift') is None:
+                continue
+            else:
+                prev_H = peak_list[peak_number].get_data('TROSYHShift')
+                prev_N = peak_list[peak_number].get_data('TROSYNShift')
+                new_H = peak.get_data('TROSYHShift')
+                new_N = peak.get_data('TROSYNShift')
+                if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
+                        distance_formula(H, new_H, N, new_N) < .075:
+                    peak_number = i
+
+        peak_list[peak_number].add_data('HNCOHShift', H)
+        peak_list[peak_number].add_data('HNCONShift', N)
+        peak_list[peak_number].add_data('COPrimeShift', line[1])
+        peak_list[peak_number].add_data('HNCOSignalNoise', line[5])
 
 
 def noesy(peak_list):
