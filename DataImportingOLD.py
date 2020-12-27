@@ -1,7 +1,6 @@
 import random
-import pandas as pd
 # Beginning part of the sequence list: MGSSHHHHHHSSGLVPRGSHM'
-sequence_list = 'STPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAE' \
+sequence_list = 'TPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAE' \
                 'IAAACETFLKLNDYLQIETIQALEELAAKEKANEDAVPLCMSADFPRVGMGSSYNGQDEVDIKSRAAYNVTLLNFMDPQKMPYLKEEPYFGMGKMAVSWH' \
                 'HDENLVDRSAVAVYSYSCEGPEEESEDDSHLEGRDPDIWHVGFKISWDIETPGLAIPLHQGDCYFMLDDLNATHQHCVLAGSQPRFSSTHRVAECSTGTL' \
                 'DYILQRCQLALQNVCDDVDNDDVSLKSFEPAVLKQGEEIHNEVEFEWLRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGVTNAVLHEVKREGLPVEQR' \
@@ -11,34 +10,58 @@ sequence_list = 'STPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTP
 def returns_number():
     return random.random()
 
+
 energy_if_false = 300.
 
-# These will all need to be changed now that we have real CB data
+# aa_p_d_delta = .05
+# aa_p_d_sn_factor = .186
+# aa_p_d_sub = 0
 aa_p_d = 1875
+
+# bb_p_d_delta = .05
+# bb_p_d_sn_factor = .316
+# bb_p_d_sub = 0
 bb_p_d = 1875
+
+# bmrb = 1.5
+# bmrb = 3.0
+# a_bmrb_sn_factor = .186
+# b_bmrb_sn_factor = .316
 bmrb_ca = 158
 bmrb_cb = 158
+
+
+# noesy_perfect_match_threshold = .02
 noesy_weight = 750000
+# npmt_penatly = 0.1
+# n_no_match_penalty = 264.
+# n_no_match_penalty = 600.
+# n_no_match_penalty = 300.
+# n_no_match_penalty = 0.1
 
-iterations = 1001
+# @profile
+# def dist_factor_forumla(dist):
+#     if dist < 3:
+#         return 2.8
+#     elif dist >= 3 and dist < 7:
+#         return 25/(dist ** 2)
+#     elif dist >= 7:
+#         return .5
+# # @profile
+# def sn_factor_formula(sn):
+#     return (sn ** .5)
 
+
+iterations = 72000000
+# iterations = 1e4
 temp = 1e6
 exponent = .9
 
 iterations = int(iterations)
 should_append_DL = True if iterations <= 1e3 else False
 
-outside_peaks_df = pd.read_table('/Volumes/Transcend/fawzi_pycharm_project/fto_assignment_files/Full_length/CS17_FTO',
-                                 sep=' +', index_col=False)
-outside_peaks_df['N_'] = [float(x)+.23 for x in outside_peaks_df['N']]
-outside_peaks_df['H_'] = [float(x)+.08 for x in outside_peaks_df['H']]
-outside_peaks_df['CO-1'] = [float(x) if x != '-' else None for x in outside_peaks_df['CO-1']]
-outside_peaks_df['CA'] = [float(x) if x != '-' else None for x in outside_peaks_df['CA']]
-outside_peaks_df['CA-1'] = [float(x) if x != '-' else None for x in outside_peaks_df['CA-1']]
-outside_peaks_df['CB'] = [float(x) if x != '-' else None for x in outside_peaks_df['CB']]
-outside_peaks_df['CB-1'] = [float(x) if x != '-' else None for x in outside_peaks_df['CB-1']]
 
-# OLD NMR experiments
+# NMR experiments
 if True:
     trosy = open('FTO_peaklists/NH_TROSY copy.list')
     hnca = open('FTO_peaklists/hnca copy.list')

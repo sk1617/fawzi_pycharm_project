@@ -182,7 +182,3 @@ if __name__ == '__main__':
     if should_save_to_file:
         fh.close()
 
-# TODO: Fix proline problem
-# TODO: Fix CO/CO' problem
-# TODO: Fix temperature problem
-
