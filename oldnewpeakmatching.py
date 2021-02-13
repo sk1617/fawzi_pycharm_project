@@ -2,7 +2,8 @@ import pandas as pd
 from DataProcessing import main_data_processing, distance_formula
 import plotly.graph_objects as go
 outside_assignment_df = pd.read_table('fto_assignment_files/Full_length/Run/assigned_peaks_res.out', sep=' +')
-outside_peaks_df = pd.read_table('fto_assignment_files/Full_length/CS17_FTO', sep=' +', index_col=False)
+outside_peaks_df = pd.read_table('fto_assignment_files/Full_length/CS29_FTO', sep='\t', index_col=False)
+very_old_peak_df = pd.read_table('FTO_peaklists/NH_TROSY copy.list', sep=' +', header=None)
 peak_list, residue_list = main_data_processing()
 
 outside_peaks_df['N_'] = [float(x)+.23 for x in outside_peaks_df['N']]
@@ -10,7 +11,7 @@ outside_peaks_df['H_'] = [float(x)+.08 for x in outside_peaks_df['H']]
 
 
 # 3D HN (CA | CB | CA' | CB')
-h_old, n_old = [], []
+h_old, n_old = list(very_old_peak_df[2]), list(very_old_peak_df[1])
 ca_old, ca_prime_old = [], []
 cb_old, cb_prime_old = [], []
 h_new = outside_peaks_df['H_']
@@ -20,22 +21,23 @@ ca_prime_new = [float(x) if x != '-' else 0 for x in outside_peaks_df['CA-1']]
 cb_new = [float(x) if x!= '-' else 0 for x in outside_peaks_df['CB']]
 cb_prime_new = [float(x) if x != '-' else 0 for x in outside_peaks_df['CB-1']]
 
-for peak in peak_list:
-    h_shift = peak.get_data('TROSYHShift')
-    n_shift = peak.get_data('TROSYNShift')
-    ca_shift = peak.get_data('CAShift')
-    ca_prime_shift = peak.get_data('CAPrimeShift')
-    cb_shift = peak.get_data('CBShift')
-    cb_prime_shift = peak.get_data('CBPrimeShift')
-    if h_shift == None or n_shift is None:
-        continue
-    else:
-        h_old.append(float(h_shift))
-        n_old.append(float(n_shift))
-        ca_old.append(ca_shift) if ca_shift is not None else ca_old.append(0)
-        ca_prime_old.append(ca_prime_shift) if ca_prime_shift is not None else ca_prime_old.append(0)
-        cb_old.append(cb_shift) if cb_shift is not None else cb_old.append(0)
-        cb_prime_old.append(cb_prime_shift) if cb_prime_shift is not None else cb_prime_old.append(0)
+if False:
+    for peak in peak_list:
+        h_shift = peak.get_data('TROSYHShift')
+        n_shift = peak.get_data('TROSYNShift')
+        ca_shift = peak.get_data('CAShift')
+        ca_prime_shift = peak.get_data('CAPrimeShift')
+        cb_shift = peak.get_data('CBShift')
+        cb_prime_shift = peak.get_data('CBPrimeShift')
+        if h_shift == None or n_shift is None:
+            continue
+        else:
+            h_old.append(float(h_shift))
+            n_old.append(float(n_shift))
+            ca_old.append(ca_shift) if ca_shift is not None else ca_old.append(0)
+            ca_prime_old.append(ca_prime_shift) if ca_prime_shift is not None else ca_prime_old.append(0)
+            cb_old.append(cb_shift) if cb_shift is not None else cb_old.append(0)
+            cb_prime_old.append(cb_prime_shift) if cb_prime_shift is not None else cb_prime_old.append(0)
 
 
 fig = go.Figure()
@@ -49,18 +51,20 @@ fig.add_trace(go.Scatter3d(x=h_old, y=n_old, z=cb_prime_old, mode='markers', nam
 fig.add_trace(go.Scatter3d(x=h_new, y=n_new, z=cb_prime_new, mode='markers', name='new'))
 
 fig.update_layout(title='Comparing new and old NH-CB Prime graphs', xaxis_title='H (ppm)', yaxis_title='N (ppm)')
-fig.show()
+# fig.show()
 
 
 
 # 2D old and new NH peaks
 fig = go.Figure()
-fig.add_trace(go.Scatter(x=h_old, y=n_old, mode='markers', name='old'))
-fig.add_trace(go.Scatter(x=h_new, y=n_new, mode='markers', name='new'))
+fig.add_trace(go.Scatter(x=h_old, y=n_old, mode='markers', name='2017 NOESY (N-NH)', marker_color='purple', opacity=0.75))
+fig.add_trace(go.Scatter(x=h_new, y=n_new, mode='markers', name='Early 2020 TROSY (N-H)', marker_color='green', opacity=0.75))
+fig.update_yaxes(autorange="reversed")
+fig.update_xaxes(autorange="reversed")
 fig.update_layout(title='Comparing new and old NH graphs', xaxis_title='H (ppm)', yaxis_title='N (ppm)')
 fig.show()
 
-
+print(2/0)
 # Graphing the spread of CB/A and CB/A Prime shifts of the new and old data as a histogram
 cb_old, cb_prime_old = [], []
 ca_old, ca_prime_old = [], []
@@ -88,7 +92,7 @@ co_new = [float(x) if x != '-' else '-' for x in outside_peaks_df['CO-1']]
 
 
 # plotting Histograms
-if True:
+if False:
     figCB = go.Figure()
     figCB.add_trace(go.Histogram(x = cb_old, name='old'))
     figCB.add_trace(go.Histogram(x = cb_new, name='new'))

@@ -3,10 +3,7 @@ import random
 from EnergyFunctions import *
 from DataImporting import *
 import numpy as np
-
-def distance_formula(H1, H2, N1, N2):
-    z = (((H1-H2)/8.0561) ** 2 + ((N1-N2)/120.2105) ** 2) ** .5
-    return z
+import statistics as st
 
 def main_data_processing():
     peak_list = []
@@ -50,17 +47,21 @@ def create_peaks(peak_list):  # instantiate every peak as a class and append it 
                                    CBShift=None, CBPrimeShift=None, COPrimeShift=None,
                                    NOESYHShift=[], NOESYNShift=[], NearbyHShift=[]))
 
-
-    hnca(peak_list)
-    hncoca(peak_list)
-    hncocacb(peak_list)
-    hncacb(peak_list)
-    hnco(peak_list)
-    noesy(peak_list)
     fix_none(peak_list)
+    old_data(peak_list)
 
 
-def hnca(peak_list):
+def old_data(peak_list):
+    old_peak_list = []
+    for i, line in enumerate(TROSY):
+        old_peak_list.append(Peaks(peakNumber=i,
+                                   TROSYHShift=TROSY[i][2], TROSYNShift=TROSY[i][1],
+                                   HNCAHShift=None, HNCANShift=None, CAShift=None,
+                                   HNCOCAHShift=None, HNCOCANShift=None, CAPrimeShift=None,
+                                   HNCACBHShift=None, HNCACBNShift=None, CBShift=None,
+                                   HNCOHShift=None, HNCONShift=None, COPrimeShift=None,
+                                   NOESYHShift=[], NOESYNShift=[], NearbyHShift=[], NOESYSignalNoise=[]))
+
     for line in HNCA:
         if 'PRIME' in line[0]:
             continue
@@ -68,123 +69,120 @@ def hnca(peak_list):
             # memory for HCNA line:
             peak_number = 0
             H, N = line[3], line[2]
-            for i, peak in enumerate(peak_list):
+            for i, peak in enumerate(old_peak_list):
                 if peak.get_data('TROSYHShift') is None:
                     continue
                 else:
-                    prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                    prev_N = peak_list[peak_number].get_data('TROSYNShift')
+                    prev_H = old_peak_list[peak_number].get_data('TROSYHShift')
+                    prev_N = old_peak_list[peak_number].get_data('TROSYNShift')
                     new_H = peak.get_data('TROSYHShift')
                     new_N = peak.get_data('TROSYNShift')
                     if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
                             distance_formula(H, new_H, N, new_N) < .075:
                         peak_number = i
-            if np.isnan(peak_list[peak_number].get_data('CAShift')):
-                peak_list[peak_number].add_data('CAShift', line[1])
 
+            old_peak_list[peak_number].add_data('HNCAHShift', H)
+            old_peak_list[peak_number].add_data('HNCANShift', N)
+            old_peak_list[peak_number].add_data('CAShift', line[1])
 
-def hncoca(peak_list):
     for line in HNCOCA:
         peak_number = 0  # memory for HCNA line:
         H, N = line[3], line[2]
-        for i, peak in enumerate(peak_list):
+        for i, peak in enumerate(old_peak_list):
             if peak.get_data('TROSYHShift') is None:
                 continue
             else:
-                prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                prev_N = peak_list[peak_number].get_data('TROSYNShift')
+                prev_H = old_peak_list[peak_number].get_data('TROSYHShift')
+                prev_N = old_peak_list[peak_number].get_data('TROSYNShift')
                 new_H = peak.get_data('TROSYHShift')
                 new_N = peak.get_data('TROSYNShift')
                 if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
                         distance_formula(H, new_H, N, new_N) < .075:
                     peak_number = i
 
-        if np.isnan(peak_list[peak_number].get_data('CAPrimeShift')):
-            peak_list[peak_number].add_data('CAPrimeShift', line[1])
+        old_peak_list[peak_number].add_data('HNCOCAHShift', H)
+        old_peak_list[peak_number].add_data('HNCOCANShift', N)
+        old_peak_list[peak_number].add_data('CAPrimeShift', line[1])
 
-
-def hncocacb(peak_list):
-    for line in HNCOCACB:
-        # memory for HCNA line:
-        peak_number = 0
-        H, N = line[3], line[2]
-        for i, peak in enumerate(peak_list):
-            if peak.get_data('TROSYHShift') is None:
-                continue
-            else:
-                prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                prev_N = peak_list[peak_number].get_data('TROSYNShift')
-                new_H = peak.get_data('TROSYHShift')
-                new_N = peak.get_data('TROSYNShift')
-                if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
-                        distance_formula(H, new_H, N, new_N) < .075:
-                    peak_number = i
-        if np.isnan(peak_list[peak_number].get_data('TROSYHShift')):
-            peak_list[peak_number].add_data('CBPrimeShift', line[1])
-
-
-def hncacb(peak_list):
-    for line in HNCACB:
-        if 'PRIME' in line[0]:
-            continue
-        else:
-            # memory for HCNACB line:
-            peak_number = 0
-            H, N = line[3], line[2]
-            for i, peak in enumerate(peak_list):
-                if peak.get_data('TROSYHShift') is None:
-                    continue
-                else:
-                    prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                    prev_N = peak_list[peak_number].get_data('TROSYNShift')
-                    new_H = peak.get_data('TROSYHShift')
-                    new_N = peak.get_data('TROSYNShift')
-                    if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
-                            distance_formula(H, new_H, N, new_N) < .0075:
-                        peak_number = i
-            if np.isnan(peak_list[peak_number].get_data('TROSYHShift')):
-                peak_list[peak_number].add_data('CBShift', line[1])
-
-
-def hnco(peak_list):
     for line in HNCO:
         # memory for hnco line:
         peak_number = 0
         H, N = line[3], line[2]
-        for i, peak in enumerate(peak_list):
+        for i, peak in enumerate(old_peak_list):
             if peak.get_data('TROSYHShift') is None:
                 continue
             else:
-                prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                prev_N = peak_list[peak_number].get_data('TROSYNShift')
+                prev_H = old_peak_list[peak_number].get_data('TROSYHShift')
+                prev_N = old_peak_list[peak_number].get_data('TROSYNShift')
                 new_H = peak.get_data('TROSYHShift')
                 new_N = peak.get_data('TROSYNShift')
                 if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N) and \
                         distance_formula(H, new_H, N, new_N) < .075:
                     peak_number = i
 
-        if np.isnan(peak_list[peak_number].get_data('TROSYHShift')):
-            peak_list[peak_number].add_data('COPrimeShift', line[1])
+        old_peak_list[peak_number].add_data('HNCOHShift', H)
+        old_peak_list[peak_number].add_data('HNCONShift', N)
+        old_peak_list[peak_number].add_data('COPrimeShift', line[1])
 
-def noesy(peak_list):
     for line in NOESY:
         peak_number = 0
         H = line[3]
         N = line[2]
-        for i, peak in enumerate(peak_list):  # if new is less than old
+        for i, peak in enumerate(old_peak_list):  # if new is less than old
             if peak.get_data('TROSYHShift') is None:
                 continue
             else:
-                prev_H = peak_list[peak_number].get_data('TROSYHShift')
-                prev_N = peak_list[peak_number].get_data('TROSYNShift')
+                prev_H = old_peak_list[peak_number].get_data('TROSYHShift')
+                prev_N = old_peak_list[peak_number].get_data('TROSYNShift')
                 new_H = peak.get_data('TROSYHShift')
                 new_N = peak.get_data('TROSYNShift')
                 if distance_formula(H, new_H, N, new_N) < distance_formula(H, prev_H, N, prev_N):
                     peak_number = i
 
-        peak_list[peak_number].add_data_to_list('NOESYHShift', H)
-        peak_list[peak_number].add_data_to_list('NOESYNShift', N)
-        peak_list[peak_number].add_data_to_list('NearbyHShift', line[1])
+        old_peak_list[peak_number].add_data_to_list('NOESYHShift', H)
+        old_peak_list[peak_number].add_data_to_list('NOESYNShift', N)
+        old_peak_list[peak_number].add_data_to_list('NearbyHShift', line[1])
+
+    for old_peak in old_peak_list:
+        if len(old_peak.get_data('NOESYNShift')) > 0:
+            old_h = st.mean(old_peak.get_data('NOESYHShift'))
+            old_n = st.mean(old_peak.get_data('NOESYNShift'))
+        else:
+            old_n = old_peak.get_data('TROSYNShift')
+            old_h = old_peak.get_data('TROSYHShift')
+
+        old_co_prime = old_peak.get_data('COPrimeShift')
+        memory = 10000
+        distance = 10000
+        if old_co_prime is None:
+            continue
+        for i, new_peak in enumerate(peak_list):
+            new_n = new_peak.get_data('TROSYNShift')
+            new_h = new_peak.get_data('TROSYHShift')
+            new_co_prime = new_peak.get_data('COPrimeShift')
+            if new_h is None or np.isnan(new_h):
+                continue
+            # elif new_co_prime is None or np.isnan(new_co_prime):
+            #     continue
+            else:
+                newdist = distance_formula(old_h, new_h, old_n, new_n, old_co_prime, new_co_prime)
+                if newdist < distance:
+                    distance = newdist
+                    memory = i
+
+        new_peak = peak_list[memory]
+        if abs(old_h - new_peak.get_data('TROSYHShift')) < .1:
+            if abs(old_n - new_peak.get_data('TROSYNShift')) < 1:
+                # NOESY
+                new_peak.add_data('NOESYHShift', old_peak.get_data('NOESYHShift'))
+                new_peak.add_data('NOESYNShift', old_peak.get_data('NOESYNShift'))
+                new_peak.add_data('NearbyHShift', old_peak.get_data('NearbyHShift'))
+                # CA Shift
+                if new_peak.get_data('CAShift') is None or np.isnan(new_peak.get_data('CAShift')):
+                    new_peak.add_data('CAShift', old_peak.get_data('CAShift'))
+                # CA Prime Shift
+                if new_peak.get_data('CAPrimeShift') is None or np.isnan(new_peak.get_data('CAPrimeShift')):
+                    new_peak.add_data('CAPrimeShift', old_peak.get_data('CAPrimeShift'))
 
 
 def fix_none(peak_list):
@@ -302,7 +300,7 @@ def HN_distances(residue_list):
         res_1_num = int(line[0]) + 1
         res_2_num = int(line[3]) + 1
         dist = float(line[6])
-        if dist < 8:
+        if dist < 8: #adding all residues within 8 angstroms
             # adding the line to each of the Amino Acids
             res_1 = residue_list[res_1_num - 1]  # subtract one bc it starts counting the AAL at 0
             res_2 = residue_list[res_2_num - 1]
@@ -316,34 +314,14 @@ def HN_distances(residue_list):
                 res_2.add_data_to_list('closebyAminoAcidsDist', dist)
 
 
-def distance_formula(H1, H2, N1, N2):
-    z = (((H1-H2)/8.0561) ** 2 + ((N1-N2)/120.2105) ** 2) ** .5
+def distance_formula(H1, H2, N1, N2, CO1=None, CO2=None):
+    if CO1 is not None and CO2 is not None:
+        z = ((((H1-H2)/8.0561) ** 2 + ((N1-N2)/120.2105) ** 2 + ((CO1-CO2)/176) ** 2) ** .5) * 2/3
+    else:
+        z = (((H1-H2)/8.0561) ** 2 + ((N1-N2)/120.2105) ** 2) ** .5
     return z
 
 
 if __name__ == '__main__':
     pair = main_data_processing()
     peak_list, residue_list = pair[0], pair[1]
-
-'''
-    trosyC = 0; CAShiftC = 0; CAPrimeShiftC = 0; CBShiftC = 0; CBPrimeShiftC = 0; COPrimeShiftC = 0; noesyC = 0
-    for peak in peak_list:
-        if peak.get_data('TROSYHShift') is not None:
-            trosyC += 1
-        if peak.get_data('CAShift') is not None:
-            CAShiftC += 1
-        if peak.get_data('CAPrimeShift') is not None:
-            CAPrimeShiftC += 1
-        if peak.get_data('CBShift') is not None:
-            CBShiftC += 1
-        if peak.get_data('CBPrimeShift') is not None:
-            CBPrimeShiftC += 1
-        if peak.get_data('COPrimeShift') is not None:
-            COPrimeShiftC += 1
-        if len(peak.get_data('NearbyHShift')) != 0:
-            noesyC += 1
-
-    print(len(residue_list), 'TROSY:', trosyC, 'CAShift:', CAShiftC, 'CAPrime:', CAPrimeShiftC, 'CBShiftC:',
-          CBShiftC, 'CBPrime:', CBPrimeShiftC, 'COPrime:', COPrimeShiftC, 'noesy:', noesyC)
-
-'''

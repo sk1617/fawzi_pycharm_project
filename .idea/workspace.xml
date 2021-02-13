@@ -19,15 +19,244 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb11b944-0471-4dfc-9778-12e5c5b95ee4" name="Default Changelist" comment="2020-12-08&#10;Before adding new DataProcessing and DataImporting files for new data">
-      <change afterPath="$PROJECT_DIR$/DataImportingOLD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataProcessingOLD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch2.ipynb" afterDir="false" />
+    <list default="true" id="fb11b944-0471-4dfc-9778-12e5c5b95ee4" name="Default Changelist" comment="2020-12-27&#10;Before adding new DataProcessing and DataImporting files for new data">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/cacb_expected_for_list-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ca_cb_matches_for_list.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacb_expected_for_list.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_TEST_2021-01-03.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fto_assignment_files/Full_length/CS29_FTO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-30T13:57:08.896327.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-30T13:57:35.564072.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-30T13:58:01.412463.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-30T14:07:21.161633.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-30T16:51:03.189256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2020-12-31T13:28:54.721601.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2021-02-01T21:38:56.381676.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2021-02-01T21:42:08.518848.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2021-02-01T21:43:48.872031.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2021-02-01T21:52:33.249982.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/2021-02-01T21:54:19.435577.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-16074656.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_0.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_100.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_101.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_102.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_103.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_104.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_105.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_106.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_107.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_108.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_109.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_110.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_111.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_112.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_113.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_114.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_115.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_116.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_117.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_118.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_119.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_120.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_121.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_122.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_123.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_124.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_125.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_126.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_127.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_128.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_129.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_130.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_131.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_132.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_133.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_134.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_135.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_136.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_137.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_138.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_139.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_140.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_141.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_142.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_143.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_144.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_145.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_146.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_147.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_148.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_149.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_150.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_151.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_152.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_153.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_154.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_155.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_156.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_157.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_158.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_159.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_160.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_161.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_162.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_163.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_164.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_165.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_166.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_167.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_168.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_169.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_17.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_170.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_171.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_172.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_173.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_174.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_175.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_176.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_177.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_178.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_179.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_18.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_180.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_181.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_182.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_183.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_184.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_185.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_186.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_187.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_188.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_189.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_19.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_190.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_191.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_192.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_193.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_194.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_195.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_196.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_197.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_198.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_199.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_20.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_200.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_21.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_22.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_23.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_24.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_25.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_26.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_27.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_28.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_29.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_30.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_31.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_32.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_33.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_34.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_35.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_36.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_37.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_38.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_39.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_40.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_41.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_42.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_4294967294.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_43.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_44.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_45.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_46.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_47.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_48.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_49.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_50.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_51.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_52.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_53.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_54.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_55.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_56.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_57.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_58.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_59.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_60.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_61.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_62.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_63.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_64.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_65.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_66.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_67.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_68.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_69.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_70.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_71.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_72.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_73.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_74.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_75.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_76.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_77.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_78.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_79.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_80.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_81.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_82.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_83.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_84.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_85.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_86.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_87.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_88.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_89.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_90.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_91.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_92.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_93.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_94.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_95.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_96.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_97.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_98.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmals/slurm-test_99.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noesy_matches_for_list.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BMRB.py" beforeDir="false" afterPath="$PROJECT_DIR$/BMRB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataImporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataImporting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyFunctions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MMAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MMAl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Pattern_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pattern_Analysis_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pattern_Analysis_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archived_code/Evaluate List Energy FTO.py" beforeDir="false" afterPath="$PROJECT_DIR$/archived_code/Evaluate List Energy FTO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sources_of_energy.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_sources_of_energy.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_evaluator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/list_evaluator.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matching_information.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matching_information.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_nrg_functions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/oldnewpeakmatching.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oldnewpeakmatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/oldnewpeakmatching.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scratch1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scratch1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch2.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +266,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="122c4fc3-adec-47a4-bf21-eecb950bfba5" />
+  <component name="JupyterTrust" id="122c4fc3-adec-47a4-bf21-eecb950bfba5">
+    <option name="files">
+      <option value="noesy_matches_for_list.ipynb" />
+      <option value="oldnewpeakmatching.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1kw7JCmL9VnRrfCANE3zZ6KLuia" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,8 +300,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/archived_code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.scratch">
     <configuration name="MMAl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fawzi_pycharm_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,9 +331,101 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Pattern_Analysis_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pattern_Analysis_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matching_information" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matching_information.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oldnewpeakmatching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oldnewpeakmatching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fawzi_pycharm_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.oldnewpeakmatching" />
+        <item itemvalue="Python.matching_information" />
         <item itemvalue="Python.MMAl" />
+        <item itemvalue="Python.Pattern_Analysis_2" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +444,17 @@
       <workItem from="1607450128938" duration="245000" />
       <workItem from="1608411902717" duration="6159000" />
       <workItem from="1608478186068" duration="14094000" />
-      <workItem from="1609103231013" duration="1114000" />
+      <workItem from="1609103231013" duration="1876000" />
+      <workItem from="1609105874897" duration="6372000" />
+      <workItem from="1609174868287" duration="4875000" />
+      <workItem from="1609202169057" duration="9434000" />
+      <workItem from="1609711885183" duration="3026000" />
+      <workItem from="1609715894918" duration="3733000" />
+      <workItem from="1611002029878" duration="1512000" />
+      <workItem from="1611780663210" duration="4690000" />
+      <workItem from="1612047709684" duration="13991000" />
+      <workItem from="1612659402461" duration="7997000" />
+      <workItem from="1613236643866" duration="2080000" />
     </task>
     <task id="LOCAL-00001" summary="2020-12-08&#10;Before adding new DataProcessing and DataImporting files for new data">
       <created>1607440936867</created>
@@ -117,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607440936868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020-12-27&#10;Before adding new DataProcessing and DataImporting files for new data">
+      <created>1609105086859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609105086859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,40 +489,70 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2020-12-08&#10;Before adding new DataProcessing and DataImporting files for new data" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-12-08&#10;Before adding new DataProcessing and DataImporting files for new data" />
+    <MESSAGE value="2020-12-27&#10;Before adding new DataProcessing and DataImporting files for new data" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-12-27&#10;Before adding new DataProcessing and DataImporting files for new data" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1440" height="235" key="GridCell.Tab.0.bottom" timestamp="1608869583267">
+    <state x="0" y="25" width="1240" height="675" maximized="true" key="DiffContextDialog" timestamp="1612217275176">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="235" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1608869583267" />
-    <state width="1440" height="235" key="GridCell.Tab.0.center" timestamp="1608869583264">
+    <state x="0" y="25" width="1240" height="675" maximized="true" key="DiffContextDialog/0.25.1440.875@0.25.1440.875" timestamp="1612217275176" />
+    <state width="1440" height="152" key="GridCell.Tab.0.bottom" timestamp="1613239252696">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="152" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613239252696" />
+    <state width="1440" height="141" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1612856482376" />
+    <state width="1440" height="152" key="GridCell.Tab.0.center" timestamp="1613239252694">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="152" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613239252694" />
+    <state width="1440" height="141" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1612856482374" />
+    <state width="1440" height="152" key="GridCell.Tab.0.left" timestamp="1613239252693">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="152" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613239252693" />
+    <state width="1440" height="141" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1612856482373" />
+    <state width="1440" height="152" key="GridCell.Tab.0.right" timestamp="1613239252695">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="152" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613239252695" />
+    <state width="1440" height="141" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1612856482375" />
+    <state x="229" y="98" key="SettingsEditor" timestamp="1613237091801">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="235" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1608869583264" />
-    <state width="1440" height="235" key="GridCell.Tab.0.left" timestamp="1608869583259">
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1613237091801" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1609105093673">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1440" height="235" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1608869583259" />
-    <state width="1440" height="235" key="GridCell.Tab.0.right" timestamp="1608869583264">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1440" height="235" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1608869583264" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607440939490">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1607440939490" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1609105093673" />
     <state x="0" y="25" width="1082" height="875" maximized="true" key="dock-window-1" timestamp="1608591262376">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="0" y="25" width="1082" height="875" maximized="true" key="dock-window-1/0.25.1440.875@0.25.1440.875" timestamp="1608591262376" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1608662937810">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup" timestamp="1613239245670">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1608662937810" />
+    <state x="385" y="194" width="670" height="696" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1613239245670" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1612813567737" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataImporting.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1608651951432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$matching_information.coverage" NAME="matching_information Coverage Results" MODIFIED="1612753631840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1613239252679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$Pattern_Analysis_2.coverage" NAME="Pattern_Analysis_2 Coverage Results" MODIFIED="1612220698389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$MMAl.coverage" NAME="MMAl Coverage Results" MODIFIED="1612234457421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fawzi_pycharm_project$oldnewpeakmatching.coverage" NAME="oldnewpeakmatching Coverage Results" MODIFIED="1613238457760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

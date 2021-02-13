@@ -117,10 +117,13 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
     CA_BMRB_SD = residue.get_data('CAExpectedSD')
 
     CB_shift = peak.get_data('CBShift') if not use_prime_data else peak.get_data('CBPrimeShift')
-    if residue.get_data('residue_name') == 'G' and CB_shift is not None:
-        return 10000
     CB_BMRB = residue.get_data('CBExpected')
     CB_BMRB_SD = residue.get_data('CBExpectedSD')
+
+    # proline case
+    if residue.get_data('residue_name') == 'P' and use_prime_data is False:
+        if CA_shift is not None or CB_shift is not None:
+            return 999999
 
     ca_delta = (CA_shift - CA_BMRB)/CA_BMRB_SD if CA_shift else False
     try:
@@ -157,6 +160,11 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
     residue = residue_list[i]  # gets residue
     assert i + 1 == residue.get_data('index')
 
+    # set up the closest matches
+    if should_append_DL or append:
+        closest_match_delta_ls = []
+
+
     closeby_residue_list = residue.get_data('closebyAminoAcids')  # gets list of closeby residues from residue
     nearby_H_shift_list = peak.get_data('NearbyHShift')  # gets list of nearby H shifts from peak
     if len(closeby_residue_list) == 0:  # used
@@ -174,9 +182,11 @@ def NOESY_H_dist(i, pai, index_list, peak_list, residue_list, Delta_List, append
     for noesy_shift in nearby_H_shift_list:
         closest_match_delta = min([abs(i - noesy_shift) for i in closeby_residues_peak_h_shift])
         weight += noesy_weight * closest_match_delta**2
+        if should_append_DL or append:
+            closest_match_delta_ls.append(closest_match_delta)
 
     if should_append_DL or append:
-        Delta_List.append(('NOESY', weight, [], []))
+        Delta_List.append(('NOESY', weight, nearby_H_shift_list, closest_match_delta_ls))
     return weight
 
 

@@ -1,5 +1,5 @@
 from DataProcessing import *
-from Pattern_Analysis import mode_list
+from archived_code.Pattern_Analysis import mode_list
 from EnergyFunctions import *
 import pandas as pd
 peak_list, residue_list = main_data_processing()

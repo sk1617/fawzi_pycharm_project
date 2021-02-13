@@ -14,13 +14,13 @@ def returns_number():
 energy_if_false = 300.
 
 # These will all need to be changed now that we have real CB data
-aa_p_d = 1875
-bb_p_d = 1875
-bmrb_ca = 158
-bmrb_cb = 158
-noesy_weight = 750000
+aa_p_d = 2000
+bb_p_d = 2000
+bmrb_ca = 3000
+bmrb_cb = 3000
+noesy_weight = 3000
 
-iterations = 1001
+iterations = 1e8
 
 temp = 1e6
 exponent = .9
@@ -28,8 +28,8 @@ exponent = .9
 iterations = int(iterations)
 should_append_DL = True if iterations <= 1e3 else False
 
-outside_peaks_df = pd.read_table('/Volumes/Transcend/fawzi_pycharm_project/fto_assignment_files/Full_length/CS17_FTO',
-                                 sep=' +', index_col=False)
+outside_peaks_df = pd.read_table('fto_assignment_files/Full_length/CS29_FTO',
+                                 sep='\t', index_col=False)
 outside_peaks_df['N_'] = [float(x)+.23 for x in outside_peaks_df['N']]
 outside_peaks_df['H_'] = [float(x)+.08 for x in outside_peaks_df['H']]
 outside_peaks_df['CO-1'] = [float(x) if x != '-' else None for x in outside_peaks_df['CO-1']]
