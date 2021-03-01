@@ -75,7 +75,7 @@ def CA_CA_prime_diff(i, peak_assignment_index, index_list, peak_list, Delta_List
         else:
             result_new = aa_p_d * (CA_shift - CA_prime_shift)**2 + 1e-6
             if should_append_DL or append:
-                Delta_List.append(('CACAPrime', result_new, CA_shift - CA_prime_shift))
+                Delta_List.append(('CACAPrime', result_new, abs(CA_shift - CA_prime_shift)))
             return result_new
     except IndexError:
         return False
@@ -95,7 +95,7 @@ def CB_CB_prime_diff(i, pk_ass_ind, index_list, peak_list, Delta_List, append=Fa
         else:
             result_new = bb_p_d * (CB_shift - CB_prime_shift) ** 2 + 1e-6
             if should_append_DL or append:
-                Delta_List.append(('CBCBPrime', result_new, CB_shift - CB_prime_shift))
+                Delta_List.append(('CBCBPrime', result_new, abs(CB_shift - CB_prime_shift)))
             return result_new
 
     except IndexError:
@@ -138,9 +138,9 @@ def BMRB_diff(i, peak_assignment_index, peak_list, residue_list, Delta_List, app
 
     if should_append_DL or append:
         if not use_prime_data:
-            Delta_List.append(('CACBExp', sub_energy, ca_delta, cb_delta))
+            Delta_List.append(('CACBExp', sub_energy, abs(ca_delta), abs(cb_delta)))
         else:
-            Delta_List.append(('CACBExpPrime', sub_energy, ca_delta, cb_delta))
+            Delta_List.append(('CACBExpPrime', sub_energy, abs(ca_delta), abs(cb_delta)))
 
     return sub_energy
 
